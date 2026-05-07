@@ -1,0 +1,1056 @@
+{
+  "sessions": [
+    {
+      "id": "S01",
+      "theme": "AI & Strategic Decision Making",
+      "period": 1,
+      "track": 1,
+      "paperCount": 4,
+      "paperIds": [
+        "P048",
+        "P072",
+        "P186",
+        "P166"
+      ],
+      "description": "How AI tools (LLMs, generative AI, AI augmentation) reshape evaluation, foresight, and decision-making in organizations."
+    },
+    {
+      "id": "S02",
+      "theme": "AI, Markets, & Innovation",
+      "period": 4,
+      "track": 1,
+      "paperCount": 5,
+      "paperIds": [
+        "P069",
+        "P199",
+        "P010",
+        "P079",
+        "P136"
+      ],
+      "description": "Market reactions to AI-generated outputs, AI-driven competitive dynamics, and the regulation of AI in entrepreneurial finance."
+    },
+    {
+      "id": "S03",
+      "theme": "Strategic Human Capital: Hiring & Mobility",
+      "period": 3,
+      "track": 1,
+      "paperCount": 5,
+      "paperIds": [
+        "P165",
+        "P034",
+        "P009",
+        "P020",
+        "P138"
+      ],
+      "description": "Hiring patterns, ideological signaling, mobility shocks, and human-capital reconfiguration in response to technological change."
+    },
+    {
+      "id": "S04",
+      "theme": "Organization Design, Workplace, & Compensation",
+      "period": 2,
+      "track": 1,
+      "paperCount": 5,
+      "paperIds": [
+        "P022",
+        "P091",
+        "P120",
+        "P185",
+        "P214"
+      ],
+      "description": "Pay dispersion, transparency, automation effects on workers, decentralization preferences, and star-employee dynamics."
+    },
+    {
+      "id": "S05",
+      "theme": "Innovation Search & Serendipity",
+      "period": 1,
+      "track": 2,
+      "paperCount": 5,
+      "paperIds": [
+        "P127",
+        "P003",
+        "P218",
+        "P227",
+        "P245"
+      ],
+      "description": "Exploration vs. exploitation, serendipitous innovations, search speed, and herding in experimentation."
+    },
+    {
+      "id": "S06",
+      "theme": "Behavioral Strategy & Cognition",
+      "period": 4,
+      "track": 2,
+      "paperCount": 4,
+      "paperIds": [
+        "P005",
+        "P090",
+        "P106",
+        "P244"
+      ],
+      "description": "Computational foundations of decision making, attention allocation, social influence, and managerial cognitive bias."
+    },
+    {
+      "id": "S07",
+      "theme": "Resource-Based View & Strategic Organization",
+      "period": 3,
+      "track": 2,
+      "paperCount": 4,
+      "paperIds": [
+        "P004",
+        "P013",
+        "P070",
+        "P207"
+      ],
+      "description": "Theoretical refinements of RBV (rareness vs. scarcity, affordance theory), favor exchange, and contracting in alliances."
+    },
+    {
+      "id": "S08",
+      "theme": "Entrepreneurship: Process & Organization",
+      "period": 1,
+      "track": 3,
+      "paperCount": 4,
+      "paperIds": [
+        "P153",
+        "P032",
+        "P049",
+        "P081"
+      ],
+      "description": "How entrepreneurs structure their ventures: process perspectives, MBA founders, delegation, and hierarchy in startups."
+    },
+    {
+      "id": "S09",
+      "theme": "Entrepreneurship: Learning & Experimentation",
+      "period": 5,
+      "track": 1,
+      "paperCount": 4,
+      "paperIds": [
+        "P110",
+        "P133",
+        "P137",
+        "P033"
+      ],
+      "description": "Experimentation regimes, monetization timing, feedback sentiment, Bayesian/non-Bayesian learning, and AI vs. human evaluation of ventures."
+    },
+    {
+      "id": "S10",
+      "theme": "Innovation & Regulation",
+      "period": 5,
+      "track": 2,
+      "paperCount": 5,
+      "paperIds": [
+        "P111",
+        "P006",
+        "P071",
+        "P108",
+        "P181"
+      ],
+      "description": "How regulatory regimes (GDPR, FCC, AV standards, hazardous-chemical liability) and proactive regulatory engagement shape innovation."
+    },
+    {
+      "id": "S11",
+      "theme": "Nonmarket Strategy",
+      "period": 2,
+      "track": 2,
+      "paperCount": 4,
+      "paperIds": [
+        "P200",
+        "P038",
+        "P149",
+        "P223"
+      ],
+      "description": "CPA mechanisms–lobbying courts, political entrepreneurs, bureaucratic responsiveness–and the insurance value of CPA against social accountability."
+    },
+    {
+      "id": "S12",
+      "theme": "Global Strategy",
+      "period": 2,
+      "track": 3,
+      "paperCount": 4,
+      "paperIds": [
+        "P099",
+        "P247",
+        "P078",
+        "P119"
+      ],
+      "description": "MNE coordination under deglobalization, communication tech in R&D, political partisanship, and stigma in foreign markets."
+    },
+    {
+      "id": "S13",
+      "theme": "Platform Strategy & Governance",
+      "period": 5,
+      "track": 3,
+      "paperCount": 4,
+      "paperIds": [
+        "P030",
+        "P121",
+        "P135",
+        "P242"
+      ],
+      "description": "Product platformization, complementor strategy under multihoming, platform acquisitions of enabling technologies, and governance-induced bias on platforms."
+    },
+    {
+      "id": "S14",
+      "theme": "Pricing, Reviews & Platform Competition",
+      "period": 4,
+      "track": 3,
+      "paperCount": 4,
+      "paperIds": [
+        "P031",
+        "P044",
+        "P109",
+        "P061"
+      ],
+      "description": "Pay-What-You-Want pricing, expert vs. crowd evaluations, non-platform incumbents' price/quality responses to platform entry, and supplier learning from customer reviews."
+    },
+    {
+      "id": "S15",
+      "theme": "Innovation: IP & Open Strategy",
+      "period": 3,
+      "track": 3,
+      "paperCount": 4,
+      "paperIds": [
+        "P900",
+        "P233",
+        "P154",
+        "P103"
+      ],
+      "description": "Appropriability and patents, certification of novel knowledge, M&A markets and R&D, and open-strategy responses (Tesla pledge)."
+    },
+    {
+      "id": "S16",
+      "theme": "Industry Evolution & Technology Strategy",
+      "period": 1,
+      "track": 4,
+      "paperCount": 5,
+      "paperIds": [
+        "P035",
+        "P087",
+        "P210",
+        "P243",
+        "P141"
+      ],
+      "description": "Coopetition over the industry life cycle, technology substitution, open-source licensing dynamics, and incumbent revitalization."
+    },
+    {
+      "id": "S17",
+      "theme": "Geography & Innovation",
+      "period": 2,
+      "track": 4,
+      "paperCount": 5,
+      "paperIds": [
+        "P169",
+        "P068",
+        "P116",
+        "P139",
+        "P161"
+      ],
+      "description": "Demand-side spillovers, micro-geography of tech adoption, founder regional intentions, high-tech cluster formation, and parks & invention."
+    },
+    {
+      "id": "S18",
+      "theme": "Organizational Learning & Knowledge",
+      "period": 3,
+      "track": 4,
+      "paperCount": 5,
+      "paperIds": [
+        "P168",
+        "P187",
+        "P026",
+        "P094",
+        "P142"
+      ],
+      "description": "Codification creep, generalization in learning, alliance and knowledge networks, science capital intensity, and incubation-stage innovation."
+    },
+    {
+      "id": "S19",
+      "theme": "Corporate Ownership, Structure, & Governance",
+      "period": 4,
+      "track": 4,
+      "paperCount": 5,
+      "paperIds": [
+        "P067",
+        "P122",
+        "P015",
+        "P114",
+        "P201"
+      ],
+      "description": "Common ownership and systemic political risk, board director skills and gender, executive social-media use, and multiunit organizational control."
+    },
+    {
+      "id": "S20",
+      "theme": "Innovation & Social Impact",
+      "period": 5,
+      "track": 4,
+      "paperCount": 5,
+      "paperIds": [
+        "P002",
+        "P115",
+        "P014",
+        "P012",
+        "P125"
+      ],
+      "description": "Causal evidence (RCTs) in innovation, private solutions to public problems, scientific leadership, and social-venture field experiments."
+    }
+  ],
+  "papers": {
+    "S01": [
+      {
+        "id": "P048",
+        "title": "The Mean-Variance Innovation Tradeoff in AI-Augmented Evaluations",
+        "authors": "Cyrille Grumbach, Jacqueline Ng Lane, Georg von Krogh",
+        "institution": "ETH Zurich; Harvard Business School",
+        "keywords": "Innovation evaluation; human-AI collaboration; generative AI and predictive AI; novelty and feasibility; field experiment.",
+        "abstract": "Evaluating and selecting among numerous alternative solutions shapes the trajectory and rate of innovation. Central to this process is a fundamental tension between novelty and feasibility that evaluators, operating under bounded rationality, cannot consider simultaneously and therefore rely on heuristics to guide their evaluations. A common heuristic is criteria-sequencing, in which evaluators prioritize alternative criteria at different evaluation stages. Yet, the idiosyncratic ways evaluators sequence these criteria often introduce inconsistencies, creating significant path dependencies in the process. In this paper, we propose that artificial intelligence (AI) offers a potential lever to structure evaluators‚Äô criteria-sequencing heuristics. Leveraging a field experiment with 353 evaluators, we investigate how the sequencing of AI recommendations focusing on novelty and feasibility shapes the mean and variance of innovation among selected solutions. Our results reveal a mean‚Äìvariance innovation tradeoff: a feasibility-then-novelty sequence leads to selections with higher mean innovation, whereas a novelty-then-feasibility sequence yields selections with greater innovation variance. Furthermore, a post hoc analysis uncovers that the format accompanying AI recommendations also matters. A dynamic format (i.e., interactive chatbot) increases the innovation variance among selected solutions but reduces their mean innovation relative to a static format (i.e., fixed explanatory content). Because these effects operate independently, our findings show that in AI-augmented evaluations, both the sequence of criteria and the format accompanying AI recommendations shape the mean‚Äìvariance innovation tradeoff. These differences have important implications for the composition of innovation portfolios. Our paper contributes to innovation evaluation research and to emerging literature on human‚ÄìAI collaboration in innovation-related contexts."
+      },
+      {
+        "id": "P072",
+        "title": "The Strategic Foresight of LLMs",
+        "authors": "Felipe Csaszar, Aticus Peterson, Daniel Wilde",
+        "institution": "University of Michigan; New York University; Indiana University",
+        "keywords": "artificial intelligence; strategic foresight; strategic decision-making; opportunity evaluation; strategic uncertainty",
+        "abstract": "Can artificial intelligence outperform humans at strategic foresight‚Äîthe capacity to form accurate judgments about uncertain, high-stakes outcomes before they unfold?  We address this question through a fully prospective prediction tournament using live Kickstarter crowdfunding projects.  Thirty U.S.-based technology ventures, launched after the training cutoffs of all models studied, were evaluated while fundraising remained in progress and outcomes were unknown.  A diverse suite of frontier and open-weight large language models (LLMs) completed 870 pairwise comparisons, producing complete rankings of predicted fundraising success.  We benchmarked these forecasts against 346 experienced managers recruited via Prolific and three MBA-trained investors working under monitored conditions.  The results are striking: human evaluators achieved rank correlations with actual outcomes between 0.04 and 0.45, while several frontier LLMs exceeded 0.60, with the best (Gemini 2.5 Pro) reaching 0.74‚Äîcorrectly ordering nearly four of every five venture pairs.  These differences persist across multiple performance metrics and robustness checks.  Neither wisdom-of-the-crowd ensembles nor human-AI hybrid teams outperformed the best standalone model."
+      },
+      {
+        "id": "P186",
+        "title": "Casting a Wider but Less Discerning Net: The Effect of AI on Organizational Decision Making",
+        "authors": "Moshe Barach, Linhui Wu, Niron Hashai, Shaker A. Zahra, Yining Luo",
+        "institution": "Minnesota Carlson; Reichman University; University of Minnesota; Zhejiang University",
+        "keywords": "Artificial Intelligence, Organization Design, omission and commission errors, Decision Making",
+        "abstract": "We study how Artificial Intelligence (AI) impacts organizational decision making through the lens of the classic the tradeoff between errors of omission and errors of commission in a hierarchy. We propose a theoretical framework that unpacks AI's influence into two opposing effects. We argue that while AI successfully mitigates errors of omission at the bottom of the hierarchy, it simultaneously increases the potential for errors of commission. We empirically test these effects by exploiting a natural field experiment within the radiology department of a major research hospital, using advanced textual analysis on a dataset of approximately 210,000 junior-drafted and senior-corrected CT (Computerized\nTomography) scan reports. We find that AI significantly increases the number of distinct diagnostic topics identified by junior radiologists. These topics are incorporated into the final diagnostic reports of senior radiologists, suggesting that AI is enabling the location of diagnostically pertinent information that might have otherwise been missed, mitigating errors of omission. We also observe that AI decreases the semantic similarity between the analysis and recommendations contained in junior and senior reports; this rise in senior correction activity implies an increase in the need to mitigate commission errors. Thus, AI redistributes the costs of decision-making from the initial search stage to the final verification stage, increasing the burden of gatekeepers."
+      },
+      {
+        "id": "P166",
+        "title": "AI and Human Evaluations of New Technology Ventures",
+        "authors": "Riitta Katila, Lun Li, Yong Li, Zixu Liu",
+        "institution": "Stanford; Beijing Normal University; UNLV; Central University of Finance and Economics",
+        "keywords": "LLMs, AI, entrepreneurship, VSR",
+        "abstract": "Using the VSR framework, we compare AI to human evaluators of Chinese-language business plans in a province-level startup competition in Beijing involving 981 high technology startups. Each startup was evaluated by five human experts invited by municipal organizers (including experienced venture capitalists, entrepreneurs, and university faculty), generating independent human expert scores. In parallel, we generated AI evaluations using GPT-4o and DeepSeek, elicited five times per startup using personas designed to be comparable to human evaluators. We find that AI predicts growth (measured by job postings better) while human evaluators better predict innovativeness (measured by patents) of startups.\n"
+      }
+    ],
+    "S02": [
+      {
+        "id": "P069",
+        "title": "Generative AI and the Reallocation of Creative Value: Evidence from an AI Musician Revelation",
+        "authors": "Mingtao Xu, Fan Yang",
+        "institution": "Tsinghua university; Tsinghua University",
+        "keywords": "Generative AI, creativive industry, algorithm aversion, AI disclosure",
+        "abstract": "The integration of generative artificial intelligence (GenAI) into creative industries challenges conventional sources of creative value. We explore how the revelation that creative output is AI-generated reshapes consumer demand in the music industry. Exploiting the natural experiment in which a popular musician‚Äôs AI nature was publicly revealed, we examine how audience engagement changes following the disclosure. We find that audiences significantly discount creative output once it is revealed to be AI-generated. Importantly, this algorithm aversion spills over to human musicians with similar styles. We find that the negative spillover is concentrated in genres perceived as low in humanity, where creative production is viewed as more amenable to algorithmic generation, with human musicians stylistically closer to AI and those without an established career suffering greater losses. Together, our findings show that GenAI's participation in creative markets reshapes consumer preferences towards both human and AI contents, and deepens our understanding of GenAI's impact in creative industries."
+      },
+      {
+        "id": "P199",
+        "title": "Beyond Ideation to Attention: How Generative AI Drives Idea Implementation in Innovation",
+        "authors": "Luke Rhee",
+        "institution": "UC Irvine",
+        "keywords": "Generative AI, Attention, Communication, Idea Implementation, Innovation",
+        "abstract": "Research on innovation has long emphasized that generating ideas is insufficient for creating value; ideas must also be implemented through collective effort. Although recent scholarship highlights generative artificial intelligence (AI) as a powerful tool for ideation, little theory and evidence explain whether and how generative AI affects idea implementation. We address this gap by theorizing that generative AI facilitates implementation by shaping the attentional processes that underlie it. Drawing on organizational research on attention, we argue that implementation depends on whether others notice and engage with an idea and that generative AI enables users to express ideas in ways that are more accessible and relevant to diverse audiences, thereby increasing attention and support. We test this argument using a longitudinal field experiment at a midsized U.S. software company piloting ChatGPT Enterprise. Of 287 knowledge workers, 140 were randomly assigned access to the tool and 147 served as a control group. Combining two waves of survey data with organizational performance evaluations and using a difference-in-differences design, we find that employees with access to generative AI made significantly greater contributions to advancing ideas into products, services, and process outcomes. Employees using generative AI attracted approximately 23.5% more attention from colleagues, and mediation analyses indicate that increased attention partially explains the positive effect of generative AI on idea implementation. These findings contribute to research on generative AI in organizations by shifting attention from ideation to implementation and by theorizing generative AI as a communication technology that shapes organizational attention. "
+      },
+      {
+        "id": "P010",
+        "title": "Market Responses to AI Statements in Creative Domains",
+        "authors": "Mana Heshmati, Ming zhu Wang",
+        "institution": "University of Washington, Seattle",
+        "keywords": "artificial intelligence, entrepreneurship, market response, skill substitution",
+        "abstract": "Generative artificial intelligence (AI) can raise entrepreneurial productivity, yet market response also depends on how products are evaluated, particularly in creative domains where human craft is central. Prior work emphasizes AI's internal benefits but offers limited evidence on how market evaluations of products change when entrepreneurs make visible statements about AI use. As platforms increasingly require AI-use disclosures, understanding the market consequences of such positioning becomes critical. We examine this using Kickstarter's AI-disclosure policy, analyzing 42,745 crowdfunding campaigns of products launched after its introduction. We compare projects that disclose AI use, projects that adopt anti-AI narratives, and projects that remain silent about AI. Relative to silent projects, AI-disclosing campaigns attract 33\\% fewer backers and are 11.9 percentage points less likely to reach their funding goals, whereas anti-AI narratives are associated with 29\\% more backers and a 3.9 percentage points higher success rate. Among AI-disclosing projects, framing AI as assisting rather than replacing human work substantially reduces the penalty. The results show that visible statements about AI use serve as consequential elements of market positioning in creative domains, creating tensions between transparency and market performance."
+      },
+      {
+        "id": "P079",
+        "title": "Institutional Adaptation and Technological Shock: The Role of AI Regulation in Influencing Startup Financing",
+        "authors": "Yunshu Ling, Ke Rong, D. Daniel Sokol, Di Zhou",
+        "institution": "Tsinghua University; University of Southern California; Tongji University",
+        "keywords": "Generative AI; AI Regulation; Institutional Adaptation; Venture Capital; Entrepreneurial Finance",
+        "abstract": "Prior research shows that technological breakthroughs heighten market uncertainty and complicate capital allocation for investors. Further, regulatory tech interventions often constrain innovation and venture investment. Despite growing attention to both streams, we still lack a systematic understanding of how regulation moderates technological shocks to shape investment. In this paper, we study the impact of two shocks on China‚Äôs entrepreneurial finance system - the introduction of generative AI and AI regulation. We find that, in contrast to other areas of regulation that find a chilling effect on innovation, AI regulation moderated the negative impact on venture capital investment from the generative AI shock."
+      },
+      {
+        "id": "P136",
+        "title": "Is AI Disruptive or Enabling in an Ecosystem? Empirical Evidence from a Digital Platform",
+        "authors": "Harsh Ketkar, Shiva Agarwal, Ram Ranganathan",
+        "institution": "University of Texas at Austin",
+        "keywords": "AI, Ecosystems, Competitive Strategy",
+        "abstract": "Is AI a disruptive or enabling technology? By analyzing adoption patterns in a major digital platform ecosystem, we explore whether AI fosters entry by new competitors or strengthens incumbents. We exploit an exogenous demand shock‚Äîthe announcement of ChatGPT‚Äîto examine shifts in competitive positions. We find that, before the shock, new entrants were more likely to introduce AI-enabled products; however, afterward, incumbents responded to increased user demand for AI products at higher rates. Furthermore, post-shock, users favored AI-enabled products offered by incumbent firms despite new entrants introducing more novel AI-enabled products. Our abductive analysis reveals that this advantage stems not from incumbents' existing complementary assets or resources, but from their established technological capabilities. These findings challenge conventional views on AI, suggesting that AI may not be competence-destroying in digital industries. We discuss how these findings contribute to understanding entry-exit patterns, innovation strategy, and ecosystem evolution in general-purpose technologies."
+      }
+    ],
+    "S03": [
+      {
+        "id": "P165",
+        "title": "A Unique Blend: How Immigrant Talent Combinations Affect Organizational Performance",
+        "authors": "Francisco Morales, Britta Glennon, Seth Carnahan, Exequiel Hernandez",
+        "institution": "Universidad de los Andes, Chile; University of Pennsylvania; Washington University in St. Louis",
+        "keywords": "Immigrant human capital; Organizational performance; Strategic differentiation",
+        "abstract": "Does the unique composition of immigrant human capital relative to competitors affect organizational performance? We study this question using data from 172 European football clubs across 36,586 match observations from 2009 to 2019. Moving beyond counting immigrant employees or measuring internal diversity, we focus on how distinctive an organization's national origin mix is compared to rivals. To identify causal effects, we develop a novel instrumental variable strategy that exploits quasi-random variation in the match schedule, instrumenting for a club's uniqueness using characteristics of clubs the opponent recently faced. We find that a one-unit increase in uniqueness causes a 2.03 increase in goal difference (p=0.004), a 0.45 increase in win probability (p=0.009), and a 1.24 increase in points (p=0.009). The 2SLS estimates exceed OLS estimates by approximately 30%, suggesting that unique rosters face implementation challenges that attenuate observed correlations. We document a key mechanism: unique rosters reduce opponent predictability, as measured by dispossessions, interceptions, offsides, and blocked shots (composite index coefficient = -0.52, p=0.026). Younger managers benefit more from roster uniqueness than older managers (interaction = -0.70, p=0.047), indicating that managerial flexibility moderates the uniqueness-performance relationship. The effect remains significant when controlling for diversity (the count of distinct nationalities), demonstrating that uniqueness‚Äîstrategic differentiation from competitors‚Äîprovides benefits beyond internal variety."
+      },
+      {
+        "id": "P034",
+        "title": "Who Stayed, Who Joined, Who Climbed: How Did Startups Reconfigure Their Human Capital After AlexNet?",
+        "authors": "Shinjinee Chattopadhyay, Mingtao Xu, Natarajan Balasubramanian",
+        "institution": "UIUC; Tsinghua University; Syracuse University",
+        "keywords": "human capital, startups, AlexNet, scaling",
+        "abstract": "Hiring and retaining key employees is one of the central challenges of startups, particularly in times of uncertainty following a technological shift. While it is established that technological discontinuities drive innovation and firm growth, little is known about how startups adjust their human capital composition after technological changes. The introduction of deep learning in 2012 ‚Äî marked by the success of AlexNet ‚Äî represents a significant technological change that led to the foundation of AI-based technologies. AlexNet rendered AI expertise central to IT incumbent startups‚Äô competitive advantage, potentially reshaping the human capital composition of startups, and the vertical structures through which that knowledge is coordinated and orchestrated. In this paper, we examine how firms altered their hiring, promotions, and retention of their scientists, engineers, and managers over different hierarchical levels following AlexNet. We further investigate how these choices differed by firms‚Äô pre-existing technological capabilities, based on whether they were engaged in computational innovation prior to the shock or not. We find that relative to a control group of firms that would be unaffected by AlexNet, IT firms grew in size, but controlling for overall firm growth, most of the growth was driven by new hiring and retention in middle management, with no significant expansion in junior-level new hires. Firms engaged in computational innovation prior to AlexNet tended to hire mid-level and junior engineers and promoted their senior managers internally, but showed no increase in hiring or promotion of scientists."
+      },
+      {
+        "id": "P009",
+        "title": "Who Hires Whom? Entrepreneurial Backgrounds and Labor Market Opportunities",
+        "authors": "Josh Feng, Xavier Jaravel",
+        "institution": "University of Utah - David Eccles School of Business; London School of Economics",
+        "keywords": "Entrepreneurship; hiring",
+        "abstract": "What are the implications of unequal access to entrepreneurial careers for labor markets? Using data from the U.S. Census and LinkedIn profiles, we document that entrepreneurs are significantly more likely to hire workers from similar social backgrounds (gender, race, age, education, etc.). These effects are quantitatively large across the demographic dimensions available to us. For example, female employee share at female founded startups are 36.4pp higher after controlling for industry-by-metro area-by-cohort, with the corresponding estimates of 51.2pp for Blacks, 37.3pp for Hispanics, and 11.3pp for non-college individuals. Large effects are present in high-growth startups, across industries and occupations, and remain stable across new firm cohorts. In addition, differences across new firms in the composition of their workers strongly persist over the firm's first ten years. We use wage data to untangle whether the relative differences are driven by labor demand or labor supply effects: group-specific wage decompositions suggest that new firms pay higher relative wages to individuals from similar backgrounds to the entrepreneur. We calibrate a labor demand model using our empirical findings to assess the potential wage impacts of reducing access barriers to entrepreneurial careers, finding quantitatively significant increases in relative wage for women (2.77 percent), Blacks (4.36 percent), and Hispanics (2.26 percent)."
+      },
+      {
+        "id": "P020",
+        "title": "Preaching to the Choir–Or the Crowd? Adaptive Ideological Signaling in Hiring",
+        "authors": "Haram Seo, Xuege (Cathy) Lu, Simeng Wang",
+        "institution": "Arizona State University; University of Minnesota; Columbia University",
+        "keywords": "Hiring, Political Ideology, Geographic Locations, DEI",
+        "abstract": "How do firms navigate ideological polarization in labor markets when recruiting across geographically diverse regions? Whereas prior research largely assumes that firms adopt a uniform stance toward ideologically charged issues across all markets, we challenge this ‚Äúone-market‚Äù assumption by theorizing that firms vary their ideological messaging across geographic labor markets. Specifically, we propose that liberal firms strategically tone down liberal signaling in ideologically misaligned (conservative) regions to mitigate recruitment friction and avoid deterring potential applicants. At the same time, firms recognize the risks of ideological fragmentation that accompany such localized messaging and therefore refrain from tailoring their ideological signals when hiring for key locations or managerial positions that play an outsized role in inter-location collaboration and integration. Analyzing millions of job-posting data on U.S. publicly listed firms from 2010 to 2021, we find robust empirical support for these arguments, highlighting the strategic trade-offs firms face between ideological authenticity and pragmatic talent acquisition."
+      },
+      {
+        "id": "P138",
+        "title": "Team Composition Responses to Employee Mobility Threats",
+        "authors": "Deepak Nayak, Kannan Srikanth, Vivek Tandon",
+        "institution": "The Ohio State University; Temple University",
+        "keywords": "Compositional Redundancy, Employee Mobility, H-1B Visa Portability, Strategic Human Capital, Innovation.",
+        "abstract": "How do firms respond when employees‚Äô mobility barriers weaken? While strategic human capital research has emphasized retention mechanisms that prevent departures, we propose that firms also insure against the disruption-induced departures by increasing compositional redundancy ‚Äì structuring teams so that members possess overlapping knowledge portfolios. We test this proposition using a quasi-natural experiment: the American Competitiveness in the Twenty-First Century Act (AC21) of 2000, which increased job mobility for H-1B visa holders. Analyzing 31,769 patent-teams in the U.S. electronics industry (1996‚Äì2005), we find that teams with greater exposure to the mobility shock exhibit significantly higher knowledge similarity among members post-treatment. This effect is attenuated when potentially mobile inventors have extensive prior collaborative relationships with teammates, suggesting that relational embeddedness substitutes for compositional redundancy as an alternative insurance mechanism. Our findings advance strategic human capital theory by identifying a novel firm response to mobility threats that operates through proactive team restructuring rather than retention or replacement, revealing how organizations can cultivate resilience against human capital risks they cannot prevent."
+      }
+    ],
+    "S04": [
+      {
+        "id": "P022",
+        "title": "Clutch Performers",
+        "authors": "Seth Carnahan, Lamar Pierce, Shirley Tang",
+        "institution": "Washington University in St. Louis; Boston University",
+        "keywords": "Strategic human capital; Managerial cognition; Stars; Performance Management; Multi-level models",
+        "abstract": "This paper interrogates the unsubstantiated lay theory that ‚Äúclutch‚Äù performance under pressure is a unique attribute defining some star employees, or if it instead might be a ‚Äúmyth of management‚Äù based on biased interpretations of rare but memorable outcomes. We subject clutch lay theory to the first high-powered empirical test in firms, using over one million automobile sales by 21,896 salespeople at 1,034 franchised dealerships who regularly face month-end pressure due to lucrative dealer incentives from manufacturers. We present three tenets of clutch lay theory. Our multilevel mixed models then show that employees‚Äô performance under pressure closely mirrors their low-pressure performance, with the rare clutch performers being economically unimportance and impossible to identify. Star salespeople are consistently stars; average employees are consistently average. Our paper demonstrates how lay theories are poor substitutes for scientific theory and why rigorous empirical work with null findings can be an important tool for advancing theory. We caution managers against categorizing employees as ‚Äúclutch‚Äù or ‚Äúanti-clutch‚Äù based on anecdotes or random chance. Such unfounded designations hurt organizational performance and increase inequity through stereotypes and other cognitive biases."
+      },
+      {
+        "id": "P091",
+        "title": "Do Machines Make Firms Meaner?  Automation and the Erosion of Firm-Employee Relations",
+        "authors": "Daniel Keum, Simeng Wang",
+        "institution": "Columbia Business School",
+        "keywords": "Automation, Firm Employee Treatment, Bargaining Power, Strategic Human Capital",
+        "abstract": "By reducing firms‚Äô dependence on human labor, automation increases firm bargaining power and weakens incentives to invest in firm-employee relations. We show that higher automation is associated with broad declines in amenities, including lower employee-related CSR scores, deterioration in employee-related corporate culture, increased framing of employees as costs, greater labor rights violations, and more negative employee reviews of senior leadership and work-life balance. These negative effects are stronger for routine-intensive industries, in labor markets where workers have fewer outside options due to high unemployment or greater labor market concentration, and in years with lower electricity prices. Our findings caution that automation affects not only the quantity of jobs but also firms‚Äô treatment of employees and the quality of employees‚Äô workplace experience."
+      },
+      {
+        "id": "P120",
+        "title": "Temperature, Pay Dispersion, and Worker Safety",
+        "authors": "Carlos Inoue",
+        "institution": "University of Illinois",
+        "keywords": "temperature; workplace safety; wage dispersion",
+        "abstract": "Rising temperatures are increasingly recognized as a threat to worker safety, yet little is known about how organizational practices shape firms‚Äô vulnerability to temperature-induced workplace injuries. This paper studies whether pay dispersion within establishments conditions the impact of heat on work-related accidents. Using establishment-day data covering the universe of formal manufacturing establishments in Brazil, we exploit plausibly exogenous day-to-day temperature variation within establishment‚Äìmonth‚Äìyear cells to estimate the effect of heat on workplace injuries. Higher temperatures significantly increase workplace accidents, and this effect is substantially larger in establishments with greater wage dispersion. The findings are consistent with organizational mechanisms through which unequal pay structures intensify stress, competition, or risk-taking, reducing workers‚Äô ability to adapt safely to heat exposure. The results highlight pay dispersion as an important determinant of climate-related labor risks and underscore the role of organizational design in shaping the safety consequences of rising temperatures."
+      },
+      {
+        "id": "P185",
+        "title": "How Much Decentralization Is Too Much? Employee Preferences Across Degrees of Decentralization",
+        "authors": "Michael Lee",
+        "institution": "INSEAD",
+        "keywords": "decentralization; hierarchy; organization design; employee preferences",
+        "abstract": "Decentralization is widely portrayed as a human-centric alternative to hierarchy, promising better alignment with human preferences. Recently, these arguments have been extended to radical forms of decentralization in which formal hierarchical authority is absent and individuals are expected to self-manage, though empirical evidence remains scarce. We investigate whether preferences for decentralization extend to radical forms, and what responses to this extreme reveal about the broader shape of preferences across degrees of decentralization. We first leverage an exploratory 12-month field study in which employees were randomly assigned to operate either in a radically decentralized structure or in an existing centralized hierarchy. From this study, we find no evidence of a consistently positive response to radical decentralization and identify the trade-off between heightened autonomy and decreased managerial support as key mechanisms driving individuals‚Äô difficulties with radical decentralization. These findings motivated a second study that examined whether the observed pattern from the field study was specific to radical decentralization or reflected preferences for decentralization more generally. Using a pre-registered discrete choice experiment, comparing preferences across low, moderate, and high (or radical) levels of decentralization, we find an inverse u-shaped relationship between decentralization and preference: moderate decentralization, a structure in which hierarchical authority is still present, was preferred, on average, to both centralized hierarchy and radical decentralization, and preference dispersion was lowest at moderate levels and greatest at the extremes. Analysis of underlying perceptions of the respective structures reveal a non-linear trade-off between perceived autonomy and support across the spectrum of decentralization such that moderate decentralization provides high levels of both autonomy and support while radical decentralization imposes sharp trade-offs between the two. Together, the studies show that decentralization is preferred over centralized hierarchy only in its moderate forms. \n‚ÄÉ\n"
+      },
+      {
+        "id": "P214",
+        "title": "Pay Transparency Policies and Firms’ Strategic Job Redesign",
+        "authors": "Keyvan Vakili, Susan (Yiru) Wang, Arianna Marchetii",
+        "institution": "London Business School; Wharton; Singapore Management University",
+        "keywords": "pay transparency; gender pay gap; job design; job title proliferation; gender segregation",
+        "abstract": "Evidence suggests that pay-transparency mandates have produced only modest reductions in gender pay gaps. Prior research attributes these muted effects primarily to external frictions, such as weak enforcement and pay secrecy norms. We provide a complementary explanation based on firms‚Äô strategic response to these policies. More specifically, drawing on research that links organizational structure to social comparison and bargaining, we theorize that transparency mandates can trigger within-firm job-title proliferation and gendered sorting across new titles, obscuring within-firm pay comparisons and diluting employees‚Äô bargaining power. Using the UK‚Äôs 2017 gender pay gap reporting rule and the arbitrary 250-employee threshold in a difference-in-differences design (focusing on firms with 150 to 350 employees), we find treated firms increased the number of unique titles, particularly at the lower levels of their hierarchy, by approximately 2% compared to the control firms, post-policy. Treated firms also created ~20% more single-gender multi-incumbent titles and introduced titles that were significantly less common in the broader economy. This research identifies strategic job redesign as an organizational mechanism that can undercut pay transparency‚Äôs intended effects and links policy shocks to changes in organizational structure and hierarchy. It also provides causal evidence on title proliferation and gender segregation."
+      }
+    ],
+    "S05": [
+      {
+        "id": "P127",
+        "title": "Serendipity in Innovation and the Knowledge Base Structure of Firms: Evidence from NIH Grants and Follow-On Patents",
+        "authors": "Sina Sokhan, Janet Bercovitz",
+        "institution": "University of Colorado Boulder",
+        "keywords": "Serendipity, Innovation, Knowledge-based view, Science, Exploration and exploitation",
+        "abstract": "Serendipitous innovations, i.e., innovations that emerge unexpectedly from the pursuit of other goals or problems, are widespread. Yet, despite growing scholarly attention to serendipity and exaptation, our understanding of the organizational knowledge structures that facilitate such innovations remains limited. In this study, we examine how firms‚Äô knowledge depth and diversity shape their likelihood of generating serendipitous innovations. Compiling novel data on the therapeutic areas associated with patents and linking these patents to the NIH proposals on which they build, we find that approximately 31 percent of innovations in our sample are serendipitous, that is, they emerge in markets that diverge from their originally intended applications. Moreover, firms with unbalanced knowledge structures are more capable of producing serendipitous innovations. In particular, exploratory integrator firms, with high diversity and low depth, and expert specialist firms, with high depth and low diversity, are more likely than other organizations to generate innovations whose applications deviate from their original intent. Further, we find that distinct mechanisms drive serendipity across these types of firms. Exploratory integrator firms cultivate serendipity by searching beyond their existing knowledge base and discovering new applications for ideas through the absorption, retention, and transfer of external knowledge within the organization. In contrast, expert specialist firms generate serendipitous innovations by exploiting ideas within domains where they possess deep expertise and accumulated experience, even when those ideas originate from different intended purposes. We draw on the knowledge-based view of the firm to explain these patterns and discuss their scholarly and managerial implications."
+      },
+      {
+        "id": "P003",
+        "title": "Rational Satisficing: How Exploration Erodes Competitive Advantage",
+        "authors": "Aseem Kaul, Yingjia Du",
+        "institution": "University of Minnesota",
+        "keywords": "Exploration, Exploitation, Competition, Multi-Armed Bandit Model, Simulation, Learning",
+        "abstract": "Strategy scholars have long argued that firms should seek to balance exploration and exploitation, trying out new alternatives in order to overcome inertia and stay competitive even as they take advantage of their existing strengths. In this study we argue that this may be questionable advice when faced with competition. Using a simulation model, we show that exploration may prove costly under competition, potentially shifting the optimal balance towards a focus on exploitation. This is because competition creates asymmetric turbulence, changing the payoffs to good alternatives while leaving the returns to bad alternatives unaffected. Once a firm has arrived at a reasonably good alternative, any further improvements it discovers are therefore likely to be fleeting, while good alternatives, once abandoned, may be hard to return to. We thus argue that firms under competition should engage in rational satisficing: once they find a reasonably good position they should stick to it, only moving away when they are sure that competition has made it unattractive. Our model also shows that where balance is required under competition is in how fast firms learn, with moderate learning rates outperforming both fast learning (which leads to overreaction) and slow learning (which leads to excessive caution).  \n"
+      },
+      {
+        "id": "P218",
+        "title": "Valuable Misfits? Serendipitous Inventions and Pathways to Value Materialization",
+        "authors": "Christoph Grimpe, Karin Hoisl, Myriam Mariani, Wolfgang Sofka",
+        "institution": "Copenhagen Business School; University of Mannheim; Bocconi University",
+        "keywords": "serendipitous inventions, planned inventions, value pathways, patent data, inventor survey",
+        "abstract": "Firms often celebrate accidental inventions that lead to major breakthroughs, yet little is known about how typical serendipitous inventions create value. Using data from 8,610 inventors across 20 countries, our research shows that these inventions differ from planned R&D outcomes. Serendipitous inventions are less likely to have a strong technological impact, be turned into marketable products, or serve as effective blocking tools in patent strategy. However, they are more likely to generate value through licensing, indicating that while they may not fit the originating firm‚Äôs strategy, they can succeed elsewhere. Hence, serendipitous inventions represent ‚Äúoption-like‚Äù assets that offer external channels to capture value rather than relying on internal use."
+      },
+      {
+        "id": "P227",
+        "title": "If You Had Only One Shot: Scale and Herding in Innovation Experiments",
+        "authors": "William Miles, Ashish Arora, Sharique Hasan",
+        "institution": "Duke University",
+        "keywords": "Direction of Innovation; Experimentation; Diversity of Technological Approaches",
+        "abstract": "Solving complex technological problems often requires testing a diverse set of approaches. While conventional wisdom holds that more independent experimenters lead to greater diversity of approaches and higher chances of success, we argue this is not always the case. We develop a simple model demonstrating that, for a given number of experiments, markets dominated by a few multi-experimenters explore more diverse approaches than those with many single-shot experimenters. Single-shot experimenters tend to converge on the most promising approach, while multi-experimenters are more likely to diversify to avoid the correlation inherent in pursuing multiple experiments within the same approach. We test these predictions using data from pharmaceutical R&D. A unit increase in the average experimenter scale is associated with a 0.76 standard deviation increase in the diversity of targets deployed in a therapeutic class‚Äìyear. Importantly, an increase of one standard deviation in target-diversity is associated with a 26.8 percentage point increase in the probability that a market has at least one launch, but a 3.9 percentage point decrease in the share of\nprojects that succeed in pre-clinical development. Our findings point to the optimal allocation of experiments across firms in a market to maximize market-level success, and the importance of distinguishing individual from market outcomes."
+      },
+      {
+        "id": "P245",
+        "title": "Search Speed, Knowledge Domains, and Growth: Evidence from YouTube Channels",
+        "authors": "Sebastian Niederberger, Arnaldo Camuffo, Alfonso Gambardella",
+        "institution": "Bocconi University",
+        "keywords": "search speed, innovation, domain discovery, YouTube, knowledge",
+        "abstract": "The theory of this paper predicts that innovation speed increases firm performance because the quicker exhaustion of existing domains accelerates the discovery of new domains of knowledge. We provide a granular test of this theory using data from YouTube, conceptualizing creators as firms and videos as discrete innovation outputs. The introduction of YouTube Shorts provides an exogenous shock to identify the causal effect of search speed on innovation outcomes. We show that higher search speed leads to earlier exploration of new content domains, increased channel size, and improved performance. Speed is a general neglected mechanism of innovation-based performance. Among the many technologies that have raised the speed of innovation, artificial intelligence today is likely to have unprecedented implications, encouraging firms to discover systematically new domains."
+      }
+    ],
+    "S06": [
+      {
+        "id": "P005",
+        "title": "The Computational Foundations of Strategic Decision Making: Integrating Representations, Computations, and Strategic Choice",
+        "authors": "Shyam Kumar",
+        "institution": "Rensselaer Polytechnic Institute",
+        "keywords": "Behavioral theory, strategic decision making, computations, meta reasoning, predictions, AI",
+        "abstract": "Behavioral theory scholars have argued that strategic decision making involves the construction of ‚Äúsmall-world‚Äù representations that make complex strategic choices tractable. Yet even simplified representations entail computations and predictions of stochastic variables performed under time and resource constraints, calling for a deeper analysis of the computational foundations of strategic decision making. In this paper we build on principles from the ‚Äúcomputational rationality‚Äù paradigm in computer and cognitive science to unpack these foundations. We depict strategic decision making as a process that inherently trades off predictive accuracy of key variables in a representation with the costs of thinking and deliberation. Using this lens, we analyze canonical decision settings to highlight how computations matter, including problemistic search and the choice between markets and hierarchies. The paper contributes by highlighting (1) that computational costs and constraints can affect what choices a decision maker ultimately selects, independent of representations, (2) that the traditional two level model of strategic decision-making needs to be reconceptualized to include meta-reasoning, which accords a central role to thinking about thinking and identifying computational strategies, and (3) that the distinctive computational approaches adopted by firms and their decision makers can be a source of sustained competitive advantage."
+      },
+      {
+        "id": "P090",
+        "title": "Bayes Meets Sah & Stiglitz: Social Influence and Decision-Making Structures",
+        "authors": "Tomasz Obloj, Daniel Wilde",
+        "institution": "Indiana Univeristy; Indiana University",
+        "keywords": "Organization Design, Bayesian updating, Behavioral Theory of the Firm, Judgement and Decision Making, Organizational Structure ",
+        "abstract": "Organizational success depends on the interplay between individual-level decision making and organizational-level design choices. Yet these two processes have been largely studied in isolation. On the one hand, foundational models analyze how organizational design, particularly pertaining to the aggregation of votes, affects the process of evaluation and selection of alternatives in firms. On the other hand, a large literature in the field of judgment and decision making investigates processes of social influence and biases within and across individuals making key decisions. In this paper, we integrate these distinct literatures and study how these two factors jointly determine the efficacy of decision making. We develop a novel analytical model in which we embed recent behavioral refinements to Bayesian belief updating within the seminal Sah & Stiglitz committee framework. Our results show that a sustained, frictionless process of social influence leads to full convergence of beliefs among all members of the focal committee, thus rendering any organizational-level screening rules such as required acceptance thresholds largely irrelevant for decision making outcomes. We subsequently introduce a range of individual-level cognitive biases in our model. We show that not only do cognitive biases break the convergence path but also that they interact in non-trivial ways with other design choices, such as the order in which priors are shared and acceptance thresholds. We bring parts of our overall model to data and show, in an online experiment, results consistent with our theory when participants are induced to suffer from base-rate neglect bias. Together, our study highlights when organizational design is powerful, and when within-committee learning and deliberation can neutralize or amplify its influence on decision making."
+      },
+      {
+        "id": "P106",
+        "title": "Hoping for A While Achieving B: How Unexpected Positive Spillovers Set the Agenda",
+        "authors": "Xirong Shen, Cha Li, Songcui Hu, Jizhen Li",
+        "institution": "Hong Kong University of Science and Technology; University of Texas at Austin; University of Arizona; Tsinghua University",
+        "keywords": "Attention allocation, multiple goals, surprise, firm behavioral strategy",
+        "abstract": "How organizational decision-makers allocate attention among multiple goals is a central issue in organizational studies. Prior research emphasizes problem-driven goal activation, leaving largely unexplained why firms pursue new goals in the absence of pressing problems. Building on Simon‚Äôs foundational insight on surprise and recent psychological research, we develop a theory of surprise-driven goal activation in the context of product development. We argue that, due to the complexity of product environments, actions aimed at improving one goal often generate unexpected performance spillovers to previously non-active goals. Positive performance spillovers evoke surprise that triggers curiosity and opportunity recognition, expanding decision-makers‚Äô attention and motivating the activation of the affected goals in subsequent actions. Conversely, negative performance spillovers activate goals only when they generate urgency and signal pressing problems, consistent with established problem-driven attention processes. To validate surprise as the underlying mechanism, we examine how the degree to which performance spillovers violate prior beliefs moderates the effect of positive spillovers, and we identify satisfactory performance on existing active goals as a key boundary condition enabling surprise-driven goal activation. We test our theory using a mixed-method design. Analyses of proprietary A/B testing data from product development projects at a large social media firm support our predictions. Two online experiments establish causality and unpack mechanisms, showing that curiosity and opportunity recognition mediate the effects of positive spillovers, whereas urgency conditions the effects of negative spillovers. This study contributes to behavioral strategy by introducing surprise-driven goal activation as a distinct mechanism shaping organizational attention and agendas."
+      },
+      {
+        "id": "P244",
+        "title": "We Are One in a Million! How Inflated Asset Specificity Perceptions Undermine Competitive Advantage",
+        "authors": "Russell Coff, Libby Weber",
+        "institution": "University of Wisconsin-Madison; Michigan State University",
+        "keywords": "Cognition, Resource-based view, Transaction cost economics",
+        "abstract": "This theory paper explores managers‚Äô systematic asset specificity perception bias. That is, competitive advantage framing, organizational identification, false uniqueness, and confirmation biases encourage managers to invest excessively in idiosyncratic capabilities. While Transaction Cost Economics (TCE) traditionally assumes asset specificity is known ex-ante, managers‚Äô boundedly rational perceptions actually shape capability investments. This bias may lead firms to internalize some activities that could be conducted in an alliance. For external transactions, this bias elevates the specificity required in the task description and constrains the search to suppliers likely to make idiosyncratic investments. Thus, whether activities are conducted internally or through hybrid transactions, they tend to reflect excessive specialized investments. Over time, individual capability investments accumulate, become increasingly co-specialized, and are connected through a web of idiosyncratic routines. Such bias-driven processes form a distinct basis for core rigidities if other firms actually have similar needs and the market develops more efficient solutions. In contrast to prescriptions in the extant literature, efforts to step up innovation will likely worsen the problem if the focus remains on idiosyncratic co-specialized solutions. This paper expands our understanding of biased specificity perceptions and their negative impact on competitive advantage."
+      }
+    ],
+    "S07": [
+      {
+        "id": "P004",
+        "title": "When Rareness and Scarcity Interact: Complementary, Substitution, and Conflicting Effects in Resource-Based Competitive Advantage",
+        "authors": "Temitope Oladimeji, Shaker Zahra",
+        "institution": "University of Massachusetts; University of Minnesota",
+        "keywords": "resource-based view; rareness; scarcity; competitive advantage; interaction effects; strategic resources",
+        "abstract": "Resource-based theory has long held that resources must be limited in supply to generate competitive advantage. Two distinct traditions emerged‚ÄîBarney‚Äôs emphasis on rareness (the degree to which a resource is possessed by few competing firms) and Peteraf‚Äôs emphasis on scarcity (the degree to which aggregate demand exceeds available supply)‚Äîwhich Peteraf and Barney (2003) reconciled as ‚Äúvery nearly the same.‚Äù While this phrasing left conceptual space for differences, subsequent literature has often treated rareness and scarcity as completely interchangeable. We refine this reconciliation by showing that while functionally similar, rareness and scarcity operate through sufficiently distinct mechanisms that their interaction creates dynamics interchangeability cannot predict. When resources exhibit both characteristics, three patterns emerge: complementary (mechanisms amplify advantage beyond additive effects), substitution (context determines dominance), and conflicting (mechanisms work at cross-purposes‚Äîdifferentiation creating unfulfillable demand, scarcity preventing network effects, or resource allocation dilemmas reducing net advantage below either alone). Conflicts indicate mechanistic distinction within functional similarity, as identical concepts cannot conflict. We specify boundary conditions determining patterns and examine how resource origins (exogenous versus endogenous) moderate strategic flexibility. Our framework refines Peteraf and Barney's reconciliation: functional similarity dominates when one mechanism operates; mechanistic distinctions require specification when both operate simultaneously. "
+      },
+      {
+        "id": "P013",
+        "title": "Strategic Affordance Theory: How Firm-Environment Dyads Shape Capability-Payoff Rank Stability",
+        "authors": "Stephen X. Zhang, Peter G. Klein",
+        "institution": "Baylor University",
+        "keywords": "resource-based view; capability; affordance; competitive advantage; computational modeling",
+        "abstract": "The resource-based view and related capability view are motivated by a competitive advantage premise: firms with better capability enjoy competitive advantage and hence better payoff. Yet companies with superior resource/capability do not always lead to successful strategic initiatives, and competitive histories frequently show rank reversals that are difficult to reconcile with a monotonic mapping from capability to payoff. We develop Strategic Affordance Theory (SAT) to redirect the research on capability-based ordering and its stability. SAT adopts an affordance ontology in which what a firm can do next in a focal endeavor is a relational property of the firm and its environment. Capability‚Äìpayoff rank stability is predicted to be weaker when payoff-relevant actions are broadly unattainable, stronger near feasibility when payoff becomes contingent on attaining a binding step, and weaker again when the focal endeavor is comfortably feasible. SAT further theorizes wind as a time-bounded, directionally selective shift in affordances that can advantage some firm‚Äìenvironment dyad pairs while disadvantaging others without changing the payoff criterion, thereby generating rank turbulence concentrated near feasibility and maximized at intermediate window lengths. A disciplined NK formalization also shows these mechanisms. By explaining why strategic initiatives by organizations with less resource/capability sometimes succeed when those with more resource/capability do not using affordance, SAT offers a new programmatic lens to strategy research."
+      },
+      {
+        "id": "P070",
+        "title": "Management Rotation as a Mechanism to Support Favor Exchanges in Organizations",
+        "authors": "Nick Argyres, Giorgio Zanarone",
+        "institution": "Washington University in St. Louis; University of Lausanne",
+        "keywords": "Rotation; Favors; Relational Contracts; Multidivisional Organizations",
+        "abstract": "We model exchanges of favors between division managers in a multidivisional organization. The model shows that rotating managers across divisions periodically can better support such exchanges as compared to a policy of fixed managerial roles. We show that rotation dominates fixed roles when agents‚Äô discount rates are at moderate levels, and when divisions‚Äô needs for favors are asymmetric. We discuss several empirical implications of the model, as well as applications to other kinds of organizations such as government agencies and strategic alliances."
+      },
+      {
+        "id": "P207",
+        "title": "Hybrid Contracting in Repeated Interactions",
+        "authors": "Bernhard Ganglmair, Julian Klix, Dongsoo Shin",
+        "institution": "University of Mannheim & ZEW Mannheim; University of Mannheim; Santa Clara University",
+        "keywords": "cooperation, hybrid contracting, repeated games, strategic alliances",
+        "abstract": "Many business relationships begin with informal interactions and later transition to formal contracts. Using a repeated-games model with a finite horizon, we show that this hybrid-contracting approach can both prolong cooperation (intensive margin) and enable it across a broader range of settings (extensive margin). We model the contract as a \"smooth-landing contract\" that limits actions only near the end of the relationship. We show that this flexible design supports early cooperation and outperforms rigid contracts. Our findings are robust to changes in contracting costs and timing, with optimal contract length balancing profitability and implementability."
+      }
+    ],
+    "S08": [
+      {
+        "id": "P153",
+        "title": "Monetization Timing",
+        "authors": "Anparasan Mahalingam, Andy Wu",
+        "institution": "Whitman School of Management, Syracuse University; Harvard Business School, Harvard University",
+        "keywords": "Bayesian learning; experimentation; monetization;business models; timing",
+        "abstract": "We study the strategy of monetization timing: how long should an entrepreneur\nexperiment before committing to a revenue model? We develop a Bayesian learning model\nchallenging the assumption that experimentation merely informs strategy but is otherwise\nstrategically neutral. Taking time to learn upfront from free trials actively reshapes future\npayoffs: free access anchors users to a zero price, eroding the option of charging them down\nthe road, while simultaneously allowing the firm to improve its capabilities for indirectly\nmonetizing free users (e.g., advertising). This endogenous payoff drift implies that the more\ntime a firm spends experimenting, the less attractive it becomes for the firm to ever charge\nits users. We derive an optimal stopping rule accounting for this drift, demonstrating finite\nexperimentation. The model reveals a point of no return for charging users, demonstrating a\nkey timing asymmetry: firms that choose to charge users will do so early, whereas an eventual commitment to remaining free follows extended experimentation.\n"
+      },
+      {
+        "id": "P032",
+        "title": "Entrepreneur as Preschooler: Process Perspective on Entrepreneurial Performance",
+        "authors": "Kathleen Eisenhardt, Douglas Hannah",
+        "institution": "Stanford University; University of Illinois",
+        "keywords": "Entrepreneurship, Strategy, Nascent Markets, Learning, Simple Rules, Problem Solving",
+        "abstract": "Successful creation of new businesses is a fundamental interest at the nexus of strategy, organization theory and entrepreneurship. Several holistic theories of successful entrepreneurship have been proposed including the theory-based view (and related lean startup), entrepreneurial strategy, and effectuation. While valuable, these perspectives often neglect insights from process research, especially the work that relies on rich, longitudinal, and comparative cases. Our aim is to introduce the \"process perspective\" on entrepreneurial performance and the entrepreneur-as-preschooler analogy. Like entrepreneurs, preschoolers face an unfamiliar world in which they learn, theorize and imagine in order to mature successfully. A core activity of preschoolers is parallel play in which they engage in self-focused activities next to peers, but not with them. Our primary aim is to describe the process perspective on entrepreneurial performance including its distinctive views on rivalry, learning, theorization, problem solving and imagination."
+      },
+      {
+        "id": "P049",
+        "title": "Delegation, Attention Allocation, and Innovation in Entrepreneurial Ventures",
+        "authors": "Theodor Vladasel, Alexander Kritikos, Knarik Poghosyan",
+        "institution": "Universitat Pompeu Fabra; DIW Berlin",
+        "keywords": "Entrepreneurship; innovation; delegation; task allocation; resource constraints; German SOEP.",
+        "abstract": "Despite growing recognition that organizational design can facilitate entrepreneurs' attention allocation to high-value activities that improve firm innovation, few studies have tested this theoretical insight. Guided by organizational structure and managerial frictions literature in innovation and entrepreneurship, we examine how and why shared decision rights affect innovation outcomes. In a representative survey of German entrepreneurs, delegation has a strong, robust, positive association with incremental innovation; evidence for alternative innovation outcomes or differential effects of delegation depth is limited. This relationship varies slightly with incentives, employee, and founder ability, and is stronger in East Germany, where managerial frictions are larger. While delegation does not free up time for personal activities, it allows entrepreneurs to engage in a greater number of venture activities, especially crafting strategy, and perform them more intensely. Collectively, our findings imply delegation enhances innovation by facilitating entrepreneurs' attention allocation to critical managerial tasks, such as acquiring market and competitor insight or making growth and investment choices. By clarifying where the value of delegation resides and what activities founders prioritize, we highlight the importance of strategy in entrepreneurial ventures."
+      },
+      {
+        "id": "P081",
+        "title": "Organizing for Adaptation: Does Managerial Hierarchy Help or Hinder Product Adaptation in Startups?",
+        "authors": "Todd Hall, Anavir Shermon, Ryan Allen, Travis Howell",
+        "institution": "University of Kansas; University of Texas at Dallas; Brigham Young University; Arizona State University",
+        "keywords": "Entrepreneurship, Product adaptation, Organization design, Hierarchy",
+        "abstract": "Prior research portrays hierarchy in startups as a tradeoff: enhancing coordination but constraining adaptability. We challenge this view by asking: under what conditions does managerial hierarchy hinder or enable product adaptation in startups? Using a question-driven approach with data on 3,832 U.S. e-commerce startups from 2017-2023, we find that adding hierarchical layers is positively associated with product adaptation. This relationship strengthens when coordination demands are higher‚Äîspecifically, when startups exhibit greater workforce specialization and product component interdependence‚Äîand weakens when managerial intensity is excessive. Moreover, hierarchy amplifies the performance benefits of adaptation across website visits, unique users, and engagement time. Together, these findings challenge the prevailing tradeoff view, suggesting that hierarchy should not be viewed solely as a constraint on adaptation but as an enabler when adaptation requires coordination."
+      }
+    ],
+    "S09": [
+      {
+        "id": "P110",
+        "title": "Beyond Scores: How Feedback Sentiment and Domain Drive Venture Performance",
+        "authors": "Sandy Yu",
+        "institution": "University of Minnesota",
+        "keywords": "entrepreneurship, feedback, behavioral theory of the firm, sentiment analysis, performance improvement, business plan competitions",
+        "abstract": "Entrepreneurs receive abundant feedback from evaluators, yet little is known about how its sentiment and focus shape performance improvement. Drawing on the behavioral theory of the firm, this study examines how feedback sentiment (positive versus negative) and domain (actionable versus contextual) jointly influence adaptive responses in early-stage ventures. While the behavioral theory of the firm emphasizes that negative performance deviations trigger problemistic search and positive deviations foster slack-driven exploration, prior work has largely focused on inferred performance signals rather than explicit, evaluative feedback. Using a novel dataset of 201 ventures evaluated by quasi-randomly assigned judges in a large-scale, state-sponsored business plan competition, I analyze the full text of judges‚Äô comments to capture both the sentiment and domain of feedback. The results show that both very negative and very positive feedback increase the likelihood of performance improvement relative to neutral feedback. Moreover, feedback is most effective when sentiment is aligned with domain: negative feedback on actionable, internal dimensions encourages corrective problem-solving, while positive feedback on contextual, external dimensions facilitates opportunity-seeking. Misaligned feedback‚Äînegative contextual or positive actionable‚Äîcan induce threat rigidity or complacency. The study extends the behavioral theory of the firm to settings where entrepreneurs receive explicit evaluations rather than relying on historical performance signals and contributes to entrepreneurship research by identifying when and how evaluative feedback promotes venture improvement. The findings also offer practical guidance for judges, mentors, and investors on delivering feedback that maximizes entrepreneurial learning."
+      },
+      {
+        "id": "P133",
+        "title": "Short-Cycle Experimentation and Uncertainty Regimes",
+        "authors": "Larisa Cioaca",
+        "institution": "Tulane University",
+        "keywords": "Short-cycle experimentation, market uncertainty, technology uncertainty, Lean Startup, NSF I-Corps",
+        "abstract": "Short-cycle experimentation is promoted as a way to reduce uncertainty in early-stage ventures, yet its performance effects remain inconsistent. This study explains that variation by theorizing how its value depends on the dominant uncertainty regime. I distinguish between market uncertainty, which experimentation addresses well, and technology uncertainty, which it poorly resolves. Using data from 820 NSF I-Corps projects, I show that experimentation improves venture outcomes when uncertainty is market-driven but yields weak or misleading signals under technology uncertainty. These findings clarify why experimentation succeeds in some settings but fails in others and identify boundary conditions for effectiveness."
+      },
+      {
+        "id": "P137",
+        "title": "Bayesian and Non-Bayesian Experiments for Strategic Learning",
+        "authors": "Susan L Cohen, Alfonso Gambardella, Elena Novelli, Johan Rath",
+        "institution": "University of Georgia; Department of Management & Technology Bocconi University; Bayes Business School City, University of London; Bocconi University",
+        "keywords": "Experimentation, Organizational Learning, Decision Making",
+        "abstract": "We develop a theory of strategic experimentation that distinguishes between learning intentions to sources of competitive advantage. A calibration learning intention arises when decision makers operate within a given model of the world and seek to refine it by producing better estimates of the probabilities of states already incorporated in that model. In contrast, an expansion learning intention is likely to arise when decision makers are aware of being unaware of possible additional states and seek evidence that may prompt revision of their current model.\nBuilding on this distinction, we theorize how calibration versus expansion intentions shape Bayesian and non-Bayesian experimentation, influencing the impetus to experiment, the design of treatments and measurement strategies, and the way signals are incorporated into beliefs. Calibration intentions lead to Bayesian experiments undertaken when the expected value of information justifies its cost; these experiments improve precision about known contingencies and integrate results through Bayesian updating. Expansion intentions motivate experimentation less through value-of-information calculations than through aspirations to probe the limits of the current model. Experimental designs emphasize structured variation beyond the modelled domain, flexible measurement, and heterogeneous contexts in order to surface anomalies that point to previously unrecognized states.\nWe then connect this distinction at the experiment level to firm heterogeneity: firms differ in whether they attend to means or anomalies, in how they sequence Bayesian and non-Bayesian experiments, and in capabilities that underpin experimental advantage, namely cost efficiency and imagination. Our framework reconceptualizes experimentation as both a tool for reducing uncertainty and a mechanism for extending what decision makers take to be possible."
+      },
+      {
+        "id": "P033",
+        "title": "Are MBAs Good Entrepreneurs?",
+        "authors": "Megan Lawrence, Evan Rawley, Kylie Hwang",
+        "institution": "Vanderbilt University; UCONN; Northwestern",
+        "keywords": "extrepreneurs, entry and exit, performance, MBAs, ability ",
+        "abstract": "While critics frequently claim that MBA programs do little to cultivate entrepreneurial talent, business school curricula increasingly emphasize their role in fostering such outcomes. To reconcile these competing perspectives, we develop a conceptual framework to examine the multifaceted relationship between MBA education and entrepreneurial entry, performance, and exit. Utilizing a comprehensive longitudinal dataset of 1,260 hedge fund portfolio managers active between 1986 and 2023, we find that MBAs are more likely to found their own firms and are better performers; however, they are also more likely to exit. The results are consistent with the interpretation that MBA are good entrepreneurs but less committed to entrepreneurship as a career choice."
+      }
+    ],
+    "S10": [
+      {
+        "id": "P111",
+        "title": "Regulatory Reform and Market Evolution in the Spectrum Commons",
+        "authors": "Haiyang Zhang, Shane Greenstein, Roberto Fontana, Do Yoon Kim",
+        "institution": "Harvard Business School; University of Pavia; Boston College",
+        "keywords": "Innovation Policy, Firm Survival, Product Evolution",
+        "abstract": "How does a decline in regulatory frictions shape innovation and competition in technology markets‚Äîand who benefits most from such reforms? This study examines the Federal Communications Commission‚Äôs transformation of wireless device regulation between 1997 and 2001, which reduced certification delays, delegated compliance testing to private bodies, and expanded access to unlicensed spectrum. Using administrative records covering nearly 200,000 equipment authorization applications from 1990 to 2015, we analyze how reductions in procedural costs affected product introduction, firm entry and survival patterns, and competitive dynamics. We document a distinctive pattern of market evolution. Following the reforms, regulatory processing times fell sharply, coinciding with a sustained expansion in product introduction and firm participation, particularly in unlicensed spectrum applications. This expansion was driven disproportionately by new entrants, who accounted for most growth in product variety and experimentation across emerging categories. At the same time, established firms retained survival advantages and remained dominant in technically complex product categories. The coexistence of widespread entrant-led experimentation and incumbent persistence is difficult to reconcile with strong forms of regulatory capture, which would predict disproportionate gains for established firms. Taken together, the findings identify a hybrid competitive regime in which regulatory reform broadens access and experimentation without eliminating capability-based advantages. These results inform contemporary debates on privatized certification, commons governance, and the design of regulatory institutions for emerging technologies."
+      },
+      {
+        "id": "P006",
+        "title": "Data Privacy Regulation and Innovation",
+        "authors": "Sukhun Kang, Jennifer Kao",
+        "institution": "UCSB; UCLA",
+        "keywords": "Innovation; Privacy; Regulation; Collaboration; Experimentation",
+        "abstract": "We investigate how data privacy regulations shape research and development. While such regulations aim to increase stakeholder privacy and data security, they can also introduce costs in settings where collecting, analyzing, and sharing sensitive data is central to innovation. We examine this tension in the context of the pharmaceutical industry and the European Union‚Äôs (EU) General Data Protection Regulation (GDPR), the most comprehensive data privacy regulation to date. Leveraging firm-level variation in exposure to the GDPR, we find that the regulation lowers clinical trials by 18 percent. Firms also shift the types of projects they pursue: trials are less likely to include sites in the EU, be conducted across multiple countries, and target a narrower set of diseases. Research collaborations decline overall and shift away from new partners towards established relationships. When looking at project outcomes, we observe that trials take longer to complete, are less likely to succeed, and report results with greater delay. The decline in clinical trial activity is greatest among young firms. These findings reveal how data privacy regulations shape not only the rate of innovation, but also the process by which it is pursued and its outcomes."
+      },
+      {
+        "id": "P071",
+        "title": "Scientific Publications as Proactive Regulatory Strategy: Evidence from GDPR and Responsible AI",
+        "authors": "Nur Ahmed, Francisco Polidoro Jr., Amit Das",
+        "institution": "University of Arkansas; University of Texas Austin; University of Oregon",
+        "keywords": "Innovation, Nonmarket Strategy, GDPR, AI, Corporate Science, R&D Disclosure Strategy",
+        "abstract": "Research on nonmarket strategy demonstrates how firms respond to regulation. Yet, research thus far has overlooked how firms proactively seek to shape the informational environment within which future regulatory deliberations unfold. This study investigates whether firms strategically increase scientific publication activity following significant regulatory events that signal impending attention to adjacent technology domains. We argue that scientific publications provide a credible channel through which firms can influence policymakers, overcoming the legitimacy constraints that limit direct information provision. Using the implementation of the European Union's General Data Protection Regulation (GDPR) as an exogenous signal of impending regulatory scrutiny of Artificial Intelligence, we show that firms increase their scientific publications in responsible AI following GDPR enactment. This effect is stronger for firms with greater technological and political capabilities. Analysis using data on 1184 firms over a 16-year period supports these propositions. This study advances research on nonmarket strategy by revealing how firms deploy scientific research as a strategic tool to shape regulatory discourse before issues become widely salient, highlighting the role of credible knowledge production in proactive regulatory influence."
+      },
+      {
+        "id": "P108",
+        "title": "Regulatory Uncertainty and Entrepreneurial Entry in Nascent Markets: Evidence from Autonomous Vehicle Standard-Setting Laws",
+        "authors": "Jiayi Bao, Miaomiao Zhang",
+        "institution": "Texas A&M University; Harvard Business School",
+        "keywords": "Nascent Markets, Entrepreneurial Entry, Autonomous Vehicles, Standard-Setting, Stacked Event Study",
+        "abstract": "This paper examines how standard-setting in autonomous vehicle (AV) testing resolves regulatory uncertainty, mitigates external risks, and encourages entrepreneurial entry. We hypothesize that such an effect is specific to AV ventures with a highly specific market identity that renders high internal risks, whereas ventures with a broad market identity may enter earlier to seize first-mover advantages. Our theory predicts that venture performance depends on entry timing and market identity specificity. A stacked event study and performance analyses support the proposed mechanism and confirm a positive effect on the entry of ventures with a highly specific market identity. Interestingly, the positive effect also extends to ventures with a broad market identity but is much smaller and only emerges in the long run, suggesting possible long-term spillover. "
+      },
+      {
+        "id": "P181",
+        "title": "When Chemicals Are Listed as Hazardous: Integration, Enterprise Liability, and Innovation",
+        "authors": "Honggi Lee, Sharon Belenzon, Alberto Galasso, Shirley Tang",
+        "institution": "University of Massachusetts; Duke University; University of Toronto; Boston University",
+        "keywords": "Liability; Innovation; Hazardous chemicals; Organization design; Information disclo- sure",
+        "abstract": "We examine how organizational structure and enterprise liability, i.e, the propensity for the\ncourt to hold parent companies responsible for harms caused by subsidiaries, shape firms‚Äô responses to regulatory-information shocks. In a simple model, integration creates cross-activity synergies but concentrates liability on the parent, whereas legal separation sacrifices synergies but compartmentalizes risk when the corporate veil holds. We test the model using a firm‚Äìchemical‚Äìyear panel that links EU REACH chemical registrations to corporate group structures and cross-country measures of enterprise liability. Exploiting the staggered listing of hazardous substances on official (SVHC) and comparable civil society (SIN) lists and matched control chemicals in event-study and difference-in-differences designs, we find that listing increases the annual probability that a firm ceases using a chemical by about 1 to 1.5 percentage points, roughly doubling the baseline cessation rate. This effect is stronger for less integrated corporate groups, in high enterprise-liability jurisdictions, in more competitive industries, and among\nfirms with greater reputational exposure. We also find that patenting related to listed chemicals and to technologically related non-listed chemicals declines following listing. Together, the results show how enterprise liability and organizational design jointly condition firms‚Äô real and innovative responses to regulation, moving beyond static accounts of risk placement to highlight dynamic adjustment to new hazard information."
+      }
+    ],
+    "S11": [
+      {
+        "id": "P200",
+        "title": "Lobbying the Court",
+        "authors": "Jiao Luo, Elie Sung, Yasir Dewan",
+        "institution": "U of Minnesota; HEC Paris",
+        "keywords": "corporate political activity, lobbying, courts, patents, dataset",
+        "abstract": "A substantial body of strategic management research examines lobbying as a key corporate political activity, yet it primarily focuses on firms lobbying the legislative and executive branches of government. By contrast, lobbying directed at the judiciary‚Äîthe third branch‚Äîremains largely overlooked, despite courts‚Äô critical role in shaping competitive landscapes and firms‚Äô frequent efforts to influence judicial decisions for favorable policy outcomes. In this dataset article, we shift attention to courts as policymakers for firms, outline how firms lobby courts, and introduce a novel dataset capturing lobbying activities targeting the U.S. Supreme Court in the context of patent law. By advancing understanding of court lobbying and providing new data, we aim to stimulate future research on this consequential but understudied form of corporate political activity."
+      },
+      {
+        "id": "P038",
+        "title": "Corporate Political Activity as Insurance Against Social Accountability",
+        "authors": "Debtanu Lahiri, Nilanjana Dutt",
+        "institution": "Nova School of Business and Economics, Universidade Nova de Lisboa; Bocconi University",
+        "keywords": "Corporate Social Irresponsibility, Corporate Political Activity, Political Homogeneity, Institutional Disruption",
+        "abstract": "Corporate political activity (CPA) is a central nonmarket strategy, yet its benefits are often assessed through firm performance outcomes that yield mixed evidence. We reconceptualize CPA as institutionally contingent insurance against social accountability. Drawing on new institutional economics, we argue that CPA‚Äôs core value lies less in shaping how rules are enforced: political engagement can expand access and increase the likelihood of regulatory leniency. This insurance logic creates a moral-hazard dynamic ‚Äì by lowering expected enforcement costs in socially consequential domains, CPA can weaken deterrence and increase firms‚Äô propensity to engage in corporate social irresponsibility (CSI). We further theorize two institutional contingencies that impact the ability of connected political actors to supply forbearance: political homogeneity, which expands the capacity for discretionary enforcement; and institutional disruption, which and reorders institutional salience and destabilizes enforcement expectations. Analyses of U.S. firms in the 2011‚Äì2020 period are consistent with these arguments, showing a positive association between CPA and CSI that strengthens under homogeneity, and attenuates during disruption. By shifting attention from market outcomes to enforcement and accountability, this study reframes CPA as a socially consequential strategy and clarifies how institutional context conditions its effects."
+      },
+      {
+        "id": "P149",
+        "title": "Political Entrepreneurs: Are Entrepreneurs in Politics Entrepreneurial in Policymaking?",
+        "authors": "Joyce Ma, Aaron Chatterji, Ryan McDevitt, Jorge Guzman",
+        "institution": "The Fuqua School of Business, Duke University; Columbia Business School, Columbia University",
+        "keywords": "Non-Market Strategy, Entrepreneurship, Entry Barriers, Public Policy",
+        "abstract": "Business interests shape public policy through lobbying, campaign contributions, and political connections, yet we know far less about how policy changes when entrepreneurs themselves enter public office. This paper examines how entrepreneurial experience influences legislative behavior and orientation after business owners are elected. We assemble a novel dataset linking state legislators‚Äô personal financial disclosures to detailed records of bill sponsorship and legislative text across 26 U.S. states from 2009 to 2023. Using text-based classification, we distinguish between general pro-business bills and pro-entry legislation that lowers barriers to market entry. We show that once in office, entrepreneurs are not more prolific sponsors overall, but are significantly more likely to act as first primary sponsors. Rather than broadly representing business interests, they selectively promote pro-entry policies - particularly antitrust and deregulation - while showing no greater emphasis on innovation or access-to-capital initiatives. These findings reveal an insider channel of non-market strategy and demonstrate how entrepreneurial experience shapes legislative agendas and institutional change."
+      },
+      {
+        "id": "P223",
+        "title": "When Timing Matters for Bureaucratic Responsiveness: Evidence from a Regression Discontinuity in Time",
+        "authors": "Zhiyan Wu, Huibin Du, Panni Li, Zhongguo Lin",
+        "institution": "Zhejiang University; Tianjin University; Xi’an Jiaotong University",
+        "keywords": "environmental governance; public complaints; bureaucratic incentives; threshold performance evaluation; regression discontinuity in time.",
+        "abstract": "We exploit a regression discontinuity in time (RDiT) design that leverages sharp breaks in regulatory behavior induced by calendar-based performance benchmarks, using high-frequency administrative records from a large set of local jurisdictions. This design isolates changes in complaint responsiveness at moments when enforcement effort discontinuously gains or loses evaluative relevance, allowing us to trace how authorities adjust their behavior around these temporal cutoffs. The observed patterns are consistent with a broader theoretical logic in which bureaucratic incentives are shaped by benchmark-based evaluation systems: enforcement effort is most valuable when it can still affect an impending assessment, loses salience once success has been secured, and can regain meaning when failure becomes unavoidable but remains subject to interpretation. Together, this approach shows that variation in responsiveness to public complaints reflects temporal incentive shifts embedded in evaluation regimes rather than stable differences in regulatory capacity or citizen pressure."
+      }
+    ],
+    "S12": [
+      {
+        "id": "P099",
+        "title": "Adapting to Changing Global Landscapes: Interdependence, Coordination, and the Performance of Multinational Enterprises",
+        "authors": "Nianchen Han, Mo Chen",
+        "institution": "Nanyang Technological University; NYU Shanghai",
+        "keywords": "Coordination, institutional shocks, complexity, adaptation, MNEs",
+        "abstract": "Recent deglobalization-related formal institutional shocks reshape the constraints and incentives facing multinational enterprises, making adaptation contingent on how firms coordinate interdependent activities across countries. However, international strategy research offers limited guidance on when coordination mechanisms facilitate or obstruct adaptation under different types of institutional shocks. We address this gap by developing a simulation model of cross-country adaptation in which an MNE searches over interdependent activity choices across two country landscapes while coordinating decisions by allocating decision rights. The analysis shows that coordination can generate a system-level advantage when country environments are relatively similar, but this advantage erodes as environments become more dissimilar and as interdependencies among activities rise. Moreover, shocks that constrain feasible adjustments and shocks that alter payoffs through incentives produce distinct post-shock trajectories, revealing when coordination supports adaptation and when it becomes a constraint. (136 words)"
+      },
+      {
+        "id": "P247",
+        "title": "Dependence Reconfiguration: How Supply-Side Constraints Reshape Demand-Side Innovation",
+        "authors": "Yupeng Liu, Yuping Li",
+        "institution": "University of Colorado Boulder; Singapore Management University",
+        "keywords": "Dependence reconfiguration, dependence structure, supply constraints, downstream innovation, open source innovation, open source governance",
+        "abstract": "How do firms respond when supply-side shocks constrain core technological inputs? We examine whether AI firms facing U.S. semiconductor export controls open rather than tighten their innovation processes. Using difference-in-differences with coarsened exact matching on 684 Chinese technology firms over 60 months, we find that affected firms increase open-source activity, adopt more permissive licenses, and extend gatekeeping to outside contributors. Both governance dimensions mediate the treatment effect on community adoption and contributions. These findings document a strategic response that existing frameworks have overlooked: restructuring open-source governance to leverage distributed external participation under supply-side constraints."
+      },
+      {
+        "id": "P078",
+        "title": "Divided at Home, Divergent Abroad: A Political Theory of MNEs with Evidence from U.S. Firms in China and Russia",
+        "authors": "Hyewon Ma, Yilang Feng, Jordan Siegel",
+        "institution": "Indiana University; University of Illinois at Urbana Champaign; University of Michigan",
+        "keywords": "Foreign Divestment; Geopolitical Risk; Global Strategy; Multinational Enterprises; Political Partisanship",
+        "abstract": "Are multinational enterprises political actors as much as they are business actors? We argue that U.S. MNEs are making core strategy choices ‚Äì market exit, contraction, and expansion ‚Äì that fit with the evolving preferences and objectives of their executives' and managers' political party ties. We distinguish between \"opportunist\" firms, which align with whichever party serves their immediate interests, and \"loyalist\" firms, whose partisan commitments reflect deeply internalized values. We test this theory using difference-in-differences analyses of American MNEs' subsidiary operations in China following the 2018 U.S.-China Trade War and in Russia after the 2022 Russian invasion of Ukraine. Our findings reveal a stark partisan cleavage: Republican-leaning firms, reflecting their party's focus on the threat from China, were significantly more likely to reduce operations in the Chinese market. Conversely, Democratic-leaning firms, aligned with their party's prioritization of the Russian threat, more decisively contracted their Russian operations. In both cases, the opposite partisan group tends to remain or even expand operations. Moreover, this divergence is not merely opportunistic political signaling: it is significantly amplified among loyalist firms ‚Äì those with a history of consistent, long-term political allegiances to one party and politically homogeneous workforces. Together, our findings provide proof of concept for a renewed political theory of the multinational firm, in which trade carries the flags ‚Äì MNEs act as political agents who export not one but multiple, conflicting partisan worldviews to the global economy."
+      },
+      {
+        "id": "P119",
+        "title": "Escaping Stigma: Strategic Responses of Foreign Companies in a Recently Stigmatized Market",
+        "authors": "Olga Khessina, Anastasiia Prokopenko, Samira Reis",
+        "institution": "University of Illinois at Urbana-Champaign; Universidad Carlos III de Madrid",
+        "keywords": "stigma, exit strategies, international conflict, foreign market  ",
+        "abstract": "A socially approved geographic market may become suddenly stigmatized because of events external to organizations that operate in it. Companies will need to decide whether to stay or leave this market to mitigate stigmatization by association. We develop a theory explaining how companies make such a choice. We propose that organizations decide to exit the market when the perceived costs of stigmatization outweigh the benefits from staying. This perception is shaped not only by organizations‚Äô features but also by stigmatizers‚Äô characteristics. We find support to our theory in event-history analyses of multinationals‚Äô exit announcements in the context of the current Russia-Ukraine military conflict that has stigmatized the Russian market as a place for foreign businesses. "
+      }
+    ],
+    "S13": [
+      {
+        "id": "P030",
+        "title": "Strategic Drivers of Product Platformization:  Why Do Firms Transform Products into Platforms? Synergizing an Attention Based View with Information Processing Theory",
+        "authors": "Jing Tang, Richard Makadok",
+        "institution": "The Ohio State University",
+        "keywords": "Product-to-Platform Transformation (Product Platformization), Attention-Based View, Attentional  Frictions, Information Processing Theory ",
+        "abstract": "Why do some product-centric firms pivot to platform-based models while others, facing similar environmental conditions, do not? We advance an attention-based explanation, framing product-to-platform transformation decision (or interchangeably product platformization decision) as a result of situated organizational attention. We argue that an active user base serves as the primary salient catalyst for product platformization, but its impact is critically moderated by a firm‚Äôs attentional architecture‚Äîspecifically its social product features and its community engagement strategies. Using a longitudinal dataset of PC video game developers and their adoption of User-Generated Content (UGC) ecosystems, our analysis reveals that while a large user base individually drives platformization, this effect is paradoxically weakened by its interaction with the firm‚Äôs own attentional structures. We identify two distinct mechanisms of this attentional friction by incorporating Information Processing Theory: First, the interaction between user scale and social features triggers a governance overhang; As social features increase the demand for innovation and user scale provides a massive supply of it, the resulting high need for coordination and facilitation increases the perceived uncertainty and complexity of the transition. This overhang therefore effectively neutralizes the strategic benefits typically associated with a large user scale. Second, the interaction between user scale and community engagement leads to selective attentional filtering. As developers focus intensely on immediate, major user needs, their \"high-resolution\" attention omits the peripheral and minor issues that external innovators are best equipped to solve. This attentional lock-in obscures the latent potential of an ecosystem, leading the firm to default to a product-centric model. We demonstrate that platformization is a conditional outcome of how attentional structures and informational loads synchronize to prioritize‚Äîor obscure‚Äîplatform-based opportunities."
+      },
+      {
+        "id": "P121",
+        "title": "Beyond Multihoming: Generative Recombination and Complementor Competitive Advantage",
+        "authors": "Tommy Pan Fang, David Clough, Andy Wu",
+        "institution": "Rice University; UBC Sauder; Harvard Business School",
+        "keywords": "Digital Platforms; RBV; Recombination; Innovation; Causal Ambiguity",
+        "abstract": "Digital platforms often provide resources that enable complementors to develop diverse offerings for platform users. This phenomenon presents a fundamental puzzle for the resource-based view: how can complementors sustain competitive advantage when the resources they integrate, such as public APIs and standardized platform data, are transparent and accessible to rivals? We introduce the concept of generative recombination, whereby a complementor integrates resources from multiple, non-substitute platforms concurrently. We develop a typology of inter-platform strategies that distinguishes generative recombination from established strategies such as multihoming and platform bundling. Drawing on the distinction between characteristic and linkage ambiguity, we theorize that this recombination generates sustainable competitive advantage by constructing linkage ambiguity: while the components remain transparent, complementors shift the locus of inimitability from the possession of scarce resources to the orchestration of their connections. We develop a set of propositions that specify how architectural complexity, semi-modular interfaces, and data synthesis across different platforms create causal ambiguity for complementors, and how orchestration capabilities and user-base overlap condition these effects. Our framework reveals that sustainable competitive advantage in platform ecosystems emerges not only from accessing scarce resources but also from connecting multiple platforms and combining their functionality into inimitable configurations. "
+      },
+      {
+        "id": "P135",
+        "title": "When Giants Control the Tools: Complementors’ Platform Choice After Platform Acquisition of Enabling Technologies",
+        "authors": "Xi Wang, Haiyang Li, Prashant Kale",
+        "institution": "Rice University",
+        "keywords": "Innovation ecosystem, enabling technology, platform owner acquisition, technology dependence, platform dependence",
+        "abstract": "This study advances current understanding of how technology interdependence between platform owners and complementors shapes complementors‚Äô platform choices by examining platform owners‚Äô acquisitions of third-party enabling technologies. Such acquisitions create a fundamental tension: they reduce coordination costs by improving compatibility between the platform and the technology, but they also increase complementors‚Äô dependence by giving the platform owner control over both assets. We argue that greater dependence on the acquired technology leads complementors to introduce more products on the acquiring platform because integration improves compatibility and development efficiency. However, when complementors are simultaneously highly dependent on the platform, the resulting concentration of dependence heightens perceived lock-in risks and discourages them from further introducing products on the acquiring platform. Using developer-level data from the video game console industry (2010‚Äì2020), we examine developers‚Äô responses to Microsoft‚Äôs 2015 acquisition of the Havok physics engine. We find that developers with higher pre-acquisition dependence on Havok are more likely to release games on Microsoft after the acquisition. In contrast, developers with higher dependence on both Havok and Microsoft become less likely to introduce games on Microsoft, but more likely to multihome across competing platforms. These results demonstrate that technology acquisition can both attract and deter complementors, depending on their dependence on the technology and the platform, highlighting the importance of accounting for technology‚Äìplatform interdependence in platform-based markets."
+      },
+      {
+        "id": "P242",
+        "title": "Platform Governance and Social Bias in Performance Evaluations: Evidence from Ballroom Dancing",
+        "authors": "Tobias Kretschmer, Benedikt Seigner",
+        "institution": "Imperial College Business School and LMU Munich; IE University",
+        "keywords": "Platform Governance; Platform Competition; Bias; Social Proximity; Ballroom Dancing",
+        "abstract": "We study how governance shapes social bias in platform evaluations. Using 105,287 scoring decisions from ballroom dance competitions, we exploit governance-imposed differences in evaluation format (solo vs. group dances) and judge assignment (organizer-selected vs. centrally assigned judges). We find a social proximity reward. A one-standard-deviation increase in prior judge-couple co-occurrence corresponds to finishing 0.64 rounds closer to the final. Solo dances reduce this reward by 29%, while central judge assignment eliminates it. By contrast, higher judge expertise amplifies the reward. These results contribute to the platform governance literature by showing that evaluation conditions, rather than evaluator traits, reduce social bias."
+      }
+    ],
+    "S14": [
+      {
+        "id": "P031",
+        "title": "When Social Exchange Meets Market Logic: The Effect of Advertisements on Pay-What-You-Want Donations",
+        "authors": "Moon Shin, David Gaddis Ross, Julie Myung Ok Song",
+        "institution": "Chapman University; University of Florida; University of North Florida",
+        "keywords": "pay-what-you-want pricing, social exchange, value-based strategy, new business model, advertising, live video streaming",
+        "abstract": "In leading management theories of profit like value capture theory, firms should seek to enhance their bargaining power in transactions. However, an emerging business model, Pay-What-You-Want (PWYW) pricing, challenges this precept by allowing buyers to pick any non-negative price, even zero, for a firm‚Äôs product. Yet, sellers can still capture substantial value because of PWYW‚Äôs underlying social exchange logic: Buyers make substantial voluntary payments to respect the norm of reciprocity, support the product‚Äôs consumption community, and display wealth and generosity. Although PWYW may operate on a standalone basis, some firms combine it with conventional value capture strategies. It is unknown whether the social exchange logic of PWYW and the market exchange logic of conventional value capture impede or complement each other. This study examines this question by analyzing the simultaneous use of PWYW and advertising in live video streaming (LVS). Using proprietary data from a major Asian LVS platform, supplemented by interviews with the platform‚Äôs streamers and viewers, we find that advertisements may disrupt the social exchange dynamics that facilitate PWYW, leading to a decline in viewers‚Äô voluntary payments, particularly in highly interactive streams. However, these effects are only temporary. Moreover, in less interactive streams, advertising facilitates social exchange dynamics by creating an opportunity for viewers to reengage with each other and the streamer. Our findings extend management theory by illustrating how social and market-based exchange logics interact, offering insights into the complexities of combining different value capture processes."
+      },
+      {
+        "id": "P044",
+        "title": "The Experts and the Crowd: The Interplay Between Expert Evaluations and Consumer Reviews",
+        "authors": "Clara Depalma, Giada Di Stefano, Saverio Dave Favaron",
+        "institution": "Bocconi University; SKEMA Business School",
+        "keywords": "evaluators, rankings and ratings, status, difference in differences, hospitality industry",
+        "abstract": "Nowadays, amateur reviewers and professional critics coexist in many markets and express their opinions on the same producers and offerings. To what extent should we expect the evaluations provided by consumers to conform to those provided by professional critics? And are all consumers equally subject to such conformity pressure? To examine these questions, we exploit a fortuitous partnership between Michelin, the editor of the most prestigious restaurant guide, and TripAdvisor, a prominent aggregator of consumer reviews for the restaurant industry. As a result of this partnership, the TripAdvisor pages of restaurants evaluated by the Michelin Guide were updated with a Michelin badge under the restaurant name and a direct link to the evaluation by Michelin inspectors. Using a difference-in-differences approach, we examine changes in reviews posted on TripAdvisor before and after the appearance of the Michelin evaluation relative to reviews posted on Yelp, a similar platform that did not introduce any Michelin-related information. Our results reveal that amateur reviewers significantly changed their evaluations when the opinion of experts became more salient. The change was reflected in both the form and substance of their reviews, with differential treatment effects depending on the status of the amateur evaluators on the review platform."
+      },
+      {
+        "id": "P109",
+        "title": "How Suppliers Learn from Customer Reviews: Evidence from Text Analysis Using Large Language Models",
+        "authors": "Yiyang Zeng, Mariko Sakakibara",
+        "institution": "Georgia Institute of Technology; University of California, Los Angeles",
+        "keywords": "learning, online review, text review, large language models, sentiment analysis",
+        "abstract": "This study examines how suppliers learn from customer text reviews, with a focus on the sharing economy. Online text reviews convey consumer sentiment and highlight salient attributes that influence purchasing decisions, providing suppliers with valuable learning signals. Suppliers can improve performance by addressing concerns raised in reviews, but learning effectiveness varies across suppliers. Those with prior experience can respond to feedback more effectively than de novo entrants. Moreover, learning does not always translate into performance gains when feedback targets attributes that are difficult to change. Using Airbnb listings data and large language models to analyze approximately 1.9 million text reviews, we find evidence broadly consistent with these arguments. Overall, the study demonstrates how customer text reviews shape learning processes and performance outcomes in platform-based markets."
+      },
+      {
+        "id": "P061",
+        "title": "Taxis Collide with Uber: Non-Platform Incumbents’ Responses to Platform Entry",
+        "authors": "David Chung",
+        "institution": "University of Illinois Urbana-Champaign",
+        "keywords": "platform entry; non-platform incumbent response; competitive dynamics; non-pricing competition; quantity‚Äìquality tradeoff; gig economy",
+        "abstract": "How do non-platform incumbents respond to a platform entrant? Over the last decade, the emergence of platforms has posed a significant threat to non-platform incumbents in many traditional industries. While a few studies have examined non-platform incumbents‚Äô pricing responses to platform entrants, their non-pricing responses (e.g., quantity and quality) have received little attention. I investigate how taxi drivers respond to the increased presence of Uber by using data on over a billion trips made by taxi and Uber drivers in New York City between 2015 and 2019. I find that, in response to higher Uber trip volume, taxi drivers increased their working hours. However, the increased workload reduced their service quality. Specifically, drivers were involved in more vehicle collisions, engaged in more detour and fraud behaviors, and earned smaller tips from customers. My results are robust to an instrumental variables approach that exploits New York City‚Äôs license-cap regulation. These findings highlight the non-pricing responses of non-platform incumbents against a platform entrant."
+      }
+    ],
+    "S15": [
+      {
+        "id": "P900",
+        "title": "When Algorithms Affect OSS Developers' Contribution: A Multitask Learning Perspective",
+        "authors": "Shaoqin Tang",
+        "institution": "",
+        "keywords": "Algorithmic technology; task variety; learning; open source; organizational design",
+        "abstract": ""
+      },
+      {
+        "id": "P233",
+        "title": "Strategic Openness and Entrepreneurial Finance: Venture Capital Responses to Tesla’s Patent Pledge",
+        "authors": "Zhuo (Emma) Chen, Ziming Wang",
+        "institution": "China Europe International Business School; University of Tokyo",
+        "keywords": "Strategic Openness, Patent Pledge, Entrepreneurial Financing, VC, IP Relaxation, Investor Heterogeneity",
+        "abstract": "Strategic openness is increasingly used by dominant firms to shape innovation ecosystems. While prior research has examined the motives and innovation consequences of strategic openness, we know little about how financial intermediaries evaluate such initiatives. We study venture capital (VC) responses to Tesla‚Äôs 2014 Open Patent Pledge, conceptualizing the pledge as a supply-side shock that reduces technological uncertainty while potentially weakening exclusion-based appropriability. Using VC deal-level data from China and a difference-in-differences design comparing ventures operating in Tesla-related technological domains with otherwise comparable ventures in the same industries, we find that the pledge is associated with a significant increase in VC investment deal size. This effect reflects investor sorting rather than within-investor repricing and varies systematically across investor types: it is amplified for governance-backed venture capital and attenuated for foreign investors. We further show that exposure to strategic openness increases syndication, consistent with risk-sharing under heightened appropriability concerns. Together, our findings highlight investor demand and heterogeneity as central mechanisms through which incumbent-led openness reshapes capital allocation and ecosystem evolution."
+      },
+      {
+        "id": "P154",
+        "title": "Asset Positions and the Evolution of Openness: Evidence from Open-Source Licensing in the Global Database Software Industry",
+        "authors": "Zhiwei Berry Wang, Rahul Kapoor",
+        "institution": "Wharton, UPenn",
+        "keywords": "Open innovation, open source, industry evolution",
+        "abstract": "The strategic choice of openness (e.g., open-source licensing) is a core consideration for firms in software-based product markets. We consider this choice in the context of an evolving industry comprising startups and established firms. Our core premise is that startups and established firms differ in terms of their asset positions, and that shapes the relative attractiveness of pursuing an open strategy. Using longitudinal data on 325 database management systems (DBMS) products launched globally between 1966 and 2024, we document three main findings. First, startups are substantially more likely to launch products under open-source licenses than established firms. Second, product novelty conditions this relationship. Established firms introducing novel products are less likely to adopt open-source licenses, whereas startups are more likely to do so compared to established firms when novelty is high. Third, licensing choices evolve over the product life cycle. As products gain adoption, firms increasingly tighten licensing restrictions, a pattern driven almost entirely by startups. Together, these findings highlight how heterogeneity between startups and established firms shapes the nature of product competition in terms of strategic openness in software markets."
+      },
+      {
+        "id": "P103",
+        "title": "The Interplay of the Primary and Generative Building Blocks of Appropriability",
+        "authors": "Shivaram Devarakonda, Weiqi Zheng, Geert Duysters",
+        "institution": "Nanyang Technological University; Tilburg University",
+        "keywords": "appropriability; collaboration; patents",
+        "abstract": "Appropriability is a core idea in strategy and innovation research. Teece‚Äôs (1986) seminal ‚ÄòProfiting from innovation‚Äô framework identifies the foundational building blocks that determine appropriability. While this framework has been extensively used to analyze firms‚Äô innovation strategies, what remains understudied is the interplay of these building blocks in affecting the value firms capture from new inventions. We investigate the impact of the interplay of the primary and generative elements of appropriability on the value accrued to firms from their innovations. Using a patent as the unit of analysis, we measure appropriability by the private value of the patent to the firm. In a quasi-experimental setup, we unpack the interrelationship between the tightness of the legal regime, access to co-specialized resources through collaborations, competitive tensions with collaborators, and cumulativeness in influencing the value firms capture from an invention. Our analysis reveals the complementarities and constraints among the building blocks shaping appropriability. "
+      }
+    ],
+    "S16": [
+      {
+        "id": "P035",
+        "title": "How Coopetition Dynamics Change as Industries Mature: Evidence from the U.S. Craft Brewing Industry",
+        "authors": "Hyunsoo Kim, J.P. Eggers",
+        "institution": "New York University",
+        "keywords": "Coopetition; industry evolution, trade-off management; strategic similarity, status dynamics",
+        "abstract": "We explore how coopetitive preferences change as an industry matures by examining both the macro trends around within-industry collaboration formation and the micro behaviors of partner selection across multiple dimensions of strategic similarity in the U.S. craft brewing industry. Abductively studying multi-brewery collaboration beers from 2007 to 2023,  we find that the rate of coopetition formation increases even as the industry matures. The nature of partner selection, however, fundamentally shifts in two theoretically important ways. First, firms prefer to buffer increasing competitive pressures by dramatically reducing partner similarity on one dimension while maximizing it on another, presumably to improve value creation opportunities. This highlights the strategic importance of multi-attribute trade-off management. Second, high-status incumbents abandon the collectivist \"rising tide\" logics in favor of self-preservation, clustering with highly similar local peers to pull up the ladder behind them in ways that reduce entry and accelerate competitor exits."
+      },
+      {
+        "id": "P087",
+        "title": "Shaping an Industry's Value Proposition as a Strategic Response to an Unattainable Substitution Threshold",
+        "authors": "Charlotte Jacobs, Gwendolyn Lee",
+        "institution": "Louisiana State University; Purdue University",
+        "keywords": "Technology substitution; Endogenous shaping; Industry evolution; Photovoltaic cell; Solar",
+        "abstract": "Technology substitution is a central process in the technology evolution literature, yet our understanding remains largely limited to incumbent firms‚Äô responses and outcomes. For example, existing studies emphasize how incumbents may impede substitution by improving the performance of incumbent technologies such that the substitution threshold shifts upward and becomes unattainable for firms developing new technologies. While such strategic actions by incumbents obstruct the substitution process, surprisingly little is known about the strategic responses available to firms developing new technologies.\nWe address this lacuna by theorizing shaping as a strategic response available to firms developing new technologies when facing an upward shift in the substitution threshold. Integrating research on technology substitution with the literature on endogenous shaping, we argue that when the substitution threshold becomes unattainable, these firms may attempt to shape the industry‚Äôs value proposition by altering consumers‚Äô shared beliefs about the product‚Äôs utility and, consequently, about which technological attributes are valuable. This, in turn, redefines the substitution threshold itself, making it attainable again.\nWe empirically examine our theorization through an in-depth study of the photovoltaic cell industry, combining qualitative and quantitative data. Our analysis reveals a strategic shift among startups following a sharp upward shift in the substitution threshold around 2010, as firms developing new technologies shifted their strategy toward shaping the industry‚Äôs value proposition. \nThis study expands the repertoire of strategic responses available to new technology firms during substitution processes and advances research on endogenous shaping by identifying conditions under which shaping emerges and how the process unfolds.\n"
+      },
+      {
+        "id": "P210",
+        "title": "Shifting Commitments: Technology-Enabled Entry and Supplier Engagement Models",
+        "authors": "Ankur Chavda, John Eklund",
+        "institution": "HEC Paris; USC Marshall",
+        "keywords": "Innovation Management, Technological Change, Technology and Innovation Management",
+        "abstract": "Research on technology-led industry change has largely focused on its\neffects on firms‚Äô resources. Less attention has been paid to how\ntechnological change reshapes the way in which industry participants\nengage to create and capture value. We examine how the entry of a firm\nwith access to a new technology can alter the supplier engagement\nmodels that incumbents utilize in new product development projects.\nWhen commissioning new product development projects, firms typically\nfavor milestone-based engagement that enables early termination and\nshifts risk to suppliers. This contrasts with commitment, where suppliers\ndo not bear such risks. However, when an entrant‚Äôs new technology\nmakes commitment more effective, the entrant may instead offer\ncommitment to suppliers. Incumbents may be compelled to follow and\nselectively offer commitment despite its disadvantages relative to\nmilestone-based development. We argue that such shifts are most\npronounced for suppliers with strong track records, suppliers with prior\nrelationships with incumbents, and for projects that gain limited benefits\nfrom intermediate evaluation. Using data on television programming\naround Netflix‚Äôs entry, we find that incumbent networks increased their\nuse of commitment relative to milestone engagement in these cases. Our\nfindings reveal a novel mechanism through which technological change\nimpacts incumbent firms."
+      },
+      {
+        "id": "P243",
+        "title": "Incumbent’s Advantage via Expertise Asymmetry: Revitalization of the Chinese Pearl Industry with Livestreaming",
+        "authors": "Rebecca Karp, Wesley Koo",
+        "institution": "Harvard Business School",
+        "keywords": "digital technologies, incumbent's advantage, competitive advantage",
+        "abstract": "This study examines how incumbents in mature industries can revitalize their industries amid technologically adept entrants. Using a longitudinal qualitative study of China‚Äôs pearl industry (2017‚Äì2024), we trace how incumbent pearl firms and livestreaming-first entrants (LSFs) interacted as livestreaming transformed the industry. Drawing on ethnographic, interview, and archival data, we find that revitalization unfolded through a three-phase process‚Äîhardening, expansion, and alignment‚Äîthat we term an incumbent-led industry revitalization. In the hardening phase, incumbents partnered with LSFs to professionalize livestreaming, but rigid templates reinforced traditional perceptions of pearls and yielded limited growth. During expansion, incumbents integrated livestreaming into their core businesses, using their deep industry expertise to deviate from LSFs‚Äô templates, introduce new designs, and broaden the meanings and uses of pearls. Meanwhile, entrants cultivated the perception of expertise through templated narratives and unverifiable claims, expanding but also destabilizing the value proposition. In the alignment phase, incumbents leveraged livestreaming‚Äôs transparency to amplify their industry expertise and codify new evaluative standards, while entrants adapted by borrowing these standards and reinforcing incumbents‚Äô frameworks. We theorize expertise asymmetry enabled incumbents to harness entrants‚Äô technologies while maintaining control. The study contributes to research on industry evolution and technological change by explaining how incumbents can renew their industries‚Äô value propositions without being displaced by new entrants.\n\n"
+      },
+      {
+        "id": "P141",
+        "title": "Acquisition Market Thickness and R&D Investment Incentives: Evidence from National Security Restrictions",
+        "authors": "Zeyang Xue, Rosemarie Ziedonis, John McKeon",
+        "institution": "Boston University; Boston University, Questrom School of Business and NBER",
+        "keywords": "Innovation, R&D, Acquisition Market Thickness, National Security",
+        "abstract": "The market for buying and selling companies provides an important channel through which technologies and know-how are transferred to new owners. Such trading activity is, however, increasingly constrained by national security restrictions on cross-border deals. This study investigates whether U.S. national security restrictions, which reduce acquisition market ‚Äúthickness‚Äù in certain sectors but not others, alter the upstream R&D investments of potential targets. To do so, we exploit a shift in the stringency of U.S. national security screening practices introduced by the Foreign Investment and National Security Act of 2007, or ‚ÄúFINSA‚Äù. FINSA provides a sector-level source of variation in acquisition market thickness and allows us to study the potentially overlooked implications of increased national security restrictions on innovation incentives. We analyze the impact of FINSA‚Äôs passage in 2007 on R&D investments using a triple difference research design. In line with prior work, we find that FINSA disproportionately reduces acquisition activity by foreign acquirers in the treated sectors. We also find a significant and deleterious effect of FINSA on the R&D investments of potential targets, with steeper reductions among firms with a high relative likelihood of being acquired. The results remain robust to multiple acquisition-likelihood cutoffs and are not explained by the financial crisis of the late 2000s or managerial entrenchment. The study provides new evidence that fluidity in the market to acquire technology companies is consequential for upstream R&D investment incentives and reveals a possible unintended link between national security policies and innovative activity."
+      }
+    ],
+    "S17": [
+      {
+        "id": "P169",
+        "title": "Parks and Invention",
+        "authors": "Maria Roche, Luisa Gagliardi",
+        "institution": "Harvard University; Bocconi University",
+        "keywords": "Innovation; Informal interactions; Urban environments; Inventive performance",
+        "abstract": "Do local parks foster invention? We study how proximity to neighborhood parks shapes inventive outcomes in urban areas, using detailed data on inventors and patents across major English cities. We find that inventors who live closer to parks produce more unconventional and disruptive inventions, though not more patents overall. To address concerns about residential sorting and endogenous amenity placement, we implement an instrumental-variable strategy that exploits historically determined features of the urban landscape related to parks‚Äô connectivity to public transportation. Evidence from a complementary inventor survey sheds light on the underlying mechanisms. Inventors report that parks stimulate idea generation during leisure time and facilitate unplanned knowledge exchange through what we term ‚Äúoptional interactions.‚Äù Consistent with this mechanism, inventors residing closer to parks are more likely to develop inventions whose content reflects the demographic groups they are exposed to in these shared public spaces. Together, our findings highlight the importance of micro-geographic amenities for innovation and show that inventors‚Äô residential environments, beyond workplaces, shape the nature of inventive output. We contribute to the literature on innovation and agglomeration by identifying urban green spaces as a form of social infrastructure that supports inventive activity, with implications for urban planning and location strategy.\n"
+      },
+      {
+        "id": "P068",
+        "title": "Agglomeration Economy Dynamics and Demand Spillovers: Restaurant Week Effect on Participants’ Neighbors",
+        "authors": "Roxanne Jaffe, Siddharth Sharma, Wilbur Chung",
+        "institution": "Vanderbilt University; Indian School of Business; University of Maryland",
+        "keywords": "Agglomeration, geography, demand-side spillovers",
+        "abstract": "Agglomeration economies generate benefits for agglomerated firms. How benefits propagate through an agglomeration is unclear because agglomerations are composed of multiple firms and each firm engages in various activities that might have spillover implications for neighbors. To observe this propagation and identify underlying mechanisms, we leverage some firms taking a specific strategic action that generates benefits for themselves that might spill over to neighbors. Focusing on demand-side (vs. supply-side) agglomeration benefits, we expect that neighbors will benefit more when geographically closer to the action-taking firms (due to lower customer search costs) or when selling similar goods to the action-taking firms (due to what customers the strategic action attracts), but benefit less when both geographically closer and selling similar goods (due to localized competition). Using a quasi-natural experiment featuring establishment-level micro-geographic data of restaurants participating in ‚ÄúRestaurant Week‚Äù in Washington DC (an event to stimulate demand), we find that Restaurant Week participants‚Äô neighbors experience heightened demand for several weeks after Restaurant Week. Consistent with our expectations: neighbors benefit more when geographically closer or if selling similar goods to Restaurant Week participants. But the benefit for neighbors selling similar goods is delayed a couple weeks, which is consistent with localized competition initially offsetting spillover benefits. Our results demonstrate how firms taking specific strategic action can lead to spillovers propagating throughout an agglomeration, and how overlapping mechanisms determine who benefits and how much."
+      },
+      {
+        "id": "P116",
+        "title": "Technology Adoption and Local Exchange: Evidence from Autonomous Flight in Agricultural Aviation Drones",
+        "authors": "Enrico Forti, Hangyu Zhang, Daniel B. Sands",
+        "institution": "Seton Hall University & University College London; Peking University & Fujian Agriculture and Forestry University; University of North Carolina at Chapel Hill",
+        "keywords": "Technology strategy, new technology adoption, micro-geography, local exchange, entrepreneurship",
+        "abstract": "Why does the adoption of new technology vary across seemingly similar contexts? We examine the micro-geography of exchange relationships as a source of heterogeneity in technology adoption. We propose that ‚Äúlocal exchange‚Äù, characterized by transactions between technology providers and buyers who are embedded in the same local community, improves the likelihood of new technology adoption. We test this argument in the context of the agricultural aviation drone industry where autonomous flight technology is adopted to replace manually flown agricultural drone services. Using a novel dataset of more than 200,000 drone flight routes conducted over five years in rural China, we find that autonomous flight is more likely to occur when drone operators service farms within their own local community than when they provide comparable services to non-local farms. The positive effect of local exchange on technology adoption suggests that accounting for the spatial and social structure of market transactions can improve our understanding of technology adoption. We discuss implications for research on the micro-geography of innovation diffusion, technology management, and entrepreneurship."
+      },
+      {
+        "id": "P139",
+        "title": "People or Place? Founder Intentions, Entrepreneurial Regions, and Technology Startups",
+        "authors": "Michael Roach, Min Jung Kim",
+        "institution": "University of Illinois Urbana-Champaign; Korea University",
+        "keywords": "Entrepreneurial ecosystems, founder intentions, technology entrepreneurship",
+        "abstract": "While prior research has focused on the effects of entrepreneurial regions such as Silicon Valley on the creation of new firms, the extent to which these regions might attract aspiring entrepreneurs prior to founding has been overlooked. We take a first step at teasing apart whether entrepreneurial regions attract or create founders by using survey responses on the stated founder intentions of STEM PhDs while in graduate school to explain their first industry job location in different U.S. regions and their subsequent founding activity. We report three key findings. First, we find that both aspiring founders and those who want to join startups as employees are more likely to move to entrepreneurial regions for their first job.  At the same time, we also find that individuals without entrepreneurial intentions also work in these regions, albeit at lower rates. We show that the reasons for working in these regions differ, with founder and joiner types doing so to work in startups while established firm types doing so to work in large technology firms that offer attractive jobs. Second, we show that founder types in entrepreneurial regions are more than twice as likely to become a founder of a technology startup compared to founder types in other regions, and more than four times as likely as established firm types working in entrepreneurial regions. Additional analyses suggest that this is due to the combination of the right people (aspiring founders) being in the right place (entrepreneurial regions). Third, we find no evidence that entrepreneurial regions make individuals without founder intentions more entrepreneurial.  Instead, our findings suggest that the higher founding rates in entrepreneurial regions are due in part to aspiring founders self-selecting into these regions prior to founding their own startups."
+      },
+      {
+        "id": "P161",
+        "title": "The Making of High-Tech Clusters: Evidence from the American Silicon Breakthrough",
+        "authors": "Jingyuan Zeng",
+        "institution": "Duke University, Fuqua School of Business",
+        "keywords": "High-tech clusters; spatial organization of R&D; engineer mobility; knowledge spillovers",
+        "abstract": "One of the largest technology opportunities of the past century was the emergence of the planar process for the manufacturing of silicon-based semiconductors. In this paper, I examine how the U.S. semiconductor firms concentrated their R&D activities across space to exploit this opportunity, a process that spurred new high-tech clusters in 1960-2000s. Using a new digitized and geocoded dataset on semiconductor firms‚Äô patents, products, production capacity, and engineering workforce at the firm-laboratory level, I show that firm R&D sites with history in silicon-based R&D agglomerated innovation, production, and commercial effort in pursuit of this opportunity. Engineers at these sites were exposed to the complete R&D value chain, and were more likely to be promoted as well as to be poached by competing firms. In the short run, firms were more likely to concentrate their activities in selected sites with both competence to exploit the silicon technology and few nearby competitors. Over time, these new R&D locations attracted new entrants, contributing to the emergence of new clusters."
+      }
+    ],
+    "S18": [
+      {
+        "id": "P168",
+        "title": "Codification Creep",
+        "authors": "Goran Calic, Andy Wu",
+        "institution": "McMaster University; Harvard University",
+        "keywords": "Codification, Organizational Experience, Tacit Knowledge; Explicit Knowledge; Adaptability; Transferability; Novelty; Nuclear Energy  ",
+        "abstract": "We propose that experienced organizations face a phenomenon we refer to as codification creep: the accumulation of highly transferable but rigid explicit knowledge that crowds out the use of tacit knowledge needed to execute and adapt quickly. Analyzing data from 598 nuclear power plant construction projects worldwide between 1951 and 2016, we find that general contractors become slower with experience: each subsequent plant built around a specific reactor model takes over 18 days longer to complete, and unexpected rain slows experienced contractors further. Interviews and archival records illustrate the codification creep underlying these findings. To self-disrupt codification creep, we show that organizations can introduce planned novelty‚Äîby intentionally switching to a new containment building technology‚Äîto counteract the drag of past experience."
+      },
+      {
+        "id": "P187",
+        "title": "Learning About Roads Not Taken",
+        "authors": "Daniel Schliesmann, Matteo Tranchero",
+        "institution": "The Wharton School, University of Pennsylvania",
+        "keywords": "Organizational learning; search; generalization; computational model; pharmaceutical innovation",
+        "abstract": "Organizational experience is often scarce, making the ability to enrich it through generalization a central feature of learning. However, the consequences of learning in this way remain poorly understood. How does generalization shape the balance between omission and commission errors, and which organizations rely on it more? We develop a computational model that shows how generalization makes learning more efficient by spreading feedback across related alternatives, but this efficiency comes at the cost of increased omission errors. The model further predicts that the optimal degree of generalization depends on the nature of the firm's prior experience. We test these predictions using data on clinical trial failures. Consistent with the model, pharmaceutical firms reduce investment in biologically related drug targets, with the most significant declines occurring for proximate high-merit targets. The effects are larger for firms with more limited or concentrated experience, suggesting that generalization is an imperfect yet useful substitute for direct knowledge. These findings highlight both the promise and the pitfalls of generalization in settings where experience is limited."
+      },
+      {
+        "id": "P026",
+        "title": "The Interplay of Alliance and Knowledge Networks in Strategic Value Creation: Insights from the Autonomous Driving Field",
+        "authors": "Dana Baek",
+        "institution": "Indiana University",
+        "keywords": "Strategic Alliances, Autonomous Vehicle Industry, Innovation and Technology Management",
+        "abstract": "While previous research emphasizes resource complementarities within alliance portfolios, the role of direct collaboration between partners controlling complementary resources remains less explored. This study investigates how direct collaborative ties among alliance partners enhance a firm‚Äôs ability to extract value from alliances in the autonomous driving industry. The findings indicate that direct collaboration between partners is beneficial when they specialize in interdependent knowledge domains, enabling the firm to access integrated knowledge, which is essential for developing technological solutions to complex problems and allowing a firm to address challenges more effectively by leveraging the combined expertise of its partners. This study contributes to the literature on alliance portfolio management by highlighting how the alignment of ‚Äúknowledge networks‚Äù with an alliance portfolio structure enhances a firm‚Äôs innovative performance."
+      },
+      {
+        "id": "P094",
+        "title": "Company and University Innovation During an Industry Incubation Phase: Evidence from Quantum Computing",
+        "authors": "Jino Lu, Avi Goldfarb, Florenta Teodoridis",
+        "institution": "Washington University in St. Louis; University of Toronto and NBER; University of Southern California",
+        "keywords": "technology trajectory; rate and direction of innovation; quantum computing; scientific research; applied developments; university and company innovation; innovation incentives; machine learning",
+        "abstract": "Uncovering factors that shape the trajectories of technologies during the incubation stage is crucial for maximizing value creation potential. Yet, existing studies have predominantly focused on characterizing innovation activities in later industry stages after a technology has already become commercially viable, largely due to difficulties of obtaining incubation stage data. In this study, we document incubation stage innovation efforts in quantum computing guided by insights from the existing literature on industry evolution, on university and company innovation, and on enabling technologies. Our analysis aligns with the hypothesized important roles of company innovation, collaboration between companies and universities, and reduction in demand and technological uncertainty during the incubation stage. It also highlights the critical importance of value capture strategies, which are essential yet challenging to develop during the incubation stage of enabling technologies."
+      },
+      {
+        "id": "P142",
+        "title": "Instrumental Burden: Rising Capital Intensity in Science and Consequences for Innovation",
+        "authors": "Jungkyu Suh",
+        "institution": "New York University",
+        "keywords": "Innovation, R&D Strategy, Commercialization of Science, University-Industry Cooperation",
+        "abstract": "Why has the translation of science into productivity growth slowed in recent years? I suggest that the rising capital costs of modern science may have hollowed out applied research at universities, hampering the commercialization of science. Semiconductor science, for instance, requires access to the latest equipment to fabricate substrates and metrology equipment to observe test results. Work in structural biology depends heavily on high fixed-cost equipment such as Cryo-Electron Microscopes, while drug candidate selection is done with the aid of high throughput screening machines. The fixed cost of these investments, which often total in the multi-millions, acts as an entry barrier for smaller research teams, potentially affecting the direction of university science. I develop a new dataset of scientific instruments and their use in papers from 13,453 federal grants for research instrument purchases and supplement it with an industry buyer‚Äôs guide to construct a comprehensive dataset of major research tools. I show that the use of instruments in papers is associated with a greater likelihood of citations by patents. Most empirical fields of science have shown a two-to-threefold increase in instrument use over the past four decades. However, universities are less likely to adopt costly instruments than corporations, who view instruments as a method to appropriate returns from scientific investments. As a consequence, the role of universities in translational research in capital intensive fields of science has diminished."
+      }
+    ],
+    "S19": [
+      {
+        "id": "P067",
+        "title": "When Do Communication Technologies Improve the Management of Innovation?",
+        "authors": "Catherine Magelssen, Casidhe Troyer, Luis Ballesteros",
+        "institution": "University of South Carolina; London Business School; Boston University",
+        "keywords": "Managing innovation, multinational enterprises, communication technologies, innovation, R&D, patents, technological change",
+        "abstract": "Managing geographically distributed R&D is a critical challenge for multinational enterprises (MNEs). Communication technologies (CTs) have long been viewed as important tools for managing international innovation. Yet, whether CT-enabled reductions in communication costs between management and R&D subsidiaries improve innovation outcomes has remained theoretically and empirically unresolved due to two factors. First, even the most advanced CTs are relatively limited in transmitting tacit knowledge, which is critical for key aspects of innovation management such as monitoring and knowledge-sharing. Second, CTs can enable tighter managerial control over the innovation process, potentially constraining initiative and creativity. We develop a contingency framework and test it using a unique dataset linking R&D subsidiaries to their managing entities and the staggered introduction of broadband as an exogenous shock to CT. We find that broadband introduction increases subsidiary innovation, but only when (1) the managing entity and R&D subsidiary co-invented prior to treatment, helping overcome the CT‚Äôs tacit knowledge limitations, and (2) the managing entity‚Äôs span of control is high, reducing the likelihood of increased managerial control. These findings show that CTs alone are insufficient to improve innovation. Instead, organizational context shapes whether firms realize the benefits‚Äîand minimize the negative consequences‚Äîof reduced communication frictions."
+      },
+      {
+        "id": "P122",
+        "title": "Strategy for Multiunit Organizations",
+        "authors": "Jorge Tamayo, Julian Jimenez-Cadenas",
+        "institution": "Harvard University; Good Business Lab",
+        "keywords": "Strategy, Multiunit Organizations, Managers",
+        "abstract": "This paper examines how multiunit firms manage decision-making under varying levels of information asymmetry between central headquarters and individual units. We analyze the interplay between control‚Äîthe extent to which firms enforce strategic discipline by penalizing unit deviations‚Äîmisalignment costs, and profitability. Our findings highlight the trade-offs firms face in designing their strategy: while rigid control ensures alignment with corporate objectives, excessive rigidity can stifle managerial responsiveness to local conditions. We show that firms can enhance organizational agility by optimizing control, particularly by granting managers greater decision-making autonomy when uncertainty about local market conditions is high. We test the model‚Äôs empirical predictions using granular operational and personnel data from two large multiunit firms‚Äîa quick-service restaurant chain and a retail company‚Äîand find evidence consistent with the theory. These insights contribute to the broader understanding of strategy design in multiunit firms operating under heterogeneous environments."
+      },
+      {
+        "id": "P015",
+        "title": "Corporate Political Activities and Common Ownership: Mitigating Systemic Political Risks After January 6",
+        "authors": "Zhao Li, Asher Lasday",
+        "institution": "New York University",
+        "keywords": "Nonmarket Strategy, Corporate Political Activity, Corporate Governance, Common Ownership",
+        "abstract": "A transnational rise in democratic backsliding presents systemic risks for business, eroding the institutional foundations of markets and fueling perceptions of corporate complicity through their political activities (CPA). While firms face pressure to withhold political support‚Äîsuch as campaign contributions and endorsements‚Äîfrom politicians engaging in anti-democratic conduct, doing so individually risks loss of lobbying access and retaliation, creating a collective-action problem for the business sector. We argue that ‚Äúcommon owners‚Äù‚Äîlarge institutional investors with diversified holdings across industries‚Äîmay help resolve this dilemma. Because their portfolio performance depends on overall market stability, common owners are especially exposed to systemic risks and may steer portfolio firms‚Äô CPA to mitigate the impact on democratic backsliding, even when such actions are not optimal for any single firm.\nWe test our theory in the aftermath of the January 6th Capitol Insurrection, when 147 members of the U.S. Congress voted against certifying the 2020 presidential election result (hereafter ‚ÄúObjectors‚Äù). Linking campaign finance and institutional ownership data, we find that firms under greater common ownership reduced campaign contributions to Objectors after January 6th. These results do not appear confounded with differential pre-trends, investor sell-offs, firms‚Äô political positioning, or employees‚Äô or consumers‚Äô political orientations. To illuminate the underlying mechanisms‚Äîspecifically distinguishing systemic risk mitigation from investor ideology‚Äîwe plan to analyze the texts of shareholder proposals targeting CPA and voting patterns of institutional investors. Our findings contribute to research on non-market strategy and corporate governance by demonstrating how ownership structures shape the role of business in democratic resilience."
+      },
+      {
+        "id": "P114",
+        "title": "Executives’ Use of Social Media as an Information Channel: Evidence from Digital Paywall Adoption",
+        "authors": "Tiancheng Wang, Philipp Meyer-Doyle, Guoli Chen",
+        "institution": "INSEAD",
+        "keywords": "Social media, traditional media, information dissemination, media attention, impression management, natural experiment, corporate governance",
+        "abstract": "This study examines the strategic purpose of executives‚Äô social media engagement by investigating whether and how executives use social media to supplement traditional media. Leveraging a natural experiment created by the staggered adoption of digital paywalls by U.S. local newspapers, along with comprehensive data on S&P 1500 executives‚Äô social media activity, we document several findings. First, following local newspaper paywall adoption, executives of local firms significantly increase their posting activity, consistent with efforts to fill the resulting information and attention void. Second, this heightened activity is accompanied by a marked shift toward impression management content. Third, the capital-market implications of executive posts depend on the information environment: although executive posts reduce information asymmetry when local newspapers remain freely accessible, paywall adoption effectively neutralizes this beneficial effect. Cross-sectional analyses further support the proposed mechanisms. The increase in posting volume is concentrated among firms serving informationally disadvantaged retail investors and attention-sensitive consumers, as well as those with high pre-paywall local newspaper coverage. Meanwhile, the shift toward impression management is strongest among firms previously subjected to high local newspaper scrutiny. Finally, we show that executives‚Äô increased social media communication effectively restores the stakeholder attention lost following paywall adoption. "
+      },
+      {
+        "id": "P201",
+        "title": "Skill Distinctiveness and Skill Uniqueness of Female Directors",
+        "authors": "Yo-Jud Cheng, Shelby Gai, Hui Sun",
+        "institution": "University of Virginia (Darden); Michigan State University; Frankfurt School of Finance & Management",
+        "keywords": "corporate governance; board of directors",
+        "abstract": "Corporate boards face growing pressure to enhance both skill diversity and gender diversity, yet little is known about how shareholders evaluate the intersection of these attributes at the individual director level. This study examines how directors‚Äô skill profiles, in particular, directors‚Äô skill uniqueness and skill overlap relative to their fellow board members, shape shareholder voting outcomes, and how these relationships differ by director gender. Using a comprehensive panel dataset of 99,276 independent director-year observations from Russell 3000 firms between 2015 and 2023, we find that shareholders value both directors who contribute unique skills and those whose skills overlap with others on the board. Female directors, on average, possess more skills and more distinctive skill sets than male directors, alleviating concerns that gender diversity comes at the expense of qualifications. However, shareholder preferences are contingent: while skill overlap is especially positively rewarded for female directors, skill uniqueness does not confer the same incremental benefit. These findings highlight how gender moderates the evaluation of director skills and underscore the importance of assessing board composition as a relational constellation rather than a collection of individual attributes."
+      }
+    ],
+    "S20": [
+      {
+        "id": "P002",
+        "title": "The Impact of Causal Evidence on Innovation: Lessons from Randomized Controlled Trials in Surgery",
+        "authors": "Soomi Kim, Wes Greenblatt",
+        "institution": "Columbia Business School; Harvard Medical School",
+        "keywords": "Randomized controlled trials, Evidence, Innovation",
+        "abstract": "Randomized controlled trials (RCTs) are often considered the gold standard for providing causal evidence, but they are not without limitations. In addition to their high costs, RCTs may produce results that are not useful or generalizable for follow-on research. Employing a difference-in-differences approach, we study how evidence generated by RCTs shapes research activities in surgery. We find that follow-on research appears to decline after the publication of an RCT, with the remaining research being of lower impact and clinical relevance. This dampening effect of RCTs is especially pronounced for high-quality trials and those that evaluate interventions with lower barriers to adoption. We conclude with a discussion of whether these effects have positive or negative implications for innovation."
+      },
+      {
+        "id": "P115",
+        "title": "Mitigating the Novelty Penalty: The Role of Certification in Knowledge Diffusion",
+        "authors": "Shashi Kant Kumawat, Mukund Chari, Janet Bercovitz",
+        "institution": "Leeds School of Business at the University of Colorado Boulder; University of Colorado Boulder",
+        "keywords": "Technological Novelty; Certification; Knowledge Diffusion; SBIR; Legitimacy.",
+        "abstract": "Technological novelty drives breakthrough value but creates systematic barriers to diffusion. While existing research documents this \"novelty penalty\" as a consequence of evaluator uncertainty and cognitive friction, theory remains underdeveloped regarding the institutional mechanisms that might serve as antidotes. We develop a contingent theory where certification confers technological legitimacy, specifically addressing the evaluative frictions impeding novel knowledge flows. We theorize that this legitimating effect is proportional to the uncertainty it resolves, predicting that certification is most valuable for the most novel inventions. Testing this framework using 40,108 patent dyads from U.S. Department of Defense SBIR awardees and a rigorous within-citer matched-pair design, we find robust evidence for a \"certification premium.\" More importantly, we find a significant positive interaction: the acceleration effect of certification amplifies as technological novelty increases. This study demonstrates that the novelty penalty is not an immutable market failure but a conditional outcome manageable through strategic institutional signaling."
+      },
+      {
+        "id": "P014",
+        "title": "Leading Like Scientists",
+        "authors": "Ricardo Laverde-Cubillos, Gabriel Caser dos Passos",
+        "institution": "Insper; World Bank",
+        "keywords": "Decision-Making, Scientific-approach, Leadership, STEM, Regression Discontinuity Design, Scientific Intensity",
+        "abstract": "Decision making under uncertainty can improve when leaders define problems, test hypothe- ses, and update beliefs as evidence accumulates. We capture this logic in a simple analytical model where scientific training and experience increases the returns to experimentation by improving Bayesian updating. We test its implications during COVID-19 using a regression discontinuity design around close leader elections, comparing municipalities narrowly won by STEM-trained leaders with those narrowly won by non-STEM leaders. The estimates indi- cate about 36 fewer deaths per 100,000 inhabitants under STEM-educated mayors. Consistent with the model, the advantage is strongest where mayors have longer experience in STEM occupations and appears linked to more feedback-rich policy adjustment."
+      },
+      {
+        "id": "P012",
+        "title": "The Exclusive Nature of Private Solutions to Public Problems: Evidence from (For-Profit) US Charter Schools",
+        "authors": "Farzam Boroomand",
+        "institution": "University of South Carolina",
+        "keywords": "Organizational Forms, Competition, Social Impact, Social Issues and Grand Challenges, SDG4",
+        "abstract": "The growing research on private solutions like CSR initiatives, non-profits, and public-private partnerships (PPPs) for addressing social issues has focused on the effectiveness of these private solutions for their direct recipients; however, the effect of these solutions on non-recipients is not well understood. This poses critical questions: Are these solutions inclusive, meaning do they serve vulnerable populations? What are their broader impacts on non-recipients? Do they generate broader positive impacts, or do they benefit recipients while disadvantaging non-recipients? These concerns are particularly pertinent when private solutions to social issues coexist with and compete against existing public solutions, potentially reducing the latter‚Äôs effectiveness. In this paper, I examine how private solutions to social issues might negatively impact existing public providers. First, private solutions could diminish support for public providers at the local level, leading to fewer resources raised for the public provider by local communities. Second, private providers, if profit-motivated, might serve more economically viable segments, leaving less viable ones to public providers, thereby increasing the latter‚Äôs production costs. I explore these mechanisms in the context of US public education, where charter schools (private provider) coexist and compete with traditional public schools (public provider). I find that the entry of charter schools, particularly for-profit ones, reduces local support for traditional public schools (TPS), as evidenced by decreased per-pupil local revenues and fewer successful school referenda for additional funding. Furthermore, using a quasi-natural experiment, I demonstrate that TPS grades exposed to for-profit charter schools see an increase in the proportion of economically disadvantaged and disabled students. I also show that these effects are mostly mitigated if the private provider is organized as a non-profit or if safeguards are put in place to prevent exclusionary behaviors by for-profit private providers."
+      },
+      {
+        "id": "P125",
+        "title": "Framing the Hustle: Experimental Evidence from Motivating Recycling in Lagos, Nigeria",
+        "authors": "Diana Jue-Rajasingh, Wesley Koo, Oluwagbemileke Jegede",
+        "institution": "Rice University; Johns Hopkins University; Harvard Business School",
+        "keywords": "emerging markets, social ventures, communities, platforms, collective action, field experiment, entrepreneurship",
+        "abstract": "Social ventures in the Global South often organize collective action by blending community-based engagement with technology-enabled platforms. However, it remains unclear how the presentation of these opportunities influences participation in resource-constrained contexts. We examine the relative influence of two drivers of participation, social identification and expectations of individual returns, through a field experiment with a recycling social venture in Nigeria, with whom we experimentally vary recruitment messages across two dimensions: participation scale (community-based vs. platform-based) and participation intensity (casual vs. entrepreneurial). We find no uniform advantage of community-based versus platform-based participation. Instead, participation responds primarily to the interaction between scale and intensity. When participation is framed as community-based, entrepreneurial framing reduces enrollment compared to casual framing. Conversely, in platform-based contexts, entrepreneurial framing significantly increases both initial enrollment and sustained deposit activity. Mediation analyses indicate these effects are driven by expectations of individual returns. We contribute to research on collective action and entrepreneurship by demonstrating that, while entrepreneurial rhetoric can scale participation, its effectiveness depends on the perceived scaling potential of the organizational context. This highlights framing as a strategic lever for social ventures, suggesting that in emerging economies, the promise of individual \"upside\" via platform aggregation may outweigh traditional community-based social appeals."
+      }
+    ]
+  }
+}

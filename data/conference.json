@@ -1,0 +1,93 @@
+{
+  "edition": "9th Annual",
+  "name": "Strategy Science Conference 2026",
+  "host": "Leeds School of Business, University of Colorado Boulder",
+  "cosponsor": "Strategy Science (INFORMS journal)",
+  "city": "Boulder, Colorado",
+  "dates": "May 28–30, 2026",
+  "doctoralWorkshop": "May 28, 2026",
+  "mainDays": "May 29–30, 2026",
+  "address": {
+    "venue": "Koelbel Building, Leeds School of Business",
+    "street": "995 Regent Drive",
+    "cityState": "Boulder, CO 80309"
+  },
+  "rooms": [
+    { "code": "A", "id": "ECCS 201", "name": "ECCS 201", "capacity": "200+", "note": "Main hall – opening & plenaries" },
+    { "code": "B", "id": "KOBL 352", "name": "KOBL 352", "capacity": "~70", "note": "Catering area outside" },
+    { "code": "C", "id": "KOBL 323", "name": "KOBL 323", "capacity": "~70" },
+    { "code": "D", "id": "KOBL 317", "name": "KOBL 317", "capacity": "~70" }
+  ],
+  "schedule": {
+    "thu": [
+      { "time": "6:00 – 7:30 PM", "title": "Conference Opening Reception" }
+    ],
+    "fri": [
+      { "time": "8:00 – 8:45 AM", "title": "Registration & Breakfast", "room": "KOBL 352 lobby" },
+      { "time": "8:45 – 9:00 AM", "title": "Welcome Address", "room": "ECCS 201" },
+      { "time": "9:00 – 10:30 AM", "title": "Session 1 (parallel)", "kind": "session", "session": 1 },
+      { "time": "10:30 – 11:00 AM", "title": "Coffee Break" },
+      { "time": "11:00 – 12:30 PM", "title": "Session 2 (parallel)", "kind": "session", "session": 2 },
+      { "time": "12:30 – 1:30 PM", "title": "Lunch", "room": "KOBL 352" },
+      { "time": "1:30 – 2:30 PM", "title": "Plenary Session 1", "room": "ECCS 201" },
+      { "time": "2:45 – 4:15 PM", "title": "Session 3 (parallel)", "kind": "session", "session": 3 },
+      { "time": "4:15 – 4:45 PM", "title": "Coffee Break" },
+      { "time": "4:45 – 6:15 PM", "title": "Session 4 (parallel)", "kind": "session", "session": 4 },
+      { "time": "7:00 – 9:30 PM", "title": "Conference Reception & Dinner", "room": "Chautauqua Dining Hall" }
+    ],
+    "sat": [
+      { "time": "8:00 – 8:30 AM", "title": "Breakfast", "room": "KOBL 352 lobby" },
+      { "time": "8:30 – 10:00 AM", "title": "Session 5 (parallel)", "kind": "session", "session": 5 },
+      { "time": "10:00 – 10:30 AM", "title": "Coffee Break" },
+      { "time": "10:30 – 12:00 PM", "title": "Plenary Session 2 – Editor's Panel", "room": "ECCS 201" },
+      { "time": "12:00 – 1:00 PM", "title": "Lunch & Strategy Science Business Meeting", "room": "KOBL 352" },
+      { "time": "1:00 PM", "title": "Conference Ends" }
+    ]
+  },
+  "fees": { "faculty": "$550", "student": "$275" },
+  "deadlines": {
+    "submission": "February 1, 2026",
+    "notification": "March 1, 2026",
+    "registration": "May 1, 2026"
+  },
+  "contact": "strategyscience2026@colorado.edu",
+  "organizers": [
+    { "name": "Janet Bercovitz", "title": "Robert H. and Beverly A. Deming Professor in Entrepreneurship", "affiliation": "University of Colorado" },
+    { "name": "Tony Tong", "title": "Thomas Stix Guggenheim Family Endowed Chair, Chair of Strategy, Entrepreneurship & Operations Division", "affiliation": "University of Colorado" },
+    { "name": "Jeffrey G. York", "title": "MRB Professor; Faculty Director, Deming Center for Entrepreneurship", "affiliation": "University of Colorado" }
+  ],
+  "scientificCommittee": [
+    { "name": "Janet Bercovitz", "affiliation": "University of Colorado" },
+    { "name": "Danielle Bovenberg", "affiliation": "University of Colorado" },
+    { "name": "Mukund Chari", "affiliation": "University of Colorado" },
+    { "name": "Ashton Hawk", "affiliation": "University of Colorado" },
+    { "name": "Kenneth Huang", "affiliation": "National University of Singapore" },
+    { "name": "Aldona Kapacinskaite", "affiliation": "INSEAD" },
+    { "name": "Wesley Koo", "affiliation": "Johns Hopkins University" },
+    { "name": "Catherine Magelssen", "affiliation": "University of South Carolina" },
+    { "name": "Anparasan Mahalingam", "affiliation": "Syracuse University" },
+    { "name": "Francisco Morales", "affiliation": "Universidad de los Andes" },
+    { "name": "Ethan Poskanzer", "affiliation": "University of Colorado" },
+    { "name": "Metin Sengul", "affiliation": "University of Texas at Austin" },
+    { "name": "Sina Sokhan", "affiliation": "University of Colorado" },
+    { "name": "Shirley Tang", "affiliation": "Boston University" },
+    { "name": "Tony Tong", "affiliation": "University of Colorado" },
+    { "name": "Andy Wu", "affiliation": "Harvard University" },
+    { "name": "Mingtao Xu", "affiliation": "Tsinghua University" },
+    { "name": "MJ Yang", "affiliation": "University of Colorado" },
+    { "name": "Yuchen Zhang", "affiliation": "Tulane University" }
+  ],
+  "doctoralContacts": [
+    { "name": "Aseem Kaul", "email": "akaul@umn.edu" },
+    { "name": "Mahka Moeen", "email": "moeen@wisc.edu" }
+  ],
+  "hotels": [
+    { "name": "Limelight Hotel", "address": "1295 University Ave", "note": "Conference rate available" },
+    { "name": "Moxy Hotel", "address": "1247 Pleasant St", "note": "Conference rate available" },
+    { "name": "Embassy Suites", "address": "2601 Canyon Blvd" },
+    { "name": "Hilton Garden Inn", "address": "2701 Canyon Blvd" },
+    { "name": "Boulder Marriott", "address": "2660 Canyon Blvd" },
+    { "name": "St. Julien", "address": "900 Walnut St" },
+    { "name": "University Inn", "address": "1632 Broadway" }
+  ]
+}

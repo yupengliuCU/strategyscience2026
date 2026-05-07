@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About – Strategy Science 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/site.css" />
+<style>
+  .ab-hero {
+    border-bottom: 1px solid var(--rule);
+    padding: 56px 0 64px;
+  }
+  .ab-hero h2 {
+    font-family: var(--serif); font-weight: 600; font-size: clamp(40px, 5.5vw, 72px);
+    line-height: 1.0; letter-spacing: -0.02em; margin: 16px 0 0; max-width: 22ch;
+  }
+  .ab-hero .lede { font-family: var(--serif); font-size: 19px; line-height: 1.55; color: var(--ink-2); margin: 22px 0 0; max-width: 64ch; }
+
+  .ab-cols {
+    padding: 64px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .ab-cols .grid { display: grid; grid-template-columns: 1fr 2fr; gap: 64px; align-items: start; }
+  @media (max-width: 900px) { .ab-cols .grid { grid-template-columns: 1fr; gap: 32px; } }
+  .ab-cols h3 {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em; color: var(--ink-3);
+    margin: 0 0 14px;
+  }
+  .ab-cols p { font-family: var(--serif); font-size: 17px; line-height: 1.65; color: var(--ink-2); margin: 0 0 16px; }
+  .ab-cols p.lede { font-size: 22px; line-height: 1.45; color: var(--ink); margin-bottom: 22px; }
+  .ab-cols p.lede:first-letter {
+    font-family: var(--serif); font-weight: 700; font-size: 84px; line-height: 0.85;
+    float: left; padding: 6px 12px 0 0; color: var(--gold-deep);
+  }
+
+  .past {
+    padding: 56px 0;
+    border-bottom: 1px solid var(--rule);
+    background: var(--paper-2);
+  }
+  .past h3 {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em; color: var(--ink-3);
+    margin: 0 0 24px;
+  }
+  .editions {
+    display: grid; grid-template-columns: repeat(5, 1fr); gap: 0;
+    border-top: 1px solid var(--rule); border-left: 1px solid var(--rule);
+  }
+  @media (max-width: 1000px) { .editions { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 700px) { .editions { grid-template-columns: repeat(2, 1fr); } }
+  .ed {
+    border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+    padding: 22px; min-height: 140px; background: var(--paper);
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  .ed.current { background: var(--ink); color: var(--paper); }
+  .ed.current .yr, .ed.current .host { color: var(--gold); }
+  .ed .yr { font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em; color: var(--gold-deep); }
+  .ed .ed-no { font-family: var(--serif); font-size: 36px; font-weight: 600; letter-spacing: -0.02em; line-height: 1; }
+  .ed .host { font-family: var(--serif); font-size: 16px; line-height: 1.25; margin-top: auto; }
+  .ed .place { font-family: var(--mono); font-size: 11px; color: var(--ink-3); letter-spacing: .04em; }
+  .ed.current .place { color: rgba(255,255,255,0.6); }
+
+  /* Committee */
+  .committee {
+    padding: 64px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .committee h2 {
+    font-family: var(--serif); font-weight: 600; font-size: clamp(28px, 3.4vw, 44px); margin: 12px 0 24px; letter-spacing: -0.015em; line-height: 1.1;
+  }
+  .com-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 56px;
+  }
+  @media (max-width: 900px) { .com-grid { grid-template-columns: 1fr; gap: 32px; } }
+  .com-block h3 {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em; color: var(--ink-3);
+    margin: 0 0 12px; padding-bottom: 12px; border-bottom: 2px solid var(--ink);
+  }
+  .com-list { list-style: none; padding: 0; margin: 0; }
+  .com-list li {
+    padding: 14px 0; border-bottom: 1px dotted var(--rule);
+    display: grid; grid-template-columns: 1fr auto; gap: 14px; align-items: baseline;
+  }
+  .com-list li:last-child { border-bottom: 0; }
+  .com-list .nm { font-family: var(--serif); font-size: 17px; font-weight: 600; letter-spacing: -0.005em; }
+  .com-list .nm a { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--rule); transition: border-color .15s ease, color .15s ease; }
+  .com-list .nm a:hover { color: var(--gold-deep); border-bottom-color: var(--gold-deep); }
+  .com-list .nm small { display:block; font-family: var(--sans); font-size: 12px; color: var(--ink-3); margin-top: 2px; font-weight: 400; }
+  .com-list .role { font-family: var(--mono); font-size: 11px; color: var(--gold-deep); letter-spacing: .08em; text-align: right; }
+
+  /* Editorial board */
+  .editors {
+    padding: 64px 0;
+    border-bottom: 1px solid var(--rule);
+    background: var(--paper-2);
+  }
+  .editors .grid { display: grid; grid-template-columns: 1fr 1.6fr; gap: 56px; align-items: start; }
+  @media (max-width: 900px) { .editors .grid { grid-template-columns: 1fr; gap: 32px; } }
+  .editors h2 { font-family: var(--serif); font-weight: 600; font-size: clamp(28px, 3.4vw, 40px); margin: 12px 0 14px; letter-spacing: -0.015em; line-height: 1.1; }
+  .editors p { font-family: var(--serif); font-size: 16px; line-height: 1.6; color: var(--ink-2); margin: 0 0 12px; }
+
+  /* Contact */
+  .contact {
+    padding: 80px 0;
+  }
+  .contact .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }
+  @media (max-width: 800px) { .contact .grid { grid-template-columns: 1fr; gap: 32px; } }
+  .contact h2 { font-family: var(--serif); font-weight: 600; font-size: clamp(28px, 3.4vw, 44px); margin: 12px 0 14px; letter-spacing: -0.015em; line-height: 1.1; }
+  .contact .ct {
+    border: 1px solid var(--ink); padding: 28px;
+    display: grid; grid-template-columns: max-content 1fr; column-gap: 22px; row-gap: 16px;
+  }
+  .contact .ct dt { font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em; color: var(--ink-3); padding-top: 4px; }
+  .contact .ct dd { margin: 0; font-family: var(--serif); font-size: 17px; }
+  .contact .ct dd a { border-bottom: 1px dotted; color: var(--gold-deep); }
+</style>
+</head>
+<body>
+
+<div class="cu-bar"><div class="row"><div class="brand"><a href="https://www.colorado.edu/" target="_blank" rel="noopener" class="cu-logo"><img src="assets/cu-boulder-lockup-rev.png" alt="University of Colorado Boulder" /></a></div><nav><a href="https://www.colorado.edu/business/" target="_blank" rel="noopener">Leeds.colorado.edu</a><a href="mailto:strategyscience2026@colorado.edu">Contact</a></nav></div></div>
+<header class="site-header">
+  <div class="row">
+    <a href="https://www.colorado.edu/business/" target="_blank" rel="noopener" class="leeds-mark"><img src="assets/leeds-lockup.png" alt="Leeds School of Business – University of Colorado Boulder" /></a>
+    <div class="lockup"><div class="eyebrow">9th Annual Conference · Sponsored by Strategy Science (INFORMS)</div><h1><a href="index.html">Strategy Science 2026</a></h1></div><div class="meta"><span><span class="dot"></span> May 28–30, 2026</span><span>Boulder, Colorado</span><span>Leeds School of Business</span></div></div></header>
+<nav class="primary-nav"><div class="row"><a href="index.html"><span class="num">01</span> Overview</a><a href="program.html"><span class="num">02</span> Program</a><a href="sessions.html"><span class="num">03</span> Sessions</a><a href="venue.html"><span class="num">04</span> Venue &amp; Travel</a><a href="about.html" aria-current="page"><span class="num">05</span> About</a></div></nav>
+
+<section class="ab-hero">
+  <div class="container">
+    <div class="kicker">About · Vol. IX</div>
+    <h2>Nine years of bringing the field together.</h2>
+    <p class="lede">The Strategy Science Conference is the annual gathering of the community that publishes in and reads <em>Strategy Science</em> – a journal dedicated to ambitious, theoretically anchored work on the central questions of strategy. Each year a different host school carries the program forward.</p>
+  </div>
+</section>
+
+<section class="ab-cols">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <h3>The 2026 edition</h3>
+      </div>
+      <div>
+        <p class="lede">The 9th annual Strategy Science Conference is hosted by the Leeds School of Business at the University of Colorado Boulder, and sponsored by the journal <em>Strategy Science</em>.</p>
+        <p>Two days of presentations on May 29 and 30, 2026, organized around twenty thematic sessions and ninety papers chosen from a competitive call. A doctoral consortium opens the conference on the evening of Thursday May 28. Two plenary sessions, one on the future of our profession and one on sustainability strategy, bookend the program.</p>
+        <p>Boulder sits where the high plains meet the Rocky Mountain foothills, 1,655 meters above sea level. We hope the change of altitude does what conferences are supposed to do: pull people out of their routines and into conversation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="past">
+  <div class="container">
+    <h3>Past editions</h3>
+    <div class="editions">
+      <div class="ed"><span class="yr">2018 · I</span><span class="ed-no">01</span><span class="host">Wharton School · Penn</span><span class="place">Philadelphia, PA</span></div>
+      <div class="ed"><span class="yr">2019 · II</span><span class="ed-no">02</span><span class="host">Eccles School · Utah</span><span class="place">Salt Lake City, UT</span></div>
+      <div class="ed"><span class="yr">2020 · III</span><span class="ed-no">03</span><span class="host">Wharton School · Penn <small>(virtual)</small></span><span class="place">Philadelphia, PA</span></div>
+      <div class="ed"><span class="yr">2021 · IV</span><span class="ed-no">04</span><span class="host">Harvard Business School <small>(virtual)</small></span><span class="place">Boston, MA</span></div>
+      <div class="ed"><span class="yr">2022 · V</span><span class="ed-no">05</span><span class="host">NYU Stern</span><span class="place">New York, NY</span></div>
+      <div class="ed"><span class="yr">2023 · VI</span><span class="ed-no">06</span><span class="host">LMU Munich</span><span class="place">Munich, DE</span></div>
+      <div class="ed"><span class="yr">2024 · VII</span><span class="ed-no">07</span><span class="host">Ross School · Michigan</span><span class="place">Ann Arbor, MI</span></div>
+      <div class="ed"><span class="yr">2025 · VIII</span><span class="ed-no">08</span><span class="host">IESE Business School</span><span class="place">Barcelona, ES</span></div>
+      <div class="ed current"><span class="yr">2026 · IX</span><span class="ed-no">09</span><span class="host">Leeds School · CU Boulder</span><span class="place">Boulder, CO</span></div>
+      <div class="ed" style="opacity:.5;"><span class="yr">2027 · X</span><span class="ed-no">10</span><span class="host" style="font-style:italic;color:var(--ink-3);">To be announced</span><span class="place">–</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="committee">
+  <div class="container">
+    <div class="kicker">Who's behind it</div>
+    <h2>Organizing &amp; Scientific committees.</h2>
+    <div class="com-grid">
+      <div class="com-block">
+        <h3>Organizing Committee</h3>
+        <ul class="com-list">
+          <li><span class="nm"><a href="https://www.colorado.edu/business/leeds-directory/faculty/janet-bercovitz" target="_blank" rel="noopener">Janet Bercovitz</a><small>Robert H. and Beverly A. Deming Professor in Entrepreneurship</small></span><span class="role">Co-chair</span></li>
+          <li><span class="nm"><a href="https://www.colorado.edu/business/leeds-directory/faculty/tony-tong" target="_blank" rel="noopener">Tony Tong</a><small>Thomas Stix Guggenheim Family Endowed Chair · Professor · Chair, Strategy, Entrepreneurship &amp; Operations</small></span><span class="role">Co-chair</span></li>
+          <li><span class="nm"><a href="https://www.colorado.edu/business/leeds-directory/faculty/jeffrey-g-york" target="_blank" rel="noopener">Jeffrey G. York</a><small>MRB Professor · Faculty Director, Deming Center for Entrepreneurship</small></span><span class="role">Co-chair</span></li>
+        </ul>
+        <h3 style="margin-top:36px;">Doctoral Workshop · Co-organizers</h3>
+        <ul class="com-list">
+          <li><span class="nm"><a href="https://carlsonschool.umn.edu/faculty/aseem-kaul" target="_blank" rel="noopener">Aseem Kaul</a><small>University of Minnesota</small></span><span class="role">Co-organizer</span></li>
+          <li><span class="nm"><a href="https://business.wisc.edu/directory/profile/mahka-moeen/" target="_blank" rel="noopener">Mahka Moeen</a><small>University of Wisconsin–Madison</small></span><span class="role">Co-organizer</span></li>
+        </ul>
+        <h3 style="margin-top:36px;">Web Design &amp; Communications</h3>
+        <ul class="com-list">
+          <li><span class="nm"><a href="https://www.colorado.edu/business/leeds-directory/yupeng-liu" target="_blank" rel="noopener">Yupeng Liu</a><small>PhD Student · Strategy &amp; Entrepreneurship</small></span><span class="role">CU Boulder</span></li>
+        </ul>
+      </div>
+      <div class="com-block">
+        <h3>Scientific Committee · 2026</h3>
+        <ul class="com-list">
+          <li><span class="nm"><a href="https://www.colorado.edu/business/leeds-directory/faculty/janet-bercovitz" target="_blank" rel="noopener">Janet Bercovitz</a><small>Professor, University of Colorado</small></span><span class="role">CU Boulder</span></li>
+          <li><span class="nm"><a href="https://www.colorado.edu/business/leeds-directory/faculty/danielle-bovenberg" target="_blank" rel="noopener">Danielle Bovenberg</a><small>Assistant Professor, University of Colorado</small></span><span class="role">CU Boulder</span></li>
+          <li><span class="nm"><a href="https://www.colorado.edu/business/leeds-directory/faculty/mukund-chari" target="_blank" rel="noopener">Mukund Chari</a><small>Assistant Professor, University of Colorado</small></span><span class="role">CU Boulder</span></li>
+          <li><span class="nm"><a href="https://www.colorado.edu/business/leeds-directory/faculty/ashton-hawk" target="_blank" rel="noopener">Ashton Hawk</a><small>Associate Professor, University of Colorado</small></span><span class="role">CU Boulder</span></li>
+          <li><span class="nm"><a href="https://discovery.nus.edu.sg/7073-kenneth-guanglih-huang" target="_blank" rel="noopener">Kenneth Huang</a><small>Professor, National University of Singapore</small></span><span class="role">NUS</span></li>
+          <li><span class="nm"><a href="https://www.insead.edu/faculty/aldona-kapacinskaite" target="_blank" rel="noopener">Aldona Kapacinskaite</a><small>Assistant Professor, INSEAD</small></span><span class="role">INSEAD</span></li>
+          <li><span class="nm"><a href="https://carey.jhu.edu/faculty/faculty-directory/wesley-w-koo-phd" target="_blank" rel="noopener">Wesley Koo</a><small>Assistant Professor, Johns Hopkins University</small></span><span class="role">JHU Carey</span></li>
+          <li><span class="nm"><a href="https://sc.edu/study/colleges_schools/moore/directory/magelssen_catherine.php" target="_blank" rel="noopener">Catherine Magelssen</a><small>Assistant Professor, University of South Carolina</small></span><span class="role">UofSC</span></li>
+          <li><span class="nm"><a href="https://whitman.syracuse.edu/faculty-and-research/faculty-staff-directory/amahalin" target="_blank" rel="noopener">Anparasan Mahalingam</a><small>Assistant Professor, Syracuse University</small></span><span class="role">Syracuse</span></li>
+          <li><span class="nm"><a href="https://investigadores.uandes.cl/en/persons/francisco-javier-morales-flores/" target="_blank" rel="noopener">Francisco Morales</a><small>Assistant Professor, Universidad de los Andes</small></span><span class="role">Uniandes</span></li>
+          <li><span class="nm"><a href="https://www.colorado.edu/business/leeds-directory/faculty/ethan-poskanzer" target="_blank" rel="noopener">Ethan Poskanzer</a><small>Assistant Professor, University of Colorado</small></span><span class="role">CU Boulder</span></li>
+          <li><span class="nm"><a href="https://www.mccombs.utexas.edu/faculty-and-research/faculty-directory/profile/?username=ms95944" target="_blank" rel="noopener">Metin Sengul</a><small>Professor, University of Texas at Austin</small></span><span class="role">UT Austin</span></li>
+          <li><span class="nm"><a href="https://www.colorado.edu/business/leeds-directory/faculty/sina-k-sokhan" target="_blank" rel="noopener">Sina Sokhan</a><small>Assistant Professor, University of Colorado</small></span><span class="role">CU Boulder</span></li>
+          <li><span class="nm"><a href="https://www.bu.edu/questrom/profiles/shirley-tang/" target="_blank" rel="noopener">Shirley Tang</a><small>Assistant Professor, Boston University</small></span><span class="role">BU Questrom</span></li>
+          <li><span class="nm"><a href="https://www.colorado.edu/business/leeds-directory/faculty/tony-tong" target="_blank" rel="noopener">Tony Tong</a><small>Professor, University of Colorado</small></span><span class="role">CU Boulder</span></li>
+          <li><span class="nm"><a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=871877" target="_blank" rel="noopener">Andy Wu</a><small>Associate Professor, Harvard University</small></span><span class="role">HBS</span></li>
+          <li><span class="nm"><a href="https://www.sem.tsinghua.edu.cn/en/info/1217/7246.htm" target="_blank" rel="noopener">Mingtao Xu</a><small>Associate Professor, Tsinghua University</small></span><span class="role">Tsinghua</span></li>
+          <li><span class="nm"><a href="https://www.colorado.edu/business/leeds-directory/faculty/mj-yang" target="_blank" rel="noopener">MJ Yang</a><small>Assistant Professor, University of Colorado</small></span><span class="role">CU Boulder</span></li>
+          <li><span class="nm"><a href="https://freeman.tulane.edu/node/497" target="_blank" rel="noopener">Yuchen Zhang</a><small>Associate Professor, Tulane University</small></span><span class="role">Tulane</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="leeds-host" style="padding: 64px 0; border-bottom: 1px solid var(--rule);">
+  <div class="container">
+    <div class="kicker">The host</div>
+    <h2 style="font-family: var(--serif); font-weight: 600; font-size: clamp(28px, 3.4vw, 44px); margin: 12px 0 28px; letter-spacing: -0.015em; line-height: 1.1;">About Leeds.</h2>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-top: 1px solid var(--rule); border-left: 1px solid var(--rule);">
+      <a href="https://www.colorado.edu/business/phd/phd-strategy-and-entrepreneurship" target="_blank" rel="noopener" style="display: block; padding: 32px; border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); background: var(--paper); text-decoration: none; color: inherit;">
+        <div style="font-family: var(--mono); font-size: 11px; letter-spacing: .08em; color: var(--gold-deep); margin-bottom: 12px;">DOCTORAL PROGRAM</div>
+        <h3 style="font-family: var(--serif); font-weight: 600; font-size: 26px; line-height: 1.2; letter-spacing: -0.01em; margin: 0 0 12px;">PhD in Strategy &amp; Entrepreneurship</h3>
+        <p style="font-family: var(--serif); font-size: 16px; line-height: 1.55; color: var(--ink-2); margin: 0 0 16px;">A small, research-intensive program that places its graduates at top business schools. Doctoral students work closely with faculty on questions in strategy, entrepreneurship, innovation, and organization theory.</p>
+        <span style="font-family: var(--mono); font-size: 11px; letter-spacing: .04em; color: var(--gold-deep); border-bottom: 1px dotted;">colorado.edu/business/phd →</span>
+      </a>
+      <a href="https://www.colorado.edu/business/faculty-research/directory/strategy-entrepreneurship-and-operations-faculty/strategy-and" target="_blank" rel="noopener" style="display: block; padding: 32px; border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); background: var(--paper); text-decoration: none; color: inherit;">
+        <div style="font-family: var(--mono); font-size: 11px; letter-spacing: .08em; color: var(--gold-deep); margin-bottom: 12px;">FACULTY</div>
+        <h3 style="font-family: var(--serif); font-weight: 600; font-size: 26px; line-height: 1.2; letter-spacing: -0.01em; margin: 0 0 12px;">Strategy &amp; Entrepreneurship Faculty</h3>
+        <p style="font-family: var(--serif); font-size: 16px; line-height: 1.55; color: var(--ink-2); margin: 0 0 16px;">Our faculty publish in <em>AMJ</em>, <em>AMR</em>, <em>ASQ</em>, <em>Management Science</em>, <em>Organization Science</em>, <em>SMJ</em>, and <em>Strategy Science</em>, and study topics ranging from strategy and innovation to entrepreneurship and sustainability.</p>
+        <span style="font-family: var(--mono); font-size: 11px; letter-spacing: .04em; color: var(--gold-deep); border-bottom: 1px dotted;">Faculty directory →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="editors">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <div class="kicker">The journal</div>
+        <h2>About <em>Strategy Science</em>.</h2>
+      </div>
+      <div>
+        <p><em>Strategy Science</em> is published by INFORMS as the field's premier outlet for ambitious, foundational research on strategy. The journal welcomes work that is theoretically grounded, methodologically rigorous, and willing to take on the central questions of how firms create and sustain value – across competitive, organizational, and institutional levels of analysis.</p>
+        <p>The conference is the journal's annual community gathering. The Editor-in-Chief and senior editorial board attend; many papers presented here move into the journal's review pipeline in the months that follow.</p>
+        <p style="margin-top: 18px;"><a href="https://pubsonline.informs.org/journal/stsc" target="_blank" rel="noopener" style="border-bottom: 1px dotted; color: var(--gold-deep); font-family: var(--mono); font-size: 12px; letter-spacing: 0.02em;">Visit the journal at INFORMS →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <div class="kicker">Get in touch</div>
+        <h2>Questions about the program, your travel, or the doctoral workshop?</h2>
+        
+      </div>
+      <dl class="ct">
+        <dt>General</dt>
+        <dd><a href="mailto:strategyscience2026@colorado.edu">strategyscience2026@colorado.edu</a></dd>
+        <dt>Doctoral Workshop</dt>
+        <dd><a href="mailto:akaul@umn.edu">akaul@umn.edu</a> &nbsp;·&nbsp; <a href="mailto:moeen@wisc.edu">moeen@wisc.edu</a></dd>
+        <dt>Mail</dt>
+        <dd>Leeds School of Business<br/>Koelbel Building · 995 Regent Drive<br/>419 UCB · Boulder, CO 80309-0419 · USA</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="row">
+    <div><h4>Strategy Science 2026</h4><p style="margin:0;line-height:1.6;color:#C8C4BA;font-size:13px;">Hosted by the Leeds School of Business at CU Boulder, May 28–30, 2026.</p><p style="margin:18px 0 0;font-family:var(--mono);font-size:11px;letter-spacing: 0.02em;color:#888377;">strategyscience2026@colorado.edu</p></div>
+    <div><h4>Site</h4><a href="index.html">Overview</a><a href="program.html">Program</a><a href="sessions.html">Sessions</a><a href="venue.html">Venue</a><a href="about.html">About</a></div>
+    <div><h4>Submit</h4><a href="https://leeds.qualtrics.com/jfe/form/SV_2to934N37sCU7pc" target="_blank" rel="noopener">Paper submission</a><a href="https://leeds.qualtrics.com/jfe/form/SV_8ui891OL9bMyaFM" target="_blank" rel="noopener">Doctoral Workshop</a></div>
+    <div><h4>Boulder</h4><a href="https://maps.app.goo.gl/HCq3mvZSEbhsxrTs7" target="_blank" rel="noopener">Map</a><a href="venue.html#hotels">Hotels</a><a href="venue.html#travel">Getting here</a></div>
+  </div>
+  <div class="container"><div class="credit"><span>© 2026 Regents of the University of Colorado</span><span>Set in Source Serif 4 &amp; Source Sans 3</span></div></div>
+</footer>
+
+</body>
+</html>

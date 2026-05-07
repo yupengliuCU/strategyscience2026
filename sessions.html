@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sessions – Strategy Science 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700;8..60,400&family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/site.css" />
+<style>
+  .sx-head { padding: 56px 0 36px; border-bottom: 1px solid var(--rule); }
+  .sx-head h2 { font-family: var(--serif); font-weight: 600; font-size: clamp(36px, 4.5vw, 56px); line-height: 1.04; letter-spacing: -0.02em; margin: 14px 0 12px; }
+  .sx-head p { font-family: var(--serif); font-size: 17px; color: var(--ink-2); max-width: 70ch; margin: 0; }
+  .ses-list {
+    border-top: 1px solid var(--rule);
+    margin: 36px 0 56px;
+  }
+  .ses-row {
+    display: grid;
+    grid-template-columns: 130px 1fr 240px 80px;
+    gap: 32px;
+    padding: 26px 0;
+    border-bottom: 1px solid var(--rule);
+    align-items: baseline;
+    transition: background .12s ease;
+  }
+  .ses-row:hover { background: #F1ECDD; }
+  .ses-row .id {
+    font-family: var(--mono); font-size: 13px; color: var(--gold-deep); letter-spacing: 0.02em;
+  }
+  .ses-row .id .lo { display:block; color:var(--ink-3); font-size:11px; margin-top:6px; letter-spacing: 0.02em; }
+  .ses-row .ti { font-family: var(--serif); font-weight: 600; font-size: 24px; line-height: 1.18; letter-spacing: -0.012em; }
+  .ses-row .ti a:hover { color: var(--gold-deep); }
+  .ses-row .ti .desc { display: block; font-family: var(--sans); font-weight: 400; font-size: 14px; color: var(--ink-2); line-height: 1.5; margin-top: 8px; max-width: 64ch; }
+  .ses-row .where {
+    font-family: var(--mono); font-size: 12px; color: var(--ink-2); letter-spacing: .04em;
+  }
+  .ses-row .where .b { color: var(--ink); display: block; margin-bottom: 3px; font-size: 13px; }
+  .ses-row .ct { font-family: var(--mono); font-size: 12px; color: var(--ink-3); text-align: right; letter-spacing: .06em; }
+  @media (max-width: 800px) {
+    .ses-row { grid-template-columns: 1fr; gap: 6px; }
+    .ses-row .where, .ses-row .ct { text-align: left; }
+  }
+</style>
+</head>
+<body>
+
+<div class="cu-bar"><div class="row"><div class="brand"><a href="https://www.colorado.edu/" target="_blank" rel="noopener" class="cu-logo"><img src="assets/cu-boulder-lockup-rev.png" alt="University of Colorado Boulder" /></a></div><nav><a href="https://www.colorado.edu/business/" target="_blank" rel="noopener">Leeds.colorado.edu</a><a href="mailto:strategyscience2026@colorado.edu">Contact</a></nav></div></div>
+<header class="site-header">
+  <div class="row">
+    <a href="https://www.colorado.edu/business/" target="_blank" rel="noopener" class="leeds-mark"><img src="assets/leeds-lockup.png" alt="Leeds School of Business – University of Colorado Boulder" /></a>
+    <div class="lockup"><div class="eyebrow">9th Annual Conference · Sponsored by Strategy Science (INFORMS)</div><h1><a href="index.html">Strategy Science 2026</a></h1></div><div class="meta"><span><span class="dot"></span> May 28–30, 2026</span><span>Boulder, Colorado</span><span>Leeds School of Business</span></div></div></header>
+<nav class="primary-nav"><div class="row"><a href="index.html"><span class="num">01</span> Overview</a><a href="program.html"><span class="num">02</span> Program</a><a href="sessions.html" aria-current="page"><span class="num">03</span> Sessions</a><a href="venue.html"><span class="num">04</span> Venue &amp; Travel</a><a href="about.html"><span class="num">05</span> About</a></div></nav>
+
+<section class="sx-head">
+  <div class="container">
+    <div class="kicker">All Sessions</div>
+    <h2>Twenty parallel sessions across two days.</h2>
+    <p>Each session runs 90 minutes and contains four to five papers around a shared theme. Session chairs will be announced. Return to the <a href="program.html" style="border-bottom:1px dotted;">matrix view</a> for time-of-day layout.</p>
+  </div>
+</section>
+
+<section class="container">
+  <div class="ses-list" id="sesList"></div>
+</section>
+
+<footer class="site-footer">
+  <div class="row">
+    <div><h4>Strategy Science 2026</h4><p style="margin:0;line-height:1.6;color:#C8C4BA;font-size:13px;">Hosted by the Leeds School of Business at CU Boulder, May 28–30, 2026.</p><p style="margin:18px 0 0;font-family:var(--mono);font-size:11px;letter-spacing: 0.02em;color:#888377;">strategyscience2026@colorado.edu</p></div>
+    <div><h4>Site</h4><a href="index.html">Overview</a><a href="program.html">Program</a><a href="sessions.html">Sessions</a><a href="venue.html">Venue</a><a href="about.html">About</a></div>
+    <div><h4>Submit</h4><a href="https://leeds.qualtrics.com/jfe/form/SV_2to934N37sCU7pc" target="_blank" rel="noopener">Paper submission</a><a href="https://leeds.qualtrics.com/jfe/form/SV_8ui891OL9bMyaFM" target="_blank" rel="noopener">Doctoral Workshop</a></div>
+    <div><h4>Boulder</h4><a href="https://maps.app.goo.gl/HCq3mvZSEbhsxrTs7" target="_blank" rel="noopener">Map</a><a href="venue.html#hotels">Hotels</a><a href="venue.html#travel">Getting here</a></div>
+  </div>
+  <div class="container"><div class="credit"><span>© 2026 Regents of the University of Colorado</span><span>Set in Source Serif 4 &amp; Source Sans 3</span></div></div>
+</footer>
+
+<script>
+const ROOMS = ['ECCS 201', 'KOBL 352', 'KOBL 323', 'KOBL 317'];
+const META = [
+  {n:1, day:'Friday', time:'9:30 – 11:00 AM'},
+  {n:2, day:'Friday', time:'2:00 – 3:30 PM'},
+  {n:3, day:'Friday', time:'4:00 – 5:30 PM'},
+  {n:4, day:'Saturday', time:'9:00 – 10:30 AM'},
+  {n:5, day:'Saturday', time:'11:00 – 12:30 PM'}
+];
+function esc(s){return String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+fetch('data/program.json').then(r=>r.json()).then(d=>{
+  const list = d.sessions.slice().sort((a,b)=> a.period - b.period || a.track - b.track);
+  document.getElementById('sesList').innerHTML = list.map(s=>{
+    const m = META[s.period-1];
+    return `<a class="ses-row" href="session.html?id=${s.id}">
+      <div class="id">S${s.period}${'ABCD'[s.track-1]}</div>
+      <div class="ti">${esc(s.theme)}<span class="desc">${esc(s.description)}</span></div>
+      <div class="where"><span class="b">${ROOMS[s.track-1]}</span>${m.day} · ${m.time}</div>
+      <div class="ct">${s.paperCount} papers →</div>
+    </a>`;
+  }).join('');
+});
+</script>
+</body>
+</html>

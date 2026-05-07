@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Strategy Science 2026 – Boulder, Colorado</title>
+<meta name="description" content="The 9th Annual Strategy Science Conference, hosted by the Leeds School of Business at the University of Colorado Boulder. May 28–30, 2026." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/site.css" />
+<style data-page="home">
+  /* –– Hero –– */
+  .hero {
+    border-bottom: 1px solid var(--rule);
+    padding: 56px 0 64px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero .grid {
+    display: grid;
+    grid-template-columns: 1.55fr 1fr;
+    gap: 64px;
+    align-items: end;
+  }
+  @media (max-width: 920px) { .hero .grid { grid-template-columns: 1fr; gap: 36px; } }
+  .hero h2 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: clamp(40px, 6vw, 88px);
+    line-height: 0.96;
+    letter-spacing: -0.025em;
+    margin: 22px 0 0;
+  }
+  .hero h2 em {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--gold-deep);
+  }
+  .hero .runner {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 22px;
+    row-gap: 14px;
+    border-top: 1px solid var(--rule);
+    padding-top: 22px;
+    margin-top: 36px;
+    font-size: 14px;
+  }
+  .hero .runner dt {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em; color: var(--ink-3);
+    padding-top: 3px;
+  }
+  .hero .runner dd { margin: 0; font-family: var(--serif); font-size: 18px; }
+  .hero .runner dd small { display:block; font-family: var(--sans); font-size: 13px; color: var(--ink-3); margin-top: 2px; }
+  .hero-aside {
+    border: 1px solid var(--ink);
+    padding: 28px;
+    background: var(--paper);
+    position: relative;
+  }
+  .hero-aside .stamp {
+    position: absolute; top: -1px; right: -1px;
+    background: var(--gold); color: var(--ink);
+    padding: 7px 12px;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em;
+  }
+  .hero-aside h3 {
+    font-family: var(--serif); font-weight: 600; font-size: 22px; margin: 8px 0 4px;
+  }
+  .hero-aside p { color: var(--ink-2); font-size: 14px; line-height: 1.55; }
+  .hero-aside .actions { display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
+  .hero-aside .actions .btn { padding: 10px 16px; font-size: 12px; }
+
+  /* corner ornament */
+  .hero::before {
+    content: "ISSN 2333-2050 · Vol IX";
+    position: absolute;
+    top: 22px; right: 32px;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em;
+    color: var(--ink-3);
+  }
+
+  /* –– At-a-glance strip –– */
+  .glance {
+    border-bottom: 1px solid var(--rule);
+    padding: 40px 0;
+  }
+  .glance .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+  }
+  @media (max-width: 1000px) { .glance .row { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 800px) { .glance .row { grid-template-columns: repeat(2, 1fr); } }
+  .glance .stat {
+    padding: 8px 24px 8px 0;
+    border-left: 1px solid var(--rule);
+    padding-left: 24px;
+  }
+  .glance .stat:first-child { border-left: none; padding-left: 0; }
+  .glance .stat .num {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .glance .stat .num sup {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--gold-deep);
+    margin-left: 4px;
+    vertical-align: super;
+  }
+  .glance .stat .num .unit {
+    font-family: var(--mono); font-size: 14px; font-weight: 400;
+    color: var(--ink-3); letter-spacing: 0.02em; vertical-align: 0.4em;
+  }
+  .glance .stat .lbl {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em;
+    color: var(--ink-3); margin-top: 8px;
+  }
+  .glance .stat p { font-size: 13px; color: var(--ink-2); line-height: 1.5; margin: 4px 0 0; max-width: 24ch; }
+
+  /* –– Welcome letter + side card –– */
+  .letter {
+    padding: 80px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .letter .grid {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 0.9fr;
+    gap: 56px;
+    align-items: start;
+  }
+  @media (max-width: 1000px) { .letter .grid { grid-template-columns: 1fr; gap: 28px; } }
+  .letter .lede {
+    font-family: var(--serif);
+    font-size: 22px;
+    line-height: 1.35;
+    color: var(--ink);
+  }
+  .letter .lede:first-letter {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 0.85;
+    float: left;
+    padding: 6px 10px 0 0;
+    color: var(--gold-deep);
+  }
+  .letter .body p { font-family: var(--serif); font-size: 17px; line-height: 1.65; color: var(--ink-2); margin: 0 0 16px; }
+  .letter .signoff { margin-top: 22px; }
+  .letter .signoff .nm { font-family: var(--serif); font-style: italic; font-size: 18px; }
+  .letter .signoff .role { font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em; color: var(--ink-3); }
+  .letter .side {
+    border-top: 1px solid var(--ink);
+    padding-top: 14px;
+  }
+  .letter .side h4 {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em; color: var(--ink-3);
+    margin: 0 0 12px;
+  }
+  .letter .side .item {
+    border-bottom: 1px solid var(--rule-soft);
+    padding: 14px 0;
+    display: grid; grid-template-columns: max-content 1fr; gap: 14px;
+  }
+  .letter .side .item .d {
+    font-family: var(--mono); font-size: 12px; color: var(--gold-deep); padding-top: 2px; min-width: 70px;
+  }
+  .letter .side .item .t { font-family: var(--serif); font-size: 16px; line-height: 1.35; }
+  .letter .side .item .t small { display:block; font-family: var(--sans); font-size: 12px; color: var(--ink-3); margin-top: 2px; }
+
+  /* –– Day timeline strip –– */
+  .timeline {
+    padding: 36px 0 8px;
+  }
+  .timeline .head {
+    display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end;
+    padding-bottom: 16px; border-bottom: 1px solid var(--rule); margin-bottom: 18px;
+  }
+  .timeline .head p { color: var(--ink-2); margin: 0; max-width: 56ch; }
+  .days {
+    display: grid; grid-template-columns: 1.25fr 1.05fr 0.95fr; gap: 0;
+    border-left: 1px solid var(--rule);
+  }
+  @media (max-width: 1000px) { .days { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 800px) { .days { grid-template-columns: 1fr; } }
+  .day-col {
+    border-right: 1px solid var(--rule);
+    border-top: 1px solid var(--rule);
+    min-width: 0;
+    border-bottom: 1px solid var(--rule);
+    padding: 18px 22px 22px;
+  }
+  .day-col h4 {
+    margin: 0 0 14px;
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em; color: var(--ink-3); text-transform: uppercase;
+    display: flex; flex-direction: column; gap: 4px;
+  }
+  .day-col h4 .big { font-family: var(--serif); font-size: 22px; font-weight: 600; letter-spacing: -0.01em; color: var(--ink); text-transform: none; }
+  .day-col h4 .tag { color: var(--gold-deep); font-size: 10px; letter-spacing: .14em; }
+  .day-col .item {
+    display: grid; grid-template-columns: 78px minmax(0, 1fr) auto; gap: 12px;
+    padding: 9px 0;
+    border-top: 1px dotted var(--rule);
+    align-items: start;
+    align-items: baseline;
+  }
+  .day-col .item:first-of-type { border-top: 0; }
+  .day-col .item .t { font-family: var(--mono); font-size: 10.5px; color: var(--ink); letter-spacing: .02em; line-height: 1.5; white-space: nowrap; }
+  .day-col .item .t .to { display: block; color: var(--ink-3); }
+  .day-col .item .lbl { font-family: var(--serif); font-size: 14.5px; color: var(--ink-2); line-height: 1.28; text-wrap: pretty; }
+  .day-col .item.session .lbl { color: var(--ink); font-weight: 600; }
+  .day-col .item.session .lbl a { color: var(--gold-deep); border-bottom: 1px dotted; }
+  .day-col .item .rm { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); letter-spacing: 0.04em; white-space: nowrap; }
+  .day-col .lbl details.info { display: inline; }
+  .day-col .lbl details.info > summary {
+    list-style: none;
+    cursor: pointer;
+    color: var(--gold-deep);
+    border-bottom: 1px dotted var(--gold-deep);
+    display: inline;
+  }
+  .day-col .lbl details.info > summary::-webkit-details-marker { display: none; }
+  .day-col .lbl details.info .info-body {
+    display: block;
+    margin-top: 6px;
+    padding: 10px 12px;
+    background: var(--paper-2);
+    border-left: 2px solid var(--gold);
+    font-family: var(--sans);
+    font-size: 12px;
+    color: var(--ink-2);
+    line-height: 1.55;
+  }
+  .day-col .lbl details.info .info-body b {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink);
+    margin-right: 8px;
+    margin-top: 4px;
+    font-weight: 600;
+  }
+  .day-col .lbl details.info .info-body b:first-child { margin-top: 0; }
+
+  /* –– Schedule matrix on home –– */
+  .schedule-home {
+    padding: 36px 0 64px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .schedule-home .head {
+    display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end;
+    padding-bottom: 18px; border-bottom: 1px solid var(--rule); margin-bottom: 0;
+  }
+  .schedule-home .head p { color: var(--ink-2); margin: 0; max-width: 60ch; }
+  .matrix-wrap { padding: 24px 0 8px; overflow-x: auto; }
+  .matrix {
+    display: grid;
+    grid-template-columns: 160px repeat(4, minmax(0, 1fr));
+    border-top: 2px solid var(--ink);
+    border-left: 1px solid var(--rule);
+    min-width: 920px;
+  }
+  .m-cell { overflow-wrap: anywhere; min-width: 0; }
+  .session-card .ti, .session-card .desc, .session-card .pp { overflow-wrap: anywhere; }
+  .m-cell {
+    border-right: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 14px;
+    display: flex; flex-direction: column; gap: 6px;
+    min-height: 200px;
+    position: relative;
+  }
+  .m-head { background: var(--paper); border-bottom: 1px solid var(--ink); padding: 16px; }
+  .m-head .room { font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em; color: var(--gold-deep); }
+  .m-head .building { font-family: var(--serif); font-weight: 600; font-size: 18px; line-height: 1.1; margin-top: 2px; }
+  .m-head .cap { font-family: var(--mono); font-size: 11px; color: var(--ink-3); margin-top: 4px; letter-spacing: 0.06em; }
+  .m-rowhead {
+    background: var(--paper-2);
+    border-right: 1px solid var(--ink);
+    padding: 16px 14px;
+    display: flex; flex-direction: column; gap: 6px;
+  }
+  .m-rowhead .sn { font-family: var(--serif); font-weight: 600; font-size: 22px; letter-spacing: -0.01em; }
+  .m-rowhead .ti { font-family: var(--mono); font-size: 11px; color: var(--ink-2); letter-spacing: .06em; }
+  .m-rowhead .day { font-family: var(--mono); font-size: 10px; color: var(--gold-deep); letter-spacing: 0.02em; }
+  .session-card {
+    cursor: pointer;
+    transition: background .12s ease;
+    text-decoration: none; color: inherit;
+  }
+  .session-card:hover { background: #F1ECDD; }
+  .session-card .id {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em; color: var(--gold-deep);
+  }
+  .session-card .ti {
+    font-family: var(--serif); font-weight: 600; font-size: 16px; line-height: 1.2; letter-spacing: -0.005em; color: var(--ink);
+  }
+  .session-card .papers-list {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dotted var(--rule);
+    display: flex; flex-direction: column; gap: 8px;
+    flex: 1;
+  }
+  .session-card .papers-list .pp {
+    font-size: 12px; line-height: 1.35;
+  }
+  .session-card .papers-list .pp .pti {
+    font-family: var(--serif); color: var(--ink); font-style: italic;
+  }
+  .session-card .papers-list .pp .pau {
+    color: var(--ink-3); display: block; font-size: 11px; margin-top: 1px;
+  }
+  .session-card .ct {
+    font-family: var(--mono); font-size: 10px; color: var(--ink-2); letter-spacing: .1em;
+    border-top: 1px dotted var(--rule); padding-top: 6px; margin-top: 8px;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .matrix-foot {
+    margin: 14px 0 0; font-family: var(--mono); font-size: 11px; letter-spacing: .1em; color: var(--ink-3);
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+  }
+  .matrix-foot a { color: var(--gold-deep); border-bottom: 1px dotted; }
+
+  /* –– Logos / sponsors –– */
+  .sponsors {
+    padding: 56px 0 64px;
+  }
+  .sponsors .head { text-align: center; margin-bottom: 28px; }
+  .sponsors .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    align-items: stretch;
+    max-width: 880px;
+    margin: 0 auto;
+  }
+  @media (max-width: 700px) { .sponsors .row { grid-template-columns: 1fr; } }
+  .sponsor {
+    display: block;
+    border: 1px solid var(--rule);
+    padding: 32px 24px;
+    text-align: center;
+    background: var(--paper);
+    color: inherit;
+    text-decoration: none;
+    transition: border-color .15s ease, transform .15s ease, background .15s ease;
+  }
+  .sponsor:hover {
+    border-color: var(--gold-deep);
+    background: #FBF7EE;
+  }
+  .sponsor .lockup {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -0.01em;
+    line-height: 1.1;
+  }
+  .sponsor .lockup span { color: var(--gold-deep); display: block; font-style: italic; font-weight: 400; font-size: 14px; margin-top: 4px; }
+  .sponsor .sub {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em; color: var(--ink-3);
+    margin-top: 10px;
+  }
+
+  /* –– Closing CTA –– */
+  .cta {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 64px 0 64px;
+    margin-bottom: 0;
+  }
+  .cta .grid {
+    display: grid; grid-template-columns: 1.4fr 1fr; gap: 40px; align-items: center;
+  }
+  @media (max-width: 800px) { .cta .grid { grid-template-columns: 1fr; } }
+  .cta h2 {
+    font-family: var(--serif); font-weight: 600; font-size: clamp(28px, 4vw, 44px); margin: 0; line-height: 1.1;
+  }
+  .cta p { color: #C8C4BA; max-width: 56ch; }
+  .cta .btn { background: var(--gold); border-color: var(--gold); color: #000; }
+  .cta .btn:hover { background: #fff; border-color: #fff; color: #000; }
+  .cta .btn.ghost { background: transparent; border-color: #C8C4BA; color: #fff; }
+  .cta .btn.ghost:hover { background: #fff; color: #000; border-color: #fff; }
+
+</style>
+</head>
+<body>
+
+<!-- CU-style top bar -->
+<div class="cu-bar">
+  <div class="row">
+    <div class="brand"><a href="https://www.colorado.edu/" target="_blank" rel="noopener" class="cu-logo"><img src="assets/cu-boulder-lockup-rev.png" alt="University of Colorado Boulder" /></a></div>
+    <nav>
+      <a href="https://www.colorado.edu/business/" target="_blank" rel="noopener">Leeds.colorado.edu</a>
+      <a href="mailto:strategyscience2026@colorado.edu">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- Site header -->
+<header class="site-header">
+  <div class="row">
+    <a href="https://www.colorado.edu/business/" target="_blank" rel="noopener" class="leeds-mark"><img src="assets/leeds-lockup.png" alt="Leeds School of Business – University of Colorado Boulder" /></a>
+    <div class="lockup">
+      <div class="eyebrow">9th Annual Conference · Sponsored by Strategy Science (INFORMS)</div>
+      <h1><a href="index.html">Strategy Science 2026</a></h1>
+    </div>
+    <div class="meta">
+      <span><span class="dot"></span> May 28–30, 2026</span>
+      <span>Boulder, Colorado</span>
+    </div>
+  </div>
+</header>
+
+<nav class="primary-nav">
+  <div class="row">
+    <a href="index.html" aria-current="page"><span class="num">01</span> Overview</a>
+    <a href="program.html"><span class="num">02</span> Program</a>
+    <a href="sessions.html"><span class="num">03</span> Sessions</a>
+    <a href="venue.html"><span class="num">04</span> Venue &amp; Travel</a>
+    <a href="about.html"><span class="num">05</span> About</a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <div class="kicker">Vol. IX · Boulder Edition</div>
+        <h2>Two days of <em style="white-space:nowrap;">Strategy Science</em> in the Rocky Mountains.</h2>
+        <dl class="runner">
+          <dt>Dates</dt>
+          <dd>May 28 – 30, 2026<small>Doctoral Workshop Thu May 28; Main Conference Fri May 29 &amp; Sat May 30.</small></dd>
+          <dt>Place</dt>
+          <dd>Leeds School of Business, CU Boulder<small>Koelbel Building · 995 Regent Drive · Boulder, CO 80309</small></dd>
+          <dt>Program</dt>
+          <dd>20 thematic sessions · 90 papers · 2 plenaries<small>Across four parallel rooms in the Koelbel and Engineering buildings.</small></dd>
+        </dl>
+      </div>
+      <aside class="hero-aside">
+        <div class="stamp">Program</div>
+        <div class="kicker" style="margin-bottom: 18px;">At a glance</div>
+        <h3>20 sessions · 90 papers · 2 plenaries</h3>
+        <p>Two full days organized around five session blocks across four parallel rooms in the Koelbel and Engineering buildings.</p>
+        <div class="actions">
+          <a class="btn" href="#sched">See full schedule <span class="arr">↓</span></a>
+          <a class="btn ghost" href="program.html">Search papers</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- Glance -->
+<section class="glance">
+  <div class="container">
+    <div class="row">
+      <div class="stat">
+        <div class="num">9<sup>th</sup></div>
+        <div class="lbl">Annual edition</div>
+        <p>Following IESE Barcelona in 2025, the conference returns to North America.</p>
+      </div>
+      <div class="stat">
+        <div class="num">90</div>
+        <div class="lbl">Accepted papers</div>
+        <p>Reviewed and selected by our <a href="about.html#scientific-committee" style="border-bottom:1px dotted;color:var(--gold-deep);">19-member scientific committee</a>.</p>
+      </div>
+      <div class="stat">
+        <div class="num">20</div>
+        <div class="lbl">Thematic sessions</div>
+        <p>Five sessions × four parallel rooms.</p>
+      </div>
+      <div class="stat">
+        <div class="num">5,430<span class="unit">&thinsp;ft</span></div>
+        <div class="lbl">Mile-high thinking</div>
+        <p>Bring layers and water; the foothills meet the plains in late May.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Day timeline -->
+<section class="timeline">
+  <div class="container">
+    <div class="head">
+      <div>
+        <div class="kicker">The Program</div>
+        <h2 class="section-title">Two days, at a glance.</h2>
+      </div>
+    </div>
+    <div class="days">
+      <div class="day-col">
+        <h4><span class="big">Thursday · May 28</span><span class="tag">Doctoral Workshop · KOBL 352</span></h4>
+        <div class="item"><span class="t">8:00 AM<span class="to">9:00 AM</span></span><span class="lbl">Breakfast &amp; Registration</span><span class="rm">KOBL 352</span></div>
+        <div class="item"><span class="t">9:00 AM<span class="to">9:15 AM</span></span><span class="lbl"><details class="info"><summary>Welcome &amp; Introduction</summary><div class="info-body"><b>Hosts</b> Tony Tong (CU Boulder) · Todd Zenger (Utah) · Aseem Kaul (Minnesota) · Mahka Moeen (Wisconsin)</div></details></span><span class="rm">KOBL 352</span></div>
+        <div class="item"><span class="t">9:15 AM<span class="to">10:15 AM</span></span><span class="lbl">Plenary 1 · PhD Essentials</span><span class="rm">KOBL 352</span></div>
+        <div class="item"><span class="t">10:30 AM<span class="to">11:30 AM</span></span><span class="lbl">Roundtable 1</span><span class="rm">Discussion rooms</span></div>
+        <div class="item"><span class="t">11:45 AM<span class="to">1:00 PM</span></span><span class="lbl">Lunch</span><span class="rm">KOBL 352</span></div>
+        <div class="item"><span class="t">1:00 PM<span class="to">2:00 PM</span></span><span class="lbl">Plenary 2 · Path to Publications</span><span class="rm">KOBL 352</span></div>
+        <div class="item"><span class="t">2:15 PM<span class="to">3:15 PM</span></span><span class="lbl">Roundtable 2</span><span class="rm">Discussion rooms</span></div>
+        <div class="item"><span class="t">3:45 PM<span class="to">4:45 PM</span></span><span class="lbl">Plenary 3 · Student to Scholar</span><span class="rm">KOBL 352</span></div>
+        <div class="item"><span class="t">6:00 PM<span class="to">8:00 PM</span></span><span class="lbl">Welcome Reception</span><span class="rm">CU Koenig Alumni Center</span></div>
+      </div>
+      <div class="day-col">
+        <h4><span class="big">Friday · May 29</span><span class="tag">Day 1 · Sessions 1–3</span></h4>
+        <div class="item"><span class="t">8:00 AM<span class="to">9:30 AM</span></span><span class="lbl">Registration &amp; Breakfast</span><span class="rm">KOBL 352</span></div>
+        <div class="item"><span class="t">9:00 AM<span class="to">9:30 AM</span></span><span class="lbl"><details class="info"><summary>Welcome &amp; Introduction</summary><div class="info-body"><b>Hosts</b> Vijay Khatri (Dean, Leeds School of Business) · Tony Tong (CU Boulder) · Todd Zenger (Utah)</div></details></span><span class="rm">ECCS 201</span></div>
+        <div class="item session"><span class="t">9:30 AM<span class="to">11:00 AM</span></span><span class="lbl"><a href="#sched">Session 1</a></span><span class="rm">Rooms A – D</span></div>
+        <div class="item"><span class="t">11:00 AM<span class="to">11:30 AM</span></span><span class="lbl">Coffee Break</span><span class="rm">KOBL 352 area</span></div>
+        <div class="item"><span class="t">11:30 AM<span class="to">12:30 PM</span></span><span class="lbl"><details class="info"><summary>Plenary 1 · Future of the Profession</summary><div class="info-body"><b>Moderator</b>Janet Bercovitz (CU Boulder)<br><b>Panelists</b>Russ Coff (Wisconsin) · Kathleen Eisenhardt (Stanford) · Jackson Nickerson (WashU St. Louis) · Whitney Zimmerman (McKinsey &amp; Company)</div></details></span><span class="rm">ECCS 201</span></div>
+        <div class="item"><span class="t">12:45 PM<span class="to">1:45 PM</span></span><span class="lbl">Lunch</span><span class="rm">KOBL 352</span></div>
+        <div class="item session"><span class="t">2:00 PM<span class="to">3:30 PM</span></span><span class="lbl"><a href="#sched">Session 2</a></span><span class="rm">Rooms A – D</span></div>
+        <div class="item"><span class="t">3:30 PM<span class="to">4:00 PM</span></span><span class="lbl">Coffee Break</span><span class="rm">KOBL 352 area</span></div>
+        <div class="item session"><span class="t">4:00 PM<span class="to">5:30 PM</span></span><span class="lbl"><a href="#sched">Session 3</a></span><span class="rm">Rooms A – D</span></div>
+        <div class="item"><span class="t">6:30 PM<span class="to">7:00 PM</span></span><span class="lbl">Buses depart</span><span class="rm">Limelight Hotel</span></div>
+        <div class="item"><span class="t">7:00 PM<span class="to">9:30 PM</span></span><span class="lbl">Reception &amp; Dinner</span><span class="rm">Chautauqua Dining Hall</span></div>
+        <div class="item"><span class="t">9:00 PM<span class="to">9:30 PM</span></span><span class="lbl">Buses depart</span><span class="rm">Chautauqua Dining Hall</span></div>
+      </div>
+      <div class="day-col">
+        <h4><span class="big">Saturday · May 30</span><span class="tag">Day 2 · Sessions 4–5</span></h4>
+        <div class="item"><span class="t">8:00 AM<span class="to">9:00 AM</span></span><span class="lbl">Breakfast</span><span class="rm">KOBL 352</span></div>
+        <div class="item session"><span class="t">9:00 AM<span class="to">10:30 AM</span></span><span class="lbl"><a href="#sched">Session 4</a></span><span class="rm">Rooms A – D</span></div>
+        <div class="item"><span class="t">10:30 AM<span class="to">11:00 AM</span></span><span class="lbl">Coffee Break</span><span class="rm">KOBL 352 area</span></div>
+        <div class="item session"><span class="t">11:00 AM<span class="to">12:30 PM</span></span><span class="lbl"><a href="#sched">Session 5</a></span><span class="rm">Rooms A – D</span></div>
+        <div class="item"><span class="t">12:30 PM<span class="to">1:30 PM</span></span><span class="lbl">Boxed Lunch</span><span class="rm">KOBL 352</span></div>
+        <div class="item"><span class="t">1:30 PM<span class="to">2:30 PM</span></span><span class="lbl"><details class="info"><summary>Plenary 2 · Is Corporate Sustainability Sustainable?</summary><div class="info-body"><b>Moderator</b>Aseem Kaul (Minnesota)<br><b>Panelists</b>Jay Barney (Utah) · Jiao Luo (Minnesota) · Metin Sengul (UT Austin) · Jeff York (CU Boulder) · SJ Maxted (Deloitte)</div></details></span><span class="rm">ECCS 201</span></div>
+        <div class="item"><span class="t">2:30 PM<span class="to">3:00 PM</span></span><span class="lbl">Business Meeting (open to everyone)</span><span class="rm">ECCS 201</span></div>
+        <div class="item"><span class="t">3:00 PM</span><span class="lbl">Conference Ends</span><span class="rm">–</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Schedule matrix -->
+<section class="schedule-home" id="sched">
+  <div class="container">
+    <div class="head">
+      <div>
+        <div class="kicker">Schedule · 5 sessions × 4 parallel rooms</div>
+        <h2 class="section-title">Twenty sessions. Ninety papers.</h2>
+        <p>Every cell is a thematic session – click through for papers and authors.</p>
+      </div>
+      <a class="btn ghost" href="program.html">Filter &amp; search <span class="arr">→</span></a>
+    </div>
+    <div class="matrix-wrap">
+      <div class="matrix" id="matrix"></div>
+      <div class="matrix-foot">
+        <span>Cell labels read S<i>n</i>·<i>X</i> – five conference sessions × four rooms (A–D).</span>
+        <span><a href="program.html">Search papers by author or keyword →</a></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Plenaries -->
+<section class="plenaries" id="plenaries">
+  <style>
+    .plenaries { padding: 56px 0 72px; border-bottom: 1px solid var(--rule); background: var(--paper-2); }
+    .plenaries .head { padding-bottom: 18px; border-bottom: 1px solid var(--rule); margin-bottom: 28px; }
+    .pl-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .pl-card { padding: 28px 28px 32px; border-right: 1px solid var(--rule); }
+    .pl-card:last-child { border-right: 0; }
+    .pl-meta { font-family: var(--mono); font-size: 11px; letter-spacing: 0.04em; color: var(--ink-3); text-transform: uppercase; }
+    .pl-card h3 { font-family: var(--serif); font-weight: 600; margin: 8px 0 4px; font-size: 28px; line-height: 1.15; }
+    .pl-card .when { font-family: var(--mono); font-size: 12px; color: var(--ink-2); margin-bottom: 22px; }
+    .pl-row { display: grid; grid-template-columns: 110px 1fr; gap: 14px; padding: 12px 0; border-top: 1px solid var(--rule); }
+    .pl-row:first-of-type { border-top: 1px solid var(--ink); }
+    .pl-row .lab { font-family: var(--mono); font-size: 11px; letter-spacing: 0.04em; color: var(--ink-3); text-transform: uppercase; padding-top: 3px; }
+    .pl-row .who { font-family: var(--serif); font-size: 17px; line-height: 1.5; }
+    .pl-row .who .name { font-weight: 600; }
+    .pl-row .who .aff { color: var(--ink-2); }
+    @media (max-width: 800px) {
+      .pl-grid { grid-template-columns: 1fr; }
+      .pl-card { border-right: 0; border-bottom: 1px solid var(--rule); }
+      .pl-card:last-child { border-bottom: 0; }
+    }
+  </style>
+  <div class="container">
+    <div class="head">
+      <div class="kicker">Plenary sessions</div>
+      <h2 class="section-title">Two conversations that frame the program.</h2>
+    </div>
+    <div class="pl-grid">
+      <div class="pl-card">
+        <div class="pl-meta">Plenary 1 · ECCS 201</div>
+        <h3>Future of the Profession</h3>
+        <div class="when">Friday May 29 · 11:30 AM – 12:30 PM</div>
+        <div class="pl-row"><div class="lab">Moderator</div><div class="who"><span class="name">Janet Bercovitz</span> <span class="aff">University of Colorado</span></div></div>
+        <div class="pl-row"><div class="lab">Panelists</div><div class="who">
+          <div><span class="name">Russ Coff</span> <span class="aff">University of Wisconsin</span></div>
+          <div><span class="name">Kathleen Eisenhardt</span> <span class="aff">Stanford University</span></div>
+          <div><span class="name">Jackson Nickerson</span> <span class="aff">Washington University in St. Louis</span></div>
+          <div><span class="name">Whitney Zimmerman</span> <span class="aff">McKinsey &amp; Company</span></div>
+        </div></div>
+      </div>
+      <div class="pl-card">
+        <div class="pl-meta">Plenary 2 · ECCS 201</div>
+        <h3>Is Corporate Sustainability Sustainable?</h3>
+        <div class="when">Saturday May 30 · 1:30 – 2:30 PM</div>
+        <div class="pl-row"><div class="lab">Moderator</div><div class="who"><span class="name">Aseem Kaul</span> <span class="aff">University of Minnesota</span></div></div>
+        <div class="pl-row"><div class="lab">Panelists</div><div class="who">
+          <div><span class="name">Jay Barney</span> <span class="aff">University of Utah</span></div>
+          <div><span class="name">Jiao Luo</span> <span class="aff">University of Minnesota</span></div>
+          <div><span class="name">Metin Sengul</span> <span class="aff">University of Texas at Austin</span></div>
+          <div><span class="name">Jeff York</span> <span class="aff">University of Colorado</span></div>
+          <div><span class="name">SJ Maxted</span> <span class="aff">Deloitte</span></div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Welcome letter -->
+<section class="letter">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <div class="kicker">Welcome</div>
+        <h2 class="section-title" style="margin-top:14px;">From the<br/>local committee.</h2>
+      </div>
+      <div class="body">
+        <p class="lede">Strategy Science has, in just under a decade, established itself as an essential voice in our field – an outlet for innovative work that takes seriously the central questions of strategy.</p>
+        <p>This year's program reflects that ambition. Across two days you will see ninety papers organized around twenty themes that span what strategy scholars are working on right now: how AI is reshaping foresight and evaluation, what platforms do to competition, why human capital and place still matter, and where the boundary between the firm and the public sits today.</p>
+        <p>We hope you feel inspired and have a wonderful time in Boulder.</p>
+        <div class="signoff">
+          <div class="nm">Janet Bercovitz · Tony Tong · Jeff York</div>
+          <div class="role">Local Organizing Committee</div>
+        </div>
+      </div>
+      <aside class="side">
+        <h4>Important Dates</h4>
+        <div class="item">
+          <div class="d">Feb 1</div>
+          <div class="t">Submission deadline<small>Conference + Doctoral Workshop</small></div>
+        </div>
+        <div class="item">
+          <div class="d">Mar 1</div>
+          <div class="t">Acceptance notifications<small>Sent to all submitting authors</small></div>
+        </div>
+        <div class="item">
+          <div class="d">May 28</div>
+          <div class="t">Doctoral Workshop<small>Opening reception 6:00 PM</small><small>(open to all conference attendees)</small></div>
+        </div>
+        <div class="item">
+          <div class="d">May 29 – 30</div>
+          <div class="t">Main conference<small>Plenaries &amp; Parallel Sessions</small></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- Sponsors -->
+<section class="sponsors">
+  <div class="container">
+    <div class="head"><div class="kicker" style="justify-content:center;">Hosted &amp; supported by</div></div>
+    <div class="row">
+      <a class="sponsor" href="https://www.colorado.edu/business/" target="_blank" rel="noopener">
+        <div class="lockup">University of Colorado Boulder<span>Leeds School of Business · Host</span></div>
+        <div class="sub">Strategy, Entrepreneurship &amp; Operations Division</div>
+      </a>
+      <a class="sponsor" href="https://pubsonline.informs.org/journal/stsc" target="_blank" rel="noopener">
+        <div class="lockup">Strategy Science<span>INFORMS Journal · Co-sponsor</span></div>
+        <div class="sub">Editor-in-Chief: Todd Zenger</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Closing CTA -->
+<section class="cta">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <div class="kicker" style="color:var(--gold);">See you in May</div>
+        <h2>The full program is live. Plan your two days in Boulder.</h2>
+      </div>
+      <div style="display:flex; gap:12px; flex-wrap:wrap; justify-content:flex-end;">
+        <a class="btn" href="program.html">Open program</a>
+        <a class="btn ghost" href="venue.html">Venue &amp; travel</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="row">
+    <div>
+      <h4>Strategy Science 2026</h4>
+      <p style="margin:0; line-height:1.6; color:#C8C4BA; font-size:13px;">The 9th annual gathering of the Strategy Science community, hosted by the Leeds School of Business, University of Colorado Boulder, and co-sponsored by the journal <em>Strategy Science</em>.</p>
+      <p style="margin:18px 0 0; font-family: var(--mono); font-size: 11px; letter-spacing: 0.02em; color:#888377;">strategyscience2026@colorado.edu</p>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <a href="index.html">Overview</a>
+      <a href="program.html">Program</a>
+      <a href="sessions.html">Sessions</a>
+      <a href="venue.html">Venue &amp; Travel</a>
+      <a href="about.html">About</a>
+    </div>
+    <div>
+      <h4>Submit</h4>
+      <a href="https://leeds.qualtrics.com/jfe/form/SV_2to934N37sCU7pc" target="_blank" rel="noopener">Paper submission</a>
+      <a href="https://leeds.qualtrics.com/jfe/form/SV_8ui891OL9bMyaFM" target="_blank" rel="noopener">Doctoral Workshop</a>
+    </div>
+    <div>
+      <h4>Boulder</h4>
+      <a href="https://maps.app.goo.gl/HCq3mvZSEbhsxrTs7" target="_blank" rel="noopener">Koelbel Building (Map)</a>
+      <a href="venue.html#hotels">Hotel options</a>
+      <a href="venue.html#travel">Getting here</a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="credit">
+      <span>© 2026 Regents of the University of Colorado · All rights reserved</span>
+      <span>Site set in Source Serif 4 &amp; Source Sans 3</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Render the schedule matrix from data/program.json
+  const ROOMS = [
+    { code: 'A', label: 'ECCS 201', cap: '', note: 'Engineering Center · main hall' },
+    { code: 'B', label: 'KOBL 352', cap: '',  note: 'Koelbel Building' },
+    { code: 'C', label: 'KOBL 323', cap: '',  note: 'Koelbel Building' },
+    { code: 'D', label: 'KOBL 317', cap: '',  note: 'Koelbel Building' },
+  ];
+  const SMETA = [
+    { day: 'Friday',   time: '9:30 – 11:00 AM' },
+    { day: 'Friday',   time: '2:00 – 3:30 PM' },
+    { day: 'Friday',   time: '4:00 – 5:30 PM' },
+    { day: 'Saturday', time: '9:00 – 10:30 AM' },
+    { day: 'Saturday', time: '11:00 – 12:30 PM' },
+  ];
+  function escHTML(s){return String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+  fetch('data/program.json').then(r=>r.json()).then(data=>{
+    const m = document.getElementById('matrix');
+    if (!m) return;
+    let html = '';
+    html += `<div class="m-cell m-head" style="background: var(--paper-2);">
+      <div class="room" style="color: var(--ink-3);">Session</div>
+      <div class="building" style="font-size:14px;">Time · Day</div>
+    </div>`;
+    ROOMS.forEach(r => {
+      html += `<div class="m-cell m-head">
+        <div class="room">Room ${r.code}</div>
+        <div class="building">${r.label}</div>
+      </div>`;
+    });
+    for (let p = 1; p <= 5; p++) {
+      const meta = SMETA[p-1];
+      html += `<div class="m-cell m-rowhead">
+        <div class="day">Day ${meta.day === 'Saturday' ? '2' : '1'} · ${meta.day}</div>
+        <div class="sn">Session ${p}</div>
+        <div class="ti">${meta.time}</div>
+      </div>`;
+      for (let t = 1; t <= 4; t++) {
+        const sess = data.sessions.find(s => s.period === p && s.track === t);
+        if (sess) {
+          const ps = (data.papers && data.papers[sess.id]) || [];
+          const paperHTML = ps.map(pp => {
+            return `<div class="pp"><span class="pti">${escHTML(pp.title)}</span><span class="pau">${escHTML(pp.authors)}</span></div>`;
+          }).join('');
+          html += `<a class="m-cell session-card" href="session.html?id=${sess.id}">
+            <div class="id">S${p}${'ABCD'[t-1]} · ${ROOMS[t-1].label}</div>
+            <div class="ti">${escHTML(sess.theme)}</div>
+            <div class="papers-list">${paperHTML}</div>
+            <div class="ct"><span>${ps.length} papers · view session</span><span>→</span></div>
+          </a>`;
+        } else {
+          html += `<div class="m-cell" style="opacity:.4;"></div>`;
+        }
+      }
+    }
+    m.innerHTML = html;
+  }).catch(e => {
+    document.getElementById('matrix').innerHTML = '<div style="padding:24px;color:var(--ink-3);">Program data unavailable.</div>';
+  });
+</script>
+
+</body>
+</html>
