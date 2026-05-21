@@ -164,12 +164,13 @@
       "theme": "Global Strategy",
       "period": 2,
       "track": 3,
-      "paperCount": 4,
+      "paperCount": 5,
       "paperIds": [
         "P099",
         "P247",
         "P078",
-        "P119"
+        "P119",
+        "P093"
       ],
       "description": "MNE coordination under deglobalization, communication tech in R&D, political partisanship, and stigma in foreign markets."
     },
@@ -738,6 +739,14 @@
         "institution": "University of Illinois at Urbana-Champaign; Universidad Carlos III de Madrid",
         "keywords": "stigma, exit strategies, international conflict, foreign market  ",
         "abstract": "A socially approved geographic market may become suddenly stigmatized because of events external to organizations that operate in it. Companies will need to decide whether to stay or leave this market to mitigate stigmatization by association. We develop a theory explaining how companies make such a choice. We propose that organizations decide to exit the market when the perceived costs of stigmatization outweigh the benefits from staying. This perception is shaped not only by organizations‚Äô features but also by stigmatizers‚Äô characteristics. We find support to our theory in event-history analyses of multinationals‚Äô exit announcements in the context of the current Russia-Ukraine military conflict that has stigmatized the Russian market as a place for foreign businesses. "
+      },
+      {
+        "id": "P093",
+        "title": "Geopolitical Tension and Immigrant Inventor Employment: Evidence from the U.S.-China Conflict",
+        "authors": "Huiyan Zhang, Victor Cui, Anthea Zhang",
+        "institution": "Tsinghua University; University of Waterloo; Rice University",
+        "keywords": "Geopolitical tension; immigrant inventors; U.S.-China conflict; employment; innovation",
+        "abstract": ""
       }
     ],
     "S13": [
