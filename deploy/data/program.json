@@ -824,7 +824,7 @@
         "authors": "Shaoqin Tang",
         "institution": "",
         "keywords": "Algorithmic technology; task variety; learning; open source; organizational design",
-        "abstract": ""
+        "abstract": "This paper examines how algorithmic technologies shape workers' task output by altering their participation across tasks. I argue that algorithms can lower barriers to task entry by simplifying task aspects that traditionally require substantial human expertise. As these barriers decline, workers may expand their participation beyond the tasks they typically perform and engage in tasks in which they previously had limited involvement. Such broader participation can facilitate multitask learning, as workers accumulate knowledge and experience through engagement in different tasks and apply these insights to improve output in the tasks they primarily perform. I examine this mechanism by studying the adoption of an algorithmic tool in open-source code review. Using a difference-in-differences research design, I find that algorithm adoption increases participation in code review among developers with limited prior involvement. Moreover, this expanded participation is associated with an increase in feature report submissions, particularly when the reviewed projects and the projects receiving subsequent feature reports share greater knowledge relatedness."
       },
       {
         "id": "P233",
