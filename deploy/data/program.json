@@ -251,12 +251,11 @@
       "theme": "Organizational Learning & Knowledge",
       "period": 3,
       "track": 4,
-      "paperCount": 5,
+      "paperCount": 4,
       "paperIds": [
         "P168",
         "P187",
         "P026",
-        "P094",
         "P142"
       ],
       "description": "Codification creep, generalization in learning, alliance and knowledge networks, science capital intensity, and incubation-stage innovation."
@@ -959,14 +958,6 @@
         "institution": "Indiana University",
         "keywords": "Strategic Alliances, Autonomous Vehicle Industry, Innovation and Technology Management",
         "abstract": "While previous research emphasizes resource complementarities within alliance portfolios, the role of direct collaboration between partners controlling complementary resources remains less explored. This study investigates how direct collaborative ties among alliance partners enhance a firm‚Äôs ability to extract value from alliances in the autonomous driving industry. The findings indicate that direct collaboration between partners is beneficial when they specialize in interdependent knowledge domains, enabling the firm to access integrated knowledge, which is essential for developing technological solutions to complex problems and allowing a firm to address challenges more effectively by leveraging the combined expertise of its partners. This study contributes to the literature on alliance portfolio management by highlighting how the alignment of ‚Äúknowledge networks‚Äù with an alliance portfolio structure enhances a firm‚Äôs innovative performance."
-      },
-      {
-        "id": "P094",
-        "title": "Company and University Innovation During an Industry Incubation Phase: Evidence from Quantum Computing",
-        "authors": "Jino Lu, Avi Goldfarb, Florenta Teodoridis",
-        "institution": "Washington University in St. Louis; University of Toronto and NBER; University of Southern California",
-        "keywords": "technology trajectory; rate and direction of innovation; quantum computing; scientific research; applied developments; university and company innovation; innovation incentives; machine learning",
-        "abstract": "Uncovering factors that shape the trajectories of technologies during the incubation stage is crucial for maximizing value creation potential. Yet, existing studies have predominantly focused on characterizing innovation activities in later industry stages after a technology has already become commercially viable, largely due to difficulties of obtaining incubation stage data. In this study, we document incubation stage innovation efforts in quantum computing guided by insights from the existing literature on industry evolution, on university and company innovation, and on enabling technologies. Our analysis aligns with the hypothesized important roles of company innovation, collaboration between companies and universities, and reduction in demand and technological uncertainty during the incubation stage. It also highlights the critical importance of value capture strategies, which are essential yet challenging to develop during the incubation stage of enabling technologies."
       },
       {
         "id": "P142",
