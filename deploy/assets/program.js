@@ -7,6 +7,10 @@ const ROOMS = [
   { code: 'D', id: 'KOBL 317', label: 'KOBL 317', cap: '',  note: 'Koelbel Building' },
 ];
 
+// Finalists for the Conference Best Paper Award (winner announced Sat 1:20 PM).
+// Empty this array after the ceremony to clear all finalist markers.
+const FINALISTS = ['P012', 'P022', 'P069', 'P090', 'P153'];
+
 const SESSION_META = [
   { n: 1, day: 'Friday',   time: '9:30 – 11:00 AM' },
   { n: 2, day: 'Friday',   time: '2:00 – 3:30 PM' },
@@ -174,11 +178,15 @@ function renderList() {
       papers.innerHTML = `<h3 style="font-family: var(--serif); font-weight: 600; margin: 30px 0 12px; font-size: 22px;">Paper matches <span style="font-family: var(--mono); font-size: 12px; color: var(--ink-3); letter-spacing: .1em;">${hits.length}</span></h3>` +
         hits.slice(0, 50).map(({sess, p}) => {
           const meta = SESSION_META[sess.period-1];
+          const isFinalist = FINALISTS.includes(p.id);
+          const star = isFinalist ? '<span style="color:#B22222;font-weight:600;margin-right:6px;">★</span>' : '';
+          const note = isFinalist ? '<div style="font-size:11.5px;color:#B22222;font-style:italic;margin-top:6px;letter-spacing:0.01em;">Finalist of Strategy Science Conference Best Paper Award</div>' : '';
           return `<a class="paper-row" href="session.html?id=${sess.id}#${p.id}">
             <div>
-              <div class="ti">${escHTML(p.title)}</div>
+              <div class="ti">${star}${escHTML(p.title)}</div>
               <div class="au">${escHTML(p.authors)} · <span style="color:var(--ink-3);">${escHTML(p.institution)}</span></div>
               <div class="ms" style="margin-top:6px;">${escHTML(sess.theme)}</div>
+              ${note}
             </div>
             <div class="sloc"><span class="b">${ROOMS[sess.track-1].label}</span>S${sess.period}${'ABCD'[sess.track-1]} · ${meta.day.slice(0,3)} ${meta.time}</div>
           </a>`;
