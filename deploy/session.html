@@ -157,7 +157,7 @@
   <div class="row">
     <a href="https://www.colorado.edu/business/" target="_blank" rel="noopener" class="leeds-mark"><img src="assets/leeds-lockup.png" alt="Leeds School of Business – University of Colorado Boulder" /></a>
     <div class="lockup"><div class="eyebrow">9th Annual Conference · Sponsored by Strategy Science (INFORMS)</div><h1><a href="index.html">Strategy Science 2026</a></h1></div><div class="meta"><span><span class="dot"></span> May 28–30, 2026</span><span>Boulder, Colorado</span><span>Leeds School of Business</span></div></div></header>
-<nav class="primary-nav"><div class="row"><a href="index.html"><span class="num">01</span> Overview</a><a href="program.html"><span class="num">02</span> Program</a><a href="sessions.html" aria-current="page"><span class="num">03</span> Sessions</a><a href="venue.html"><span class="num">04</span> Venue &amp; Travel</a><a href="about.html"><span class="num">05</span> About</a></div></nav>
+<nav class="primary-nav"><div class="row"><a href="index.html"><span class="num">01</span> Overview</a><a href="program.html"><span class="num">02</span> Program</a><a href="sessions.html" aria-current="page"><span class="num">03</span> Sessions</a><a href="best-paper.html"><span class="num">04</span> Best Paper Award</a><a href="venue.html"><span class="num">05</span> Venue &amp; Travel</a><a href="about.html"><span class="num">06</span> About</a></div></nav>
 
 <section class="session-head">
   <div class="container">
@@ -285,6 +285,8 @@ const SUBS = {
 // Finalists for the Conference Best Paper Award (winner announced Sat 1:20 PM).
 // Empty this array after the ceremony to clear all finalist markers.
 const FINALISTS = ['P012', 'P022', 'P069', 'P090', 'P153'];
+// Winners take priority over finalists in the visual treatment (🏆 instead of ★).
+const WINNERS = ['P022'];
 
 function esc(s){return String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
 function getParam(k){return new URLSearchParams(location.search).get(k);}
@@ -339,9 +341,17 @@ function getParam(k){return new URLSearchParams(location.search).get(k);}
       auMarkup = auths.map((a,idx)=> idx===0 ? `<b>${esc(a)}</b>` : esc(a)).join(', ');
     }
     const kws = (p.keywords||'').split(/[;,]\s*/).filter(Boolean).slice(0,5);
+    const isWinner = WINNERS.includes(p.id);
     const isFinalist = FINALISTS.includes(p.id);
-    const star = isFinalist ? '<span style="color:#B22222;font-weight:600;margin-right:6px;">★</span>' : '';
-    const note = isFinalist ? '<div style="font-size:11.5px;color:#B22222;font-style:italic;margin-top:8px;letter-spacing:0.01em;">Finalist of Strategy Science Conference Best Paper Award</div>' : '';
+    let star = '';
+    let note = '';
+    if (isWinner) {
+      star = '<span style="margin-right:6px;">🏆</span>';
+      note = '<div style="font-size:12px;color:var(--gold-deep);font-weight:600;margin-top:8px;letter-spacing:0.02em;">Award Winner · Strategy Science Conference Best Paper Award</div>';
+    } else if (isFinalist) {
+      star = '<span style="color:#B22222;font-weight:600;margin-right:6px;">★</span>';
+      note = '<div style="font-size:11.5px;color:#B22222;font-style:italic;margin-top:8px;letter-spacing:0.01em;">Finalist of Strategy Science Conference Best Paper Award</div>';
+    }
     return `<div class="paper" id="${p.id}">
       <div class="num">${String(i+1).padStart(2,'0')}</div>
       <div>

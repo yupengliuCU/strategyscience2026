@@ -432,8 +432,9 @@
     <a href="index.html" aria-current="page"><span class="num">01</span> Overview</a>
     <a href="program.html"><span class="num">02</span> Program</a>
     <a href="sessions.html"><span class="num">03</span> Sessions</a>
-    <a href="venue.html"><span class="num">04</span> Venue &amp; Travel</a>
-    <a href="about.html"><span class="num">05</span> About</a>
+    <a href="best-paper.html"><span class="num">04</span> Best Paper Award</a>
+    <a href="venue.html"><span class="num">05</span> Venue &amp; Travel</a>
+    <a href="about.html"><span class="num">06</span> About</a>
   </div>
 </nav>
 
@@ -766,6 +767,8 @@
   // Finalists for the Conference Best Paper Award (winner announced Sat 1:20 PM).
   // Remove or empty this array after the ceremony to clear the markers.
   const FINALISTS = ['P012', 'P022', 'P069', 'P090', 'P153'];
+  // Winners take priority over finalists in the visual treatment (🏆 instead of ★).
+  const WINNERS = ['P022'];
   function escHTML(s){return String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
   fetch('data/program.json').then(r=>r.json()).then(data=>{
     const m = document.getElementById('matrix');
@@ -793,10 +796,18 @@
         if (sess) {
           const ps = (data.papers && data.papers[sess.id]) || [];
           const paperHTML = ps.map(pp => {
+            const isWinner = WINNERS.includes(pp.id);
             const isFinalist = FINALISTS.includes(pp.id);
-            const star = isFinalist ? '<span style="color:#B22222;font-weight:600;">★</span> ' : '';
-            const note = isFinalist ? '<div style="font-size:9.5px;color:#B22222;font-style:italic;line-height:1.3;margin-top:2px;letter-spacing:0.01em;">Finalist of Strategy Science Conference Best Paper Award</div>' : '';
-            return `<div class="pp">${star}<span class="pti">${escHTML(pp.title)}</span><span class="pau">${escHTML(pp.authors)}</span>${note}</div>`;
+            let marker = '';
+            let note = '';
+            if (isWinner) {
+              marker = '<span style="margin-right:2px;">🏆</span> ';
+              note = '<div style="font-size:9.5px;color:var(--gold-deep);font-weight:600;line-height:1.3;margin-top:2px;letter-spacing:0.02em;">Award Winner · Strategy Science Conference Best Paper Award</div>';
+            } else if (isFinalist) {
+              marker = '<span style="color:#B22222;font-weight:600;">★</span> ';
+              note = '<div style="font-size:9.5px;color:#B22222;font-style:italic;line-height:1.3;margin-top:2px;letter-spacing:0.01em;">Finalist of Strategy Science Conference Best Paper Award</div>';
+            }
+            return `<div class="pp">${marker}<span class="pti">${escHTML(pp.title)}</span><span class="pau">${escHTML(pp.authors)}</span>${note}</div>`;
           }).join('');
           const chair = CHAIRS[sess.id] || '';
           const chairHTML = chair ? `<div class="chair">Chair · <b>${escHTML(chair)}</b></div>` : '';
